@@ -1,0 +1,4773 @@
+{
+  "name": "Thing",
+  "children": [
+    {
+      "name": "StupidType",
+      "children": []
+    },
+    {
+      "name": "BioChemEntity",
+      "children": [
+        {
+          "name": "Gene",
+          "children": []
+        },
+        {
+          "name": "ChemicalSubstance",
+          "children": []
+        },
+        {
+          "name": "MolecularEntity",
+          "children": []
+        },
+        {
+          "name": "Protein",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Person",
+      "children": [
+        {
+          "name": "Patient",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Intangible",
+      "children": [
+        {
+          "name": "ProductReturnPolicy",
+          "children": []
+        },
+        {
+          "name": "Ticket",
+          "children": []
+        },
+        {
+          "name": "MenuItem",
+          "children": []
+        },
+        {
+          "name": "BedDetails",
+          "children": []
+        },
+        {
+          "name": "Grant",
+          "children": [
+            {
+              "name": "MonetaryGrant",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SpeakableSpecification",
+          "children": []
+        },
+        {
+          "name": "Role",
+          "children": [
+            {
+              "name": "PerformanceRole",
+              "children": []
+            },
+            {
+              "name": "LinkRole",
+              "children": []
+            },
+            {
+              "name": "OrganizationRole",
+              "children": [
+                {
+                  "name": "EmployeeRole",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Offer",
+          "children": [
+            {
+              "name": "AggregateOffer",
+              "children": []
+            },
+            {
+              "name": "OfferForLease",
+              "children": []
+            },
+            {
+              "name": "OfferForPurchase",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Schedule",
+          "children": []
+        },
+        {
+          "name": "Reservation",
+          "children": [
+            {
+              "name": "BusReservation",
+              "children": []
+            },
+            {
+              "name": "TaxiReservation",
+              "children": []
+            },
+            {
+              "name": "LodgingReservation",
+              "children": []
+            },
+            {
+              "name": "FlightReservation",
+              "children": []
+            },
+            {
+              "name": "TrainReservation",
+              "children": []
+            },
+            {
+              "name": "FoodEstablishmentReservation",
+              "children": []
+            },
+            {
+              "name": "EventReservation",
+              "children": []
+            },
+            {
+              "name": "RentalCarReservation",
+              "children": []
+            },
+            {
+              "name": "ReservationPackage",
+              "children": []
+            },
+            {
+              "name": "BoatReservation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ParcelDelivery",
+          "children": []
+        },
+        {
+          "name": "Seat",
+          "children": []
+        },
+        {
+          "name": "Property",
+          "children": []
+        },
+        {
+          "name": "PaymentMethod",
+          "children": [
+            {
+              "name": "PaymentCard",
+              "children": [
+                {
+                  "name": "CreditCard",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "PaymentService",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MemberProgramTier",
+          "children": []
+        },
+        {
+          "name": "GeospatialGeometry",
+          "children": []
+        },
+        {
+          "name": "PropertyValueSpecification",
+          "children": []
+        },
+        {
+          "name": "DefinedTerm",
+          "children": [
+            {
+              "name": "CategoryCode",
+              "children": [
+                {
+                  "name": "MedicalCode",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EntryPoint",
+          "children": []
+        },
+        {
+          "name": "Invoice",
+          "children": []
+        },
+        {
+          "name": "VirtualLocation",
+          "children": []
+        },
+        {
+          "name": "EnergyConsumptionDetails",
+          "children": []
+        },
+        {
+          "name": "MerchantReturnPolicy",
+          "children": []
+        },
+        {
+          "name": "ProgramMembership",
+          "children": []
+        },
+        {
+          "name": "Permit",
+          "children": [
+            {
+              "name": "GovernmentPermit",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ItemList",
+          "children": [
+            {
+              "name": "HowToStep",
+              "children": []
+            },
+            {
+              "name": "HowToSection",
+              "children": []
+            },
+            {
+              "name": "BreadcrumbList",
+              "children": []
+            },
+            {
+              "name": "OfferCatalog",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MerchantReturnPolicySeasonalOverride",
+          "children": []
+        },
+        {
+          "name": "DataFeedItem",
+          "children": []
+        },
+        {
+          "name": "Language",
+          "children": []
+        },
+        {
+          "name": "OrderItem",
+          "children": []
+        },
+        {
+          "name": "Demand",
+          "children": []
+        },
+        {
+          "name": "HealthPlanNetwork",
+          "children": []
+        },
+        {
+          "name": "Brand",
+          "children": []
+        },
+        {
+          "name": "ConstraintNode",
+          "children": [
+            {
+              "name": "StatisticalVariable",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AlignmentObject",
+          "children": []
+        },
+        {
+          "name": "StructuredValue",
+          "children": [
+            {
+              "name": "QuantitativeValueDistribution",
+              "children": [
+                {
+                  "name": "MonetaryAmountDistribution",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "DeliveryTimeSettings",
+              "children": []
+            },
+            {
+              "name": "OpeningHoursSpecification",
+              "children": []
+            },
+            {
+              "name": "InteractionCounter",
+              "children": []
+            },
+            {
+              "name": "OwnershipInfo",
+              "children": []
+            },
+            {
+              "name": "DatedMoneySpecification",
+              "children": []
+            },
+            {
+              "name": "WarrantyPromise",
+              "children": []
+            },
+            {
+              "name": "NutritionInformation",
+              "children": []
+            },
+            {
+              "name": "GeoCoordinates",
+              "children": []
+            },
+            {
+              "name": "PropertyValue",
+              "children": [
+                {
+                  "name": "LocationFeatureSpecification",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "MonetaryAmount",
+              "children": []
+            },
+            {
+              "name": "ShippingDeliveryTime",
+              "children": []
+            },
+            {
+              "name": "OfferShippingDetails",
+              "children": []
+            },
+            {
+              "name": "EngineSpecification",
+              "children": []
+            },
+            {
+              "name": "DefinedRegion",
+              "children": []
+            },
+            {
+              "name": "QuantitativeValue",
+              "children": [
+                {
+                  "name": "Observation",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "TypeAndQuantityNode",
+              "children": []
+            },
+            {
+              "name": "GeoShape",
+              "children": [
+                {
+                  "name": "GeoCircle",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "PostalCodeRangeSpecification",
+              "children": []
+            },
+            {
+              "name": "ShippingRateSettings",
+              "children": []
+            },
+            {
+              "name": "ExchangeRateSpecification",
+              "children": []
+            },
+            {
+              "name": "ContactPoint",
+              "children": [
+                {
+                  "name": "PostalAddress",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "PriceSpecification",
+              "children": [
+                {
+                  "name": "PaymentChargeSpecification",
+                  "children": []
+                },
+                {
+                  "name": "CompoundPriceSpecification",
+                  "children": []
+                },
+                {
+                  "name": "DeliveryChargeSpecification",
+                  "children": []
+                },
+                {
+                  "name": "UnitPriceSpecification",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "CDCPMDRecord",
+              "children": []
+            },
+            {
+              "name": "RepaymentSpecification",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FloorPlan",
+          "children": []
+        },
+        {
+          "name": "HealthPlanFormulary",
+          "children": []
+        },
+        {
+          "name": "Series",
+          "children": [
+            {
+              "name": "CreativeWorkSeries",
+              "children": [
+                {
+                  "name": "MovieSeries",
+                  "children": []
+                },
+                {
+                  "name": "TVSeries",
+                  "children": []
+                },
+                {
+                  "name": "PodcastSeries",
+                  "children": []
+                },
+                {
+                  "name": "BookSeries",
+                  "children": []
+                },
+                {
+                  "name": "Periodical",
+                  "children": [
+                    {
+                      "name": "Newspaper",
+                      "children": []
+                    },
+                    {
+                      "name": "ComicSeries",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "VideoGameSeries",
+                  "children": []
+                },
+                {
+                  "name": "RadioSeries",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EventSeries",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MemberProgram",
+          "children": []
+        },
+        {
+          "name": "BroadcastChannel",
+          "children": [
+            {
+              "name": "TelevisionChannel",
+              "children": []
+            },
+            {
+              "name": "RadioChannel",
+              "children": [
+                {
+                  "name": "AMRadioChannel",
+                  "children": []
+                },
+                {
+                  "name": "FMRadioChannel",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DigitalDocumentPermission",
+          "children": []
+        },
+        {
+          "name": "HealthPlanCostSharingSpecification",
+          "children": []
+        },
+        {
+          "name": "Class",
+          "children": []
+        },
+        {
+          "name": "Order",
+          "children": []
+        },
+        {
+          "name": "HealthInsurancePlan",
+          "children": []
+        },
+        {
+          "name": "ActionAccessSpecification",
+          "children": []
+        },
+        {
+          "name": "MediaSubscription",
+          "children": []
+        },
+        {
+          "name": "Occupation",
+          "children": []
+        },
+        {
+          "name": "Quantity",
+          "children": [
+            {
+              "name": "Mass",
+              "children": []
+            },
+            {
+              "name": "Energy",
+              "children": []
+            },
+            {
+              "name": "Duration",
+              "children": []
+            },
+            {
+              "name": "Distance",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Audience",
+          "children": [
+            {
+              "name": "Researcher",
+              "children": []
+            },
+            {
+              "name": "MedicalAudience",
+              "children": [
+                {
+                  "name": "Patient",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "BusinessAudience",
+              "children": []
+            },
+            {
+              "name": "PeopleAudience",
+              "children": [
+                {
+                  "name": "ParentAudience",
+                  "children": []
+                },
+                {
+                  "name": "MedicalAudience",
+                  "children": [
+                    {
+                      "name": "Patient",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "EducationalAudience",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ListItem",
+          "children": [
+            {
+              "name": "HowToItem",
+              "children": [
+                {
+                  "name": "HowToTool",
+                  "children": []
+                },
+                {
+                  "name": "HowToSupply",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "HowToStep",
+              "children": []
+            },
+            {
+              "name": "HowToTip",
+              "children": []
+            },
+            {
+              "name": "HowToSection",
+              "children": []
+            },
+            {
+              "name": "HowToDirection",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "JobPosting",
+          "children": []
+        },
+        {
+          "name": "GameServer",
+          "children": []
+        },
+        {
+          "name": "StatisticalPopulation",
+          "children": []
+        },
+        {
+          "name": "Observation",
+          "children": []
+        },
+        {
+          "name": "BroadcastFrequencySpecification",
+          "children": []
+        },
+        {
+          "name": "Service",
+          "children": [
+            {
+              "name": "CableOrSatelliteService",
+              "children": []
+            },
+            {
+              "name": "FinancialProduct",
+              "children": [
+                {
+                  "name": "PaymentCard",
+                  "children": [
+                    {
+                      "name": "CreditCard",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PaymentService",
+                  "children": []
+                },
+                {
+                  "name": "BankAccount",
+                  "children": [
+                    {
+                      "name": "DepositAccount",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "LoanOrCredit",
+                  "children": [
+                    {
+                      "name": "MortgageLoan",
+                      "children": []
+                    },
+                    {
+                      "name": "CreditCard",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "InvestmentOrDeposit",
+                  "children": [
+                    {
+                      "name": "InvestmentFund",
+                      "children": []
+                    },
+                    {
+                      "name": "DepositAccount",
+                      "children": []
+                    },
+                    {
+                      "name": "BrokerageAccount",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "CurrencyConversionService",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "WebAPI",
+              "children": []
+            },
+            {
+              "name": "GovernmentService",
+              "children": []
+            },
+            {
+              "name": "Taxi",
+              "children": []
+            },
+            {
+              "name": "TaxiService",
+              "children": []
+            },
+            {
+              "name": "FoodService",
+              "children": []
+            },
+            {
+              "name": "BroadcastService",
+              "children": [
+                {
+                  "name": "RadioBroadcastService",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ComputerLanguage",
+          "children": []
+        },
+        {
+          "name": "ServiceChannel",
+          "children": []
+        },
+        {
+          "name": "Trip",
+          "children": [
+            {
+              "name": "Flight",
+              "children": []
+            },
+            {
+              "name": "TouristTrip",
+              "children": []
+            },
+            {
+              "name": "BoatTrip",
+              "children": []
+            },
+            {
+              "name": "BusTrip",
+              "children": []
+            },
+            {
+              "name": "TrainTrip",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Rating",
+          "children": [
+            {
+              "name": "EndorsementRating",
+              "children": []
+            },
+            {
+              "name": "AggregateRating",
+              "children": [
+                {
+                  "name": "EmployerAggregateRating",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enumeration",
+          "children": [
+            {
+              "name": "DayOfWeek",
+              "children": []
+            },
+            {
+              "name": "WarrantyScope",
+              "children": []
+            },
+            {
+              "name": "PriceTypeEnumeration",
+              "children": []
+            },
+            {
+              "name": "BusinessFunction",
+              "children": []
+            },
+            {
+              "name": "QualitativeValue",
+              "children": [
+                {
+                  "name": "BedType",
+                  "children": []
+                },
+                {
+                  "name": "DriveWheelConfigurationValue",
+                  "children": []
+                },
+                {
+                  "name": "SteeringPositionValue",
+                  "children": []
+                },
+                {
+                  "name": "SizeSpecification",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "OfferItemCondition",
+              "children": []
+            },
+            {
+              "name": "DigitalPlatformEnumeration",
+              "children": []
+            },
+            {
+              "name": "PriceComponentTypeEnumeration",
+              "children": []
+            },
+            {
+              "name": "GenderType",
+              "children": []
+            },
+            {
+              "name": "CarUsageType",
+              "children": []
+            },
+            {
+              "name": "SizeGroupEnumeration",
+              "children": [
+                {
+                  "name": "WearableSizeGroupEnumeration",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "GameAvailabilityEnumeration",
+              "children": []
+            },
+            {
+              "name": "MusicReleaseFormatType",
+              "children": []
+            },
+            {
+              "name": "MeasurementTypeEnumeration",
+              "children": [
+                {
+                  "name": "BodyMeasurementTypeEnumeration",
+                  "children": []
+                },
+                {
+                  "name": "WearableMeasurementTypeEnumeration",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ReturnFeesEnumeration",
+              "children": []
+            },
+            {
+              "name": "ProductReturnEnumeration",
+              "children": []
+            },
+            {
+              "name": "MeasurementMethodEnum",
+              "children": []
+            },
+            {
+              "name": "GamePlayMode",
+              "children": []
+            },
+            {
+              "name": "NonprofitType",
+              "children": [
+                {
+                  "name": "USNonprofitType",
+                  "children": []
+                },
+                {
+                  "name": "NLNonprofitType",
+                  "children": []
+                },
+                {
+                  "name": "UKNonprofitType",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "MusicAlbumReleaseType",
+              "children": []
+            },
+            {
+              "name": "EventAttendanceModeEnumeration",
+              "children": []
+            },
+            {
+              "name": "BookFormatType",
+              "children": []
+            },
+            {
+              "name": "MapCategoryType",
+              "children": []
+            },
+            {
+              "name": "ItemListOrderType",
+              "children": []
+            },
+            {
+              "name": "RsvpResponseType",
+              "children": []
+            },
+            {
+              "name": "ReturnLabelSourceEnumeration",
+              "children": []
+            },
+            {
+              "name": "RefundTypeEnumeration",
+              "children": []
+            },
+            {
+              "name": "TierBenefitEnumeration",
+              "children": []
+            },
+            {
+              "name": "PhysicalActivityCategory",
+              "children": []
+            },
+            {
+              "name": "DigitalDocumentPermissionType",
+              "children": []
+            },
+            {
+              "name": "MediaManipulationRatingEnumeration",
+              "children": []
+            },
+            {
+              "name": "PaymentMethodType",
+              "children": []
+            },
+            {
+              "name": "MediaEnumeration",
+              "children": [
+                {
+                  "name": "IPTCDigitalSourceEnumeration",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EnergyEfficiencyEnumeration",
+              "children": [
+                {
+                  "name": "EUEnergyEfficiencyEnumeration",
+                  "children": []
+                },
+                {
+                  "name": "EnergyStarEnergyEfficiencyEnumeration",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Specialty",
+              "children": [
+                {
+                  "name": "MedicalSpecialty",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "CertificationStatusEnumeration",
+              "children": []
+            },
+            {
+              "name": "SizeSystemEnumeration",
+              "children": [
+                {
+                  "name": "WearableSizeSystemEnumeration",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ContactPointOption",
+              "children": []
+            },
+            {
+              "name": "BusinessEntityType",
+              "children": []
+            },
+            {
+              "name": "HealthAspectEnumeration",
+              "children": []
+            },
+            {
+              "name": "ItemAvailability",
+              "children": []
+            },
+            {
+              "name": "StatusEnumeration",
+              "children": [
+                {
+                  "name": "OrderStatus",
+                  "children": []
+                },
+                {
+                  "name": "GameServerStatus",
+                  "children": []
+                },
+                {
+                  "name": "PaymentStatusType",
+                  "children": []
+                },
+                {
+                  "name": "ReservationStatusType",
+                  "children": []
+                },
+                {
+                  "name": "EventStatusType",
+                  "children": []
+                },
+                {
+                  "name": "LegalForceStatus",
+                  "children": []
+                },
+                {
+                  "name": "ActionStatusType",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "GovernmentBenefitsType",
+              "children": []
+            },
+            {
+              "name": "MerchantReturnEnumeration",
+              "children": []
+            },
+            {
+              "name": "MedicalEnumeration",
+              "children": [
+                {
+                  "name": "MedicalSpecialty",
+                  "children": []
+                },
+                {
+                  "name": "MedicalImagingTechnique",
+                  "children": []
+                },
+                {
+                  "name": "DrugPregnancyCategory",
+                  "children": []
+                },
+                {
+                  "name": "DrugCostCategory",
+                  "children": []
+                },
+                {
+                  "name": "MedicalStudyStatus",
+                  "children": []
+                },
+                {
+                  "name": "PhysicalExam",
+                  "children": []
+                },
+                {
+                  "name": "MedicalDevicePurpose",
+                  "children": []
+                },
+                {
+                  "name": "MedicalAudienceType",
+                  "children": []
+                },
+                {
+                  "name": "MedicalProcedureType",
+                  "children": []
+                },
+                {
+                  "name": "DrugPrescriptionStatus",
+                  "children": []
+                },
+                {
+                  "name": "InfectiousAgentClass",
+                  "children": []
+                },
+                {
+                  "name": "MedicalEvidenceLevel",
+                  "children": []
+                },
+                {
+                  "name": "MedicalTrialDesign",
+                  "children": []
+                },
+                {
+                  "name": "MedicineSystem",
+                  "children": []
+                },
+                {
+                  "name": "MedicalObservationalStudyDesign",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "AdultOrientedEnumeration",
+              "children": []
+            },
+            {
+              "name": "DeliveryMethod",
+              "children": []
+            },
+            {
+              "name": "MusicAlbumProductionType",
+              "children": []
+            },
+            {
+              "name": "BoardingPolicyType",
+              "children": []
+            },
+            {
+              "name": "LegalValueLevel",
+              "children": []
+            },
+            {
+              "name": "ReturnMethodEnumeration",
+              "children": []
+            },
+            {
+              "name": "RestrictedDiet",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "EducationalOccupationalProgram",
+          "children": [
+            {
+              "name": "WorkBasedProgram",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "OccupationalExperienceRequirements",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "children": [
+        {
+          "name": "Corporation",
+          "children": []
+        },
+        {
+          "name": "SportsOrganization",
+          "children": [
+            {
+              "name": "SportsTeam",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MedicalOrganization",
+          "children": [
+            {
+              "name": "Physician",
+              "children": [
+                {
+                  "name": "IndividualPhysician",
+                  "children": []
+                },
+                {
+                  "name": "PhysiciansOffice",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "DiagnosticLab",
+              "children": []
+            },
+            {
+              "name": "Hospital",
+              "children": []
+            },
+            {
+              "name": "Pharmacy",
+              "children": []
+            },
+            {
+              "name": "Dentist",
+              "children": []
+            },
+            {
+              "name": "VeterinaryCare",
+              "children": []
+            },
+            {
+              "name": "MedicalClinic",
+              "children": [
+                {
+                  "name": "CovidTestingFacility",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PoliticalParty",
+          "children": []
+        },
+        {
+          "name": "NGO",
+          "children": []
+        },
+        {
+          "name": "EducationalOrganization",
+          "children": [
+            {
+              "name": "ElementarySchool",
+              "children": []
+            },
+            {
+              "name": "Preschool",
+              "children": []
+            },
+            {
+              "name": "School",
+              "children": []
+            },
+            {
+              "name": "CollegeOrUniversity",
+              "children": []
+            },
+            {
+              "name": "MiddleSchool",
+              "children": []
+            },
+            {
+              "name": "HighSchool",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LocalBusiness",
+          "children": [
+            {
+              "name": "TravelAgency",
+              "children": []
+            },
+            {
+              "name": "MedicalBusiness",
+              "children": [
+                {
+                  "name": "DietNutrition",
+                  "children": []
+                },
+                {
+                  "name": "Emergency",
+                  "children": []
+                },
+                {
+                  "name": "Physiotherapy",
+                  "children": []
+                },
+                {
+                  "name": "Dentist",
+                  "children": []
+                },
+                {
+                  "name": "Oncologic",
+                  "children": []
+                },
+                {
+                  "name": "Optician",
+                  "children": []
+                },
+                {
+                  "name": "Optometric",
+                  "children": []
+                },
+                {
+                  "name": "Pharmacy",
+                  "children": []
+                },
+                {
+                  "name": "PlasticSurgery",
+                  "children": []
+                },
+                {
+                  "name": "CommunityHealth",
+                  "children": []
+                },
+                {
+                  "name": "Nursing",
+                  "children": []
+                },
+                {
+                  "name": "PrimaryCare",
+                  "children": []
+                },
+                {
+                  "name": "PublicHealth",
+                  "children": []
+                },
+                {
+                  "name": "Pediatric",
+                  "children": []
+                },
+                {
+                  "name": "MedicalClinic",
+                  "children": [
+                    {
+                      "name": "CovidTestingFacility",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gynecologic",
+                  "children": []
+                },
+                {
+                  "name": "Otolaryngologic",
+                  "children": []
+                },
+                {
+                  "name": "Podiatric",
+                  "children": []
+                },
+                {
+                  "name": "Midwifery",
+                  "children": []
+                },
+                {
+                  "name": "Psychiatric",
+                  "children": []
+                },
+                {
+                  "name": "Obstetric",
+                  "children": []
+                },
+                {
+                  "name": "Dermatology",
+                  "children": []
+                },
+                {
+                  "name": "Physician",
+                  "children": [
+                    {
+                      "name": "IndividualPhysician",
+                      "children": []
+                    },
+                    {
+                      "name": "PhysiciansOffice",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Geriatric",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Dentist",
+              "children": []
+            },
+            {
+              "name": "AutomotiveBusiness",
+              "children": [
+                {
+                  "name": "AutoDealer",
+                  "children": []
+                },
+                {
+                  "name": "AutoWash",
+                  "children": []
+                },
+                {
+                  "name": "AutoRepair",
+                  "children": []
+                },
+                {
+                  "name": "AutoRental",
+                  "children": []
+                },
+                {
+                  "name": "AutoBodyShop",
+                  "children": []
+                },
+                {
+                  "name": "GasStation",
+                  "children": []
+                },
+                {
+                  "name": "MotorcycleDealer",
+                  "children": []
+                },
+                {
+                  "name": "AutoPartsStore",
+                  "children": []
+                },
+                {
+                  "name": "MotorcycleRepair",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ChildCare",
+              "children": []
+            },
+            {
+              "name": "RealEstateAgent",
+              "children": []
+            },
+            {
+              "name": "TouristInformationCenter",
+              "children": []
+            },
+            {
+              "name": "LodgingBusiness",
+              "children": [
+                {
+                  "name": "Campground",
+                  "children": []
+                },
+                {
+                  "name": "Resort",
+                  "children": [
+                    {
+                      "name": "SkiResort",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Hostel",
+                  "children": []
+                },
+                {
+                  "name": "BedAndBreakfast",
+                  "children": []
+                },
+                {
+                  "name": "VacationRental",
+                  "children": []
+                },
+                {
+                  "name": "Motel",
+                  "children": []
+                },
+                {
+                  "name": "Hotel",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Store",
+              "children": [
+                {
+                  "name": "Florist",
+                  "children": []
+                },
+                {
+                  "name": "AutoPartsStore",
+                  "children": []
+                },
+                {
+                  "name": "MovieRentalStore",
+                  "children": []
+                },
+                {
+                  "name": "ShoeStore",
+                  "children": []
+                },
+                {
+                  "name": "OutletStore",
+                  "children": []
+                },
+                {
+                  "name": "GroceryStore",
+                  "children": []
+                },
+                {
+                  "name": "HomeGoodsStore",
+                  "children": []
+                },
+                {
+                  "name": "LiquorStore",
+                  "children": []
+                },
+                {
+                  "name": "JewelryStore",
+                  "children": []
+                },
+                {
+                  "name": "BikeStore",
+                  "children": []
+                },
+                {
+                  "name": "PetStore",
+                  "children": []
+                },
+                {
+                  "name": "OfficeEquipmentStore",
+                  "children": []
+                },
+                {
+                  "name": "HardwareStore",
+                  "children": []
+                },
+                {
+                  "name": "TireShop",
+                  "children": []
+                },
+                {
+                  "name": "MusicStore",
+                  "children": []
+                },
+                {
+                  "name": "ConvenienceStore",
+                  "children": []
+                },
+                {
+                  "name": "WholesaleStore",
+                  "children": []
+                },
+                {
+                  "name": "HobbyShop",
+                  "children": []
+                },
+                {
+                  "name": "BookStore",
+                  "children": []
+                },
+                {
+                  "name": "SportingGoodsStore",
+                  "children": []
+                },
+                {
+                  "name": "DepartmentStore",
+                  "children": []
+                },
+                {
+                  "name": "PawnShop",
+                  "children": []
+                },
+                {
+                  "name": "ComputerStore",
+                  "children": []
+                },
+                {
+                  "name": "MensClothingStore",
+                  "children": []
+                },
+                {
+                  "name": "ClothingStore",
+                  "children": []
+                },
+                {
+                  "name": "FurnitureStore",
+                  "children": []
+                },
+                {
+                  "name": "MobilePhoneStore",
+                  "children": []
+                },
+                {
+                  "name": "ElectronicsStore",
+                  "children": []
+                },
+                {
+                  "name": "GardenStore",
+                  "children": []
+                },
+                {
+                  "name": "ToyStore",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "RecyclingCenter",
+              "children": []
+            },
+            {
+              "name": "HealthAndBeautyBusiness",
+              "children": [
+                {
+                  "name": "NailSalon",
+                  "children": []
+                },
+                {
+                  "name": "HealthClub",
+                  "children": []
+                },
+                {
+                  "name": "HairSalon",
+                  "children": []
+                },
+                {
+                  "name": "TattooParlor",
+                  "children": []
+                },
+                {
+                  "name": "DaySpa",
+                  "children": []
+                },
+                {
+                  "name": "BeautySalon",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "AnimalShelter",
+              "children": []
+            },
+            {
+              "name": "Library",
+              "children": []
+            },
+            {
+              "name": "HomeAndConstructionBusiness",
+              "children": [
+                {
+                  "name": "MovingCompany",
+                  "children": []
+                },
+                {
+                  "name": "Locksmith",
+                  "children": []
+                },
+                {
+                  "name": "GeneralContractor",
+                  "children": []
+                },
+                {
+                  "name": "HVACBusiness",
+                  "children": []
+                },
+                {
+                  "name": "Plumber",
+                  "children": []
+                },
+                {
+                  "name": "RoofingContractor",
+                  "children": []
+                },
+                {
+                  "name": "HousePainter",
+                  "children": []
+                },
+                {
+                  "name": "Electrician",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EntertainmentBusiness",
+              "children": [
+                {
+                  "name": "ArtGallery",
+                  "children": []
+                },
+                {
+                  "name": "MovieTheater",
+                  "children": []
+                },
+                {
+                  "name": "ComedyClub",
+                  "children": []
+                },
+                {
+                  "name": "NightClub",
+                  "children": []
+                },
+                {
+                  "name": "AdultEntertainment",
+                  "children": []
+                },
+                {
+                  "name": "Casino",
+                  "children": []
+                },
+                {
+                  "name": "AmusementPark",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EmergencyService",
+              "children": [
+                {
+                  "name": "FireStation",
+                  "children": []
+                },
+                {
+                  "name": "PoliceStation",
+                  "children": []
+                },
+                {
+                  "name": "Hospital",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "LegalService",
+              "children": [
+                {
+                  "name": "Notary",
+                  "children": []
+                },
+                {
+                  "name": "Attorney",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ShoppingCenter",
+              "children": []
+            },
+            {
+              "name": "ArchiveOrganization",
+              "children": []
+            },
+            {
+              "name": "GovernmentOffice",
+              "children": [
+                {
+                  "name": "PostOffice",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "SelfStorage",
+              "children": []
+            },
+            {
+              "name": "InternetCafe",
+              "children": []
+            },
+            {
+              "name": "EmploymentAgency",
+              "children": []
+            },
+            {
+              "name": "FoodEstablishment",
+              "children": [
+                {
+                  "name": "CafeOrCoffeeShop",
+                  "children": []
+                },
+                {
+                  "name": "Restaurant",
+                  "children": []
+                },
+                {
+                  "name": "Brewery",
+                  "children": []
+                },
+                {
+                  "name": "Distillery",
+                  "children": []
+                },
+                {
+                  "name": "IceCreamShop",
+                  "children": []
+                },
+                {
+                  "name": "BarOrPub",
+                  "children": []
+                },
+                {
+                  "name": "Winery",
+                  "children": []
+                },
+                {
+                  "name": "FastFoodRestaurant",
+                  "children": []
+                },
+                {
+                  "name": "Bakery",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "FinancialService",
+              "children": [
+                {
+                  "name": "AccountingService",
+                  "children": []
+                },
+                {
+                  "name": "InsuranceAgency",
+                  "children": []
+                },
+                {
+                  "name": "AutomatedTeller",
+                  "children": []
+                },
+                {
+                  "name": "BankOrCreditUnion",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ProfessionalService",
+              "children": []
+            },
+            {
+              "name": "SportsActivityLocation",
+              "children": [
+                {
+                  "name": "BowlingAlley",
+                  "children": []
+                },
+                {
+                  "name": "PublicSwimmingPool",
+                  "children": []
+                },
+                {
+                  "name": "GolfCourse",
+                  "children": []
+                },
+                {
+                  "name": "SkiResort",
+                  "children": []
+                },
+                {
+                  "name": "StadiumOrArena",
+                  "children": []
+                },
+                {
+                  "name": "SportsClub",
+                  "children": []
+                },
+                {
+                  "name": "HealthClub",
+                  "children": []
+                },
+                {
+                  "name": "TennisComplex",
+                  "children": []
+                },
+                {
+                  "name": "ExerciseGym",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "RadioStation",
+              "children": []
+            },
+            {
+              "name": "DryCleaningOrLaundry",
+              "children": []
+            },
+            {
+              "name": "TelevisionStation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FundingScheme",
+          "children": []
+        },
+        {
+          "name": "PerformingGroup",
+          "children": [
+            {
+              "name": "DanceGroup",
+              "children": []
+            },
+            {
+              "name": "TheaterGroup",
+              "children": []
+            },
+            {
+              "name": "MusicGroup",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Airline",
+          "children": []
+        },
+        {
+          "name": "GovernmentOrganization",
+          "children": []
+        },
+        {
+          "name": "WorkersUnion",
+          "children": []
+        },
+        {
+          "name": "Consortium",
+          "children": []
+        },
+        {
+          "name": "SearchRescueOrganization",
+          "children": []
+        },
+        {
+          "name": "NewsMediaOrganization",
+          "children": []
+        },
+        {
+          "name": "ResearchOrganization",
+          "children": []
+        },
+        {
+          "name": "Project",
+          "children": [
+            {
+              "name": "FundingAgency",
+              "children": []
+            },
+            {
+              "name": "ResearchProject",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LibrarySystem",
+          "children": []
+        },
+        {
+          "name": "OnlineBusiness",
+          "children": [
+            {
+              "name": "OnlineStore",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taxon",
+      "children": []
+    },
+    {
+      "name": "MedicalEntity",
+      "children": [
+        {
+          "name": "MedicalCondition",
+          "children": [
+            {
+              "name": "InfectiousDisease",
+              "children": []
+            },
+            {
+              "name": "MedicalSignOrSymptom",
+              "children": [
+                {
+                  "name": "MedicalSign",
+                  "children": [
+                    {
+                      "name": "VitalSign",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "MedicalSymptom",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MedicalTest",
+          "children": [
+            {
+              "name": "ImagingTest",
+              "children": []
+            },
+            {
+              "name": "BloodTest",
+              "children": []
+            },
+            {
+              "name": "PathologyTest",
+              "children": []
+            },
+            {
+              "name": "MedicalTestPanel",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Substance",
+          "children": [
+            {
+              "name": "DietarySupplement",
+              "children": []
+            },
+            {
+              "name": "Drug",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MedicalRiskEstimator",
+          "children": [
+            {
+              "name": "MedicalRiskCalculator",
+              "children": []
+            },
+            {
+              "name": "MedicalRiskScore",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "DrugCost",
+          "children": []
+        },
+        {
+          "name": "MedicalDevice",
+          "children": []
+        },
+        {
+          "name": "SuperficialAnatomy",
+          "children": []
+        },
+        {
+          "name": "MedicalIndication",
+          "children": [
+            {
+              "name": "ApprovedIndication",
+              "children": []
+            },
+            {
+              "name": "PreventionIndication",
+              "children": []
+            },
+            {
+              "name": "TreatmentIndication",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MedicalIntangible",
+          "children": [
+            {
+              "name": "DrugStrength",
+              "children": []
+            },
+            {
+              "name": "MedicalConditionStage",
+              "children": []
+            },
+            {
+              "name": "DoseSchedule",
+              "children": [
+                {
+                  "name": "ReportedDoseSchedule",
+                  "children": []
+                },
+                {
+                  "name": "MaximumDoseSchedule",
+                  "children": []
+                },
+                {
+                  "name": "RecommendedDoseSchedule",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "DDxElement",
+              "children": []
+            },
+            {
+              "name": "MedicalCode",
+              "children": []
+            },
+            {
+              "name": "DrugLegalStatus",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MedicalContraindication",
+          "children": []
+        },
+        {
+          "name": "MedicalGuideline",
+          "children": [
+            {
+              "name": "MedicalGuidelineContraindication",
+              "children": []
+            },
+            {
+              "name": "MedicalGuidelineRecommendation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MedicalProcedure",
+          "children": [
+            {
+              "name": "DiagnosticProcedure",
+              "children": []
+            },
+            {
+              "name": "SurgicalProcedure",
+              "children": []
+            },
+            {
+              "name": "TherapeuticProcedure",
+              "children": [
+                {
+                  "name": "MedicalTherapy",
+                  "children": [
+                    {
+                      "name": "RadiationTherapy",
+                      "children": []
+                    },
+                    {
+                      "name": "RespiratoryTherapy",
+                      "children": []
+                    },
+                    {
+                      "name": "OccupationalTherapy",
+                      "children": []
+                    },
+                    {
+                      "name": "PalliativeProcedure",
+                      "children": []
+                    },
+                    {
+                      "name": "PhysicalTherapy",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PsychologicalTreatment",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "PalliativeProcedure",
+              "children": []
+            },
+            {
+              "name": "PhysicalExam",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LifestyleModification",
+          "children": [
+            {
+              "name": "Diet",
+              "children": []
+            },
+            {
+              "name": "PhysicalActivity",
+              "children": [
+                {
+                  "name": "ExercisePlan",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MedicalStudy",
+          "children": [
+            {
+              "name": "MedicalObservationalStudy",
+              "children": []
+            },
+            {
+              "name": "MedicalTrial",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MedicalRiskFactor",
+          "children": []
+        },
+        {
+          "name": "MedicalCause",
+          "children": []
+        },
+        {
+          "name": "AnatomicalSystem",
+          "children": []
+        },
+        {
+          "name": "DrugClass",
+          "children": []
+        },
+        {
+          "name": "AnatomicalStructure",
+          "children": [
+            {
+              "name": "Ligament",
+              "children": []
+            },
+            {
+              "name": "Bone",
+              "children": []
+            },
+            {
+              "name": "Muscle",
+              "children": []
+            },
+            {
+              "name": "BrainStructure",
+              "children": []
+            },
+            {
+              "name": "Nerve",
+              "children": []
+            },
+            {
+              "name": "Vessel",
+              "children": [
+                {
+                  "name": "LymphaticVessel",
+                  "children": []
+                },
+                {
+                  "name": "Vein",
+                  "children": []
+                },
+                {
+                  "name": "Artery",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Joint",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CreativeWork",
+      "children": [
+        {
+          "name": "Code",
+          "children": []
+        },
+        {
+          "name": "MediaReviewItem",
+          "children": []
+        },
+        {
+          "name": "Atlas",
+          "children": []
+        },
+        {
+          "name": "Drawing",
+          "children": []
+        },
+        {
+          "name": "ArchiveComponent",
+          "children": []
+        },
+        {
+          "name": "Painting",
+          "children": []
+        },
+        {
+          "name": "TVSeries",
+          "children": []
+        },
+        {
+          "name": "DataCatalog",
+          "children": []
+        },
+        {
+          "name": "Dataset",
+          "children": [
+            {
+              "name": "DataFeed",
+              "children": [
+                {
+                  "name": "CompleteDataFeed",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conversation",
+          "children": []
+        },
+        {
+          "name": "Legislation",
+          "children": [
+            {
+              "name": "LegislationObject",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ExercisePlan",
+          "children": []
+        },
+        {
+          "name": "Statement",
+          "children": []
+        },
+        {
+          "name": "WebContent",
+          "children": [
+            {
+              "name": "HealthTopicContent",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Episode",
+          "children": [
+            {
+              "name": "TVEpisode",
+              "children": []
+            },
+            {
+              "name": "PodcastEpisode",
+              "children": []
+            },
+            {
+              "name": "RadioEpisode",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Thesis",
+          "children": []
+        },
+        {
+          "name": "MenuSection",
+          "children": []
+        },
+        {
+          "name": "Certification",
+          "children": []
+        },
+        {
+          "name": "VisualArtwork",
+          "children": [
+            {
+              "name": "CoverArt",
+              "children": [
+                {
+                  "name": "ComicCoverArt",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CreativeWorkSeries",
+          "children": [
+            {
+              "name": "MovieSeries",
+              "children": []
+            },
+            {
+              "name": "TVSeries",
+              "children": []
+            },
+            {
+              "name": "PodcastSeries",
+              "children": []
+            },
+            {
+              "name": "BookSeries",
+              "children": []
+            },
+            {
+              "name": "Periodical",
+              "children": [
+                {
+                  "name": "Newspaper",
+                  "children": []
+                },
+                {
+                  "name": "ComicSeries",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "VideoGameSeries",
+              "children": []
+            },
+            {
+              "name": "RadioSeries",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AmpStory",
+          "children": []
+        },
+        {
+          "name": "MusicComposition",
+          "children": []
+        },
+        {
+          "name": "Manuscript",
+          "children": []
+        },
+        {
+          "name": "Season",
+          "children": []
+        },
+        {
+          "name": "WebPageElement",
+          "children": [
+            {
+              "name": "WPFooter",
+              "children": []
+            },
+            {
+              "name": "SiteNavigationElement",
+              "children": []
+            },
+            {
+              "name": "Table",
+              "children": []
+            },
+            {
+              "name": "WPAdBlock",
+              "children": []
+            },
+            {
+              "name": "WPSideBar",
+              "children": []
+            },
+            {
+              "name": "WPHeader",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MediaObject",
+          "children": [
+            {
+              "name": "3DModel",
+              "children": []
+            },
+            {
+              "name": "LegislationObject",
+              "children": []
+            },
+            {
+              "name": "VideoObject",
+              "children": [
+                {
+                  "name": "VideoObjectSnapshot",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "AmpStory",
+              "children": []
+            },
+            {
+              "name": "DataDownload",
+              "children": []
+            },
+            {
+              "name": "MusicVideoObject",
+              "children": []
+            },
+            {
+              "name": "ImageObject",
+              "children": [
+                {
+                  "name": "ImageObjectSnapshot",
+                  "children": []
+                },
+                {
+                  "name": "Barcode",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "TextObject",
+              "children": []
+            },
+            {
+              "name": "AudioObject",
+              "children": [
+                {
+                  "name": "Audiobook",
+                  "children": []
+                },
+                {
+                  "name": "AudioObjectSnapshot",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clip",
+          "children": [
+            {
+              "name": "TVClip",
+              "children": []
+            },
+            {
+              "name": "RadioClip",
+              "children": []
+            },
+            {
+              "name": "VideoGameClip",
+              "children": []
+            },
+            {
+              "name": "MovieClip",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "DigitalDocument",
+          "children": [
+            {
+              "name": "PresentationDigitalDocument",
+              "children": []
+            },
+            {
+              "name": "TextDigitalDocument",
+              "children": []
+            },
+            {
+              "name": "SpreadsheetDigitalDocument",
+              "children": []
+            },
+            {
+              "name": "NoteDigitalDocument",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CreativeWorkSeason",
+          "children": [
+            {
+              "name": "TVSeason",
+              "children": []
+            },
+            {
+              "name": "PodcastSeason",
+              "children": []
+            },
+            {
+              "name": "RadioSeason",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PublicationVolume",
+          "children": []
+        },
+        {
+          "name": "SpecialAnnouncement",
+          "children": []
+        },
+        {
+          "name": "ComicStory",
+          "children": [
+            {
+              "name": "ComicCoverArt",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Review",
+          "children": [
+            {
+              "name": "Recommendation",
+              "children": []
+            },
+            {
+              "name": "CriticReview",
+              "children": [
+                {
+                  "name": "ReviewNewsArticle",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "MediaReview",
+              "children": []
+            },
+            {
+              "name": "ClaimReview",
+              "children": []
+            },
+            {
+              "name": "UserReview",
+              "children": []
+            },
+            {
+              "name": "EmployerReview",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "HowToStep",
+          "children": []
+        },
+        {
+          "name": "ShortStory",
+          "children": []
+        },
+        {
+          "name": "DefinedTermSet",
+          "children": [
+            {
+              "name": "CategoryCodeSet",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TVSeason",
+          "children": []
+        },
+        {
+          "name": "Diet",
+          "children": []
+        },
+        {
+          "name": "Quotation",
+          "children": []
+        },
+        {
+          "name": "Article",
+          "children": [
+            {
+              "name": "SocialMediaPosting",
+              "children": [
+                {
+                  "name": "DiscussionForumPosting",
+                  "children": []
+                },
+                {
+                  "name": "BlogPosting",
+                  "children": [
+                    {
+                      "name": "LiveBlogPosting",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AdvertiserContentArticle",
+              "children": []
+            },
+            {
+              "name": "Report",
+              "children": []
+            },
+            {
+              "name": "SatiricalArticle",
+              "children": []
+            },
+            {
+              "name": "TechArticle",
+              "children": [
+                {
+                  "name": "APIReference",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ScholarlyArticle",
+              "children": [
+                {
+                  "name": "MedicalScholarlyArticle",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "NewsArticle",
+              "children": [
+                {
+                  "name": "BackgroundNewsArticle",
+                  "children": []
+                },
+                {
+                  "name": "AskPublicNewsArticle",
+                  "children": []
+                },
+                {
+                  "name": "OpinionNewsArticle",
+                  "children": []
+                },
+                {
+                  "name": "ReportageNewsArticle",
+                  "children": []
+                },
+                {
+                  "name": "AnalysisNewsArticle",
+                  "children": []
+                },
+                {
+                  "name": "ReviewNewsArticle",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Movie",
+          "children": []
+        },
+        {
+          "name": "Collection",
+          "children": [
+            {
+              "name": "ProductCollection",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Menu",
+          "children": []
+        },
+        {
+          "name": "Claim",
+          "children": []
+        },
+        {
+          "name": "Photograph",
+          "children": []
+        },
+        {
+          "name": "Guide",
+          "children": []
+        },
+        {
+          "name": "Blog",
+          "children": []
+        },
+        {
+          "name": "Game",
+          "children": [
+            {
+              "name": "VideoGame",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "HowToTip",
+          "children": []
+        },
+        {
+          "name": "HowTo",
+          "children": [
+            {
+              "name": "Recipe",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "HowToSection",
+          "children": []
+        },
+        {
+          "name": "Poster",
+          "children": []
+        },
+        {
+          "name": "MathSolver",
+          "children": []
+        },
+        {
+          "name": "HyperToc",
+          "children": []
+        },
+        {
+          "name": "HyperTocEntry",
+          "children": []
+        },
+        {
+          "name": "WebPage",
+          "children": [
+            {
+              "name": "ItemPage",
+              "children": []
+            },
+            {
+              "name": "MedicalWebPage",
+              "children": []
+            },
+            {
+              "name": "SearchResultsPage",
+              "children": []
+            },
+            {
+              "name": "CheckoutPage",
+              "children": []
+            },
+            {
+              "name": "ContactPage",
+              "children": []
+            },
+            {
+              "name": "CollectionPage",
+              "children": [
+                {
+                  "name": "MediaGallery",
+                  "children": [
+                    {
+                      "name": "ImageGallery",
+                      "children": []
+                    },
+                    {
+                      "name": "VideoGallery",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "QAPage",
+              "children": []
+            },
+            {
+              "name": "AboutPage",
+              "children": []
+            },
+            {
+              "name": "FAQPage",
+              "children": []
+            },
+            {
+              "name": "ProfilePage",
+              "children": []
+            },
+            {
+              "name": "RealEstateListing",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Course",
+          "children": []
+        },
+        {
+          "name": "Chapter",
+          "children": []
+        },
+        {
+          "name": "HowToDirection",
+          "children": []
+        },
+        {
+          "name": "MusicRecording",
+          "children": []
+        },
+        {
+          "name": "SoftwareApplication",
+          "children": [
+            {
+              "name": "MobileApplication",
+              "children": []
+            },
+            {
+              "name": "WebApplication",
+              "children": []
+            },
+            {
+              "name": "VideoGame",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SheetMusic",
+          "children": []
+        },
+        {
+          "name": "EducationalOccupationalCredential",
+          "children": []
+        },
+        {
+          "name": "PublicationIssue",
+          "children": [
+            {
+              "name": "ComicIssue",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Comment",
+          "children": [
+            {
+              "name": "Question",
+              "children": []
+            },
+            {
+              "name": "Answer",
+              "children": []
+            },
+            {
+              "name": "CorrectionComment",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MusicPlaylist",
+          "children": [
+            {
+              "name": "MusicRelease",
+              "children": []
+            },
+            {
+              "name": "MusicAlbum",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Map",
+          "children": []
+        },
+        {
+          "name": "Book",
+          "children": [
+            {
+              "name": "Audiobook",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Message",
+          "children": [
+            {
+              "name": "EmailMessage",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Sculpture",
+          "children": []
+        },
+        {
+          "name": "WebSite",
+          "children": []
+        },
+        {
+          "name": "SoftwareSourceCode",
+          "children": []
+        },
+        {
+          "name": "Play",
+          "children": []
+        },
+        {
+          "name": "LearningResource",
+          "children": [
+            {
+              "name": "Quiz",
+              "children": []
+            },
+            {
+              "name": "Syllabus",
+              "children": []
+            },
+            {
+              "name": "Course",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Action",
+      "children": [
+        {
+          "name": "SolveMathAction",
+          "children": []
+        },
+        {
+          "name": "SearchAction",
+          "children": []
+        },
+        {
+          "name": "InteractAction",
+          "children": [
+            {
+              "name": "CommunicateAction",
+              "children": [
+                {
+                  "name": "InviteAction",
+                  "children": []
+                },
+                {
+                  "name": "CheckOutAction",
+                  "children": []
+                },
+                {
+                  "name": "ShareAction",
+                  "children": []
+                },
+                {
+                  "name": "ReplyAction",
+                  "children": []
+                },
+                {
+                  "name": "CommentAction",
+                  "children": []
+                },
+                {
+                  "name": "CheckInAction",
+                  "children": []
+                },
+                {
+                  "name": "AskAction",
+                  "children": []
+                },
+                {
+                  "name": "InformAction",
+                  "children": [
+                    {
+                      "name": "ConfirmAction",
+                      "children": []
+                    },
+                    {
+                      "name": "RsvpAction",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "RegisterAction",
+              "children": []
+            },
+            {
+              "name": "FollowAction",
+              "children": []
+            },
+            {
+              "name": "UnRegisterAction",
+              "children": []
+            },
+            {
+              "name": "SubscribeAction",
+              "children": []
+            },
+            {
+              "name": "BefriendAction",
+              "children": []
+            },
+            {
+              "name": "JoinAction",
+              "children": []
+            },
+            {
+              "name": "LeaveAction",
+              "children": []
+            },
+            {
+              "name": "MarryAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FindAction",
+          "children": [
+            {
+              "name": "DiscoverAction",
+              "children": []
+            },
+            {
+              "name": "CheckAction",
+              "children": []
+            },
+            {
+              "name": "TrackAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CreateAction",
+          "children": [
+            {
+              "name": "DrawAction",
+              "children": []
+            },
+            {
+              "name": "CookAction",
+              "children": []
+            },
+            {
+              "name": "PaintAction",
+              "children": []
+            },
+            {
+              "name": "WriteAction",
+              "children": []
+            },
+            {
+              "name": "PhotographAction",
+              "children": []
+            },
+            {
+              "name": "FilmAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TradeAction",
+          "children": [
+            {
+              "name": "PayAction",
+              "children": []
+            },
+            {
+              "name": "SellAction",
+              "children": []
+            },
+            {
+              "name": "QuoteAction",
+              "children": []
+            },
+            {
+              "name": "RentAction",
+              "children": []
+            },
+            {
+              "name": "TipAction",
+              "children": []
+            },
+            {
+              "name": "OrderAction",
+              "children": []
+            },
+            {
+              "name": "BuyAction",
+              "children": []
+            },
+            {
+              "name": "PreOrderAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PlayAction",
+          "children": [
+            {
+              "name": "ExerciseAction",
+              "children": []
+            },
+            {
+              "name": "PerformAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ConsumeAction",
+          "children": [
+            {
+              "name": "ListenAction",
+              "children": []
+            },
+            {
+              "name": "ViewAction",
+              "children": []
+            },
+            {
+              "name": "InstallAction",
+              "children": []
+            },
+            {
+              "name": "PlayGameAction",
+              "children": []
+            },
+            {
+              "name": "ReadAction",
+              "children": []
+            },
+            {
+              "name": "UseAction",
+              "children": [
+                {
+                  "name": "WearAction",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EatAction",
+              "children": []
+            },
+            {
+              "name": "DrinkAction",
+              "children": []
+            },
+            {
+              "name": "WatchAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ControlAction",
+          "children": [
+            {
+              "name": "ResumeAction",
+              "children": []
+            },
+            {
+              "name": "DeactivateAction",
+              "children": []
+            },
+            {
+              "name": "ActivateAction",
+              "children": []
+            },
+            {
+              "name": "SuspendAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TransferAction",
+          "children": [
+            {
+              "name": "TakeAction",
+              "children": []
+            },
+            {
+              "name": "DownloadAction",
+              "children": []
+            },
+            {
+              "name": "DonateAction",
+              "children": []
+            },
+            {
+              "name": "ReceiveAction",
+              "children": []
+            },
+            {
+              "name": "LendAction",
+              "children": []
+            },
+            {
+              "name": "ReturnAction",
+              "children": []
+            },
+            {
+              "name": "SendAction",
+              "children": []
+            },
+            {
+              "name": "GiveAction",
+              "children": []
+            },
+            {
+              "name": "BorrowAction",
+              "children": []
+            },
+            {
+              "name": "MoneyTransfer",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MoveAction",
+          "children": [
+            {
+              "name": "TravelAction",
+              "children": []
+            },
+            {
+              "name": "ArriveAction",
+              "children": []
+            },
+            {
+              "name": "DepartAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "OrganizeAction",
+          "children": [
+            {
+              "name": "PlanAction",
+              "children": [
+                {
+                  "name": "ReserveAction",
+                  "children": []
+                },
+                {
+                  "name": "CancelAction",
+                  "children": []
+                },
+                {
+                  "name": "ScheduleAction",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ApplyAction",
+              "children": []
+            },
+            {
+              "name": "BookmarkAction",
+              "children": []
+            },
+            {
+              "name": "AllocateAction",
+              "children": [
+                {
+                  "name": "AssignAction",
+                  "children": []
+                },
+                {
+                  "name": "AuthorizeAction",
+                  "children": []
+                },
+                {
+                  "name": "RejectAction",
+                  "children": []
+                },
+                {
+                  "name": "AcceptAction",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AchieveAction",
+          "children": [
+            {
+              "name": "LoseAction",
+              "children": []
+            },
+            {
+              "name": "WinAction",
+              "children": []
+            },
+            {
+              "name": "TieAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AssessAction",
+          "children": [
+            {
+              "name": "ReactAction",
+              "children": [
+                {
+                  "name": "LikeAction",
+                  "children": []
+                },
+                {
+                  "name": "DisagreeAction",
+                  "children": []
+                },
+                {
+                  "name": "EndorseAction",
+                  "children": []
+                },
+                {
+                  "name": "WantAction",
+                  "children": []
+                },
+                {
+                  "name": "DislikeAction",
+                  "children": []
+                },
+                {
+                  "name": "AgreeAction",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "IgnoreAction",
+              "children": []
+            },
+            {
+              "name": "ReviewAction",
+              "children": []
+            },
+            {
+              "name": "ChooseAction",
+              "children": [
+                {
+                  "name": "VoteAction",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UpdateAction",
+          "children": [
+            {
+              "name": "AddAction",
+              "children": [
+                {
+                  "name": "InsertAction",
+                  "children": [
+                    {
+                      "name": "PrependAction",
+                      "children": []
+                    },
+                    {
+                      "name": "AppendAction",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ReplaceAction",
+              "children": []
+            },
+            {
+              "name": "DeleteAction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SeekToAction",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Event",
+      "children": [
+        {
+          "name": "DanceEvent",
+          "children": []
+        },
+        {
+          "name": "CourseInstance",
+          "children": []
+        },
+        {
+          "name": "TheaterEvent",
+          "children": []
+        },
+        {
+          "name": "ComedyEvent",
+          "children": []
+        },
+        {
+          "name": "VisualArtsEvent",
+          "children": []
+        },
+        {
+          "name": "BusinessEvent",
+          "children": []
+        },
+        {
+          "name": "SaleEvent",
+          "children": []
+        },
+        {
+          "name": "FoodEvent",
+          "children": []
+        },
+        {
+          "name": "ChildrensEvent",
+          "children": []
+        },
+        {
+          "name": "SocialEvent",
+          "children": []
+        },
+        {
+          "name": "ExhibitionEvent",
+          "children": []
+        },
+        {
+          "name": "DeliveryEvent",
+          "children": []
+        },
+        {
+          "name": "Festival",
+          "children": []
+        },
+        {
+          "name": "ScreeningEvent",
+          "children": []
+        },
+        {
+          "name": "SportsEvent",
+          "children": []
+        },
+        {
+          "name": "EducationEvent",
+          "children": []
+        },
+        {
+          "name": "LiteraryEvent",
+          "children": []
+        },
+        {
+          "name": "UserInteraction",
+          "children": [
+            {
+              "name": "UserPlays",
+              "children": []
+            },
+            {
+              "name": "UserPlusOnes",
+              "children": []
+            },
+            {
+              "name": "UserCheckins",
+              "children": []
+            },
+            {
+              "name": "UserTweets",
+              "children": []
+            },
+            {
+              "name": "UserPageVisits",
+              "children": []
+            },
+            {
+              "name": "UserDownloads",
+              "children": []
+            },
+            {
+              "name": "UserComments",
+              "children": []
+            },
+            {
+              "name": "UserLikes",
+              "children": []
+            },
+            {
+              "name": "UserBlocks",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MusicEvent",
+          "children": []
+        },
+        {
+          "name": "PublicationEvent",
+          "children": [
+            {
+              "name": "BroadcastEvent",
+              "children": []
+            },
+            {
+              "name": "OnDemandEvent",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "EventSeries",
+          "children": []
+        },
+        {
+          "name": "Hackathon",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "children": [
+        {
+          "name": "ProductGroup",
+          "children": []
+        },
+        {
+          "name": "IndividualProduct",
+          "children": []
+        },
+        {
+          "name": "ProductModel",
+          "children": []
+        },
+        {
+          "name": "ProductCollection",
+          "children": []
+        },
+        {
+          "name": "Vehicle",
+          "children": [
+            {
+              "name": "Car",
+              "children": []
+            },
+            {
+              "name": "BusOrCoach",
+              "children": []
+            },
+            {
+              "name": "Motorcycle",
+              "children": []
+            },
+            {
+              "name": "MotorizedBicycle",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "DietarySupplement",
+          "children": []
+        },
+        {
+          "name": "SomeProducts",
+          "children": []
+        },
+        {
+          "name": "Drug",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Place",
+      "children": [
+        {
+          "name": "TouristDestination",
+          "children": []
+        },
+        {
+          "name": "Accommodation",
+          "children": [
+            {
+              "name": "CampingPitch",
+              "children": []
+            },
+            {
+              "name": "Apartment",
+              "children": []
+            },
+            {
+              "name": "Suite",
+              "children": []
+            },
+            {
+              "name": "Room",
+              "children": [
+                {
+                  "name": "HotelRoom",
+                  "children": []
+                },
+                {
+                  "name": "MeetingRoom",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "House",
+              "children": [
+                {
+                  "name": "SingleFamilyResidence",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Landform",
+          "children": [
+            {
+              "name": "Continent",
+              "children": []
+            },
+            {
+              "name": "BodyOfWater",
+              "children": [
+                {
+                  "name": "Reservoir",
+                  "children": []
+                },
+                {
+                  "name": "Canal",
+                  "children": []
+                },
+                {
+                  "name": "LakeBodyOfWater",
+                  "children": []
+                },
+                {
+                  "name": "RiverBodyOfWater",
+                  "children": []
+                },
+                {
+                  "name": "Pond",
+                  "children": []
+                },
+                {
+                  "name": "SeaBodyOfWater",
+                  "children": []
+                },
+                {
+                  "name": "Waterfall",
+                  "children": []
+                },
+                {
+                  "name": "OceanBodyOfWater",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Mountain",
+              "children": []
+            },
+            {
+              "name": "Volcano",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LandmarksOrHistoricalBuildings",
+          "children": []
+        },
+        {
+          "name": "Residence",
+          "children": [
+            {
+              "name": "GatedResidenceCommunity",
+              "children": []
+            },
+            {
+              "name": "ApartmentComplex",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CivicStructure",
+          "children": [
+            {
+              "name": "PerformingArtsTheater",
+              "children": []
+            },
+            {
+              "name": "StadiumOrArena",
+              "children": []
+            },
+            {
+              "name": "Museum",
+              "children": []
+            },
+            {
+              "name": "Beach",
+              "children": []
+            },
+            {
+              "name": "Crematorium",
+              "children": []
+            },
+            {
+              "name": "Cemetery",
+              "children": []
+            },
+            {
+              "name": "TaxiStand",
+              "children": []
+            },
+            {
+              "name": "Airport",
+              "children": []
+            },
+            {
+              "name": "Aquarium",
+              "children": []
+            },
+            {
+              "name": "ParkingFacility",
+              "children": []
+            },
+            {
+              "name": "GovernmentBuilding",
+              "children": [
+                {
+                  "name": "DefenceEstablishment",
+                  "children": []
+                },
+                {
+                  "name": "Courthouse",
+                  "children": []
+                },
+                {
+                  "name": "Embassy",
+                  "children": []
+                },
+                {
+                  "name": "CityHall",
+                  "children": []
+                },
+                {
+                  "name": "LegislativeBuilding",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "PublicToilet",
+              "children": []
+            },
+            {
+              "name": "EducationalOrganization",
+              "children": [
+                {
+                  "name": "ElementarySchool",
+                  "children": []
+                },
+                {
+                  "name": "Preschool",
+                  "children": []
+                },
+                {
+                  "name": "School",
+                  "children": []
+                },
+                {
+                  "name": "CollegeOrUniversity",
+                  "children": []
+                },
+                {
+                  "name": "MiddleSchool",
+                  "children": []
+                },
+                {
+                  "name": "HighSchool",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Campground",
+              "children": []
+            },
+            {
+              "name": "SubwayStation",
+              "children": []
+            },
+            {
+              "name": "MovieTheater",
+              "children": []
+            },
+            {
+              "name": "RVPark",
+              "children": []
+            },
+            {
+              "name": "Bridge",
+              "children": []
+            },
+            {
+              "name": "EventVenue",
+              "children": []
+            },
+            {
+              "name": "MusicVenue",
+              "children": []
+            },
+            {
+              "name": "BusStation",
+              "children": []
+            },
+            {
+              "name": "PoliceStation",
+              "children": []
+            },
+            {
+              "name": "TrainStation",
+              "children": []
+            },
+            {
+              "name": "Zoo",
+              "children": []
+            },
+            {
+              "name": "FireStation",
+              "children": []
+            },
+            {
+              "name": "Hospital",
+              "children": []
+            },
+            {
+              "name": "BoatTerminal",
+              "children": []
+            },
+            {
+              "name": "BusStop",
+              "children": []
+            },
+            {
+              "name": "PlaceOfWorship",
+              "children": [
+                {
+                  "name": "Church",
+                  "children": [
+                    {
+                      "name": "CatholicChurch",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mosque",
+                  "children": []
+                },
+                {
+                  "name": "HinduTemple",
+                  "children": []
+                },
+                {
+                  "name": "Synagogue",
+                  "children": []
+                },
+                {
+                  "name": "BuddhistTemple",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Playground",
+              "children": []
+            },
+            {
+              "name": "Park",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TouristAttraction",
+          "children": []
+        },
+        {
+          "name": "LocalBusiness",
+          "children": [
+            {
+              "name": "TravelAgency",
+              "children": []
+            },
+            {
+              "name": "MedicalBusiness",
+              "children": [
+                {
+                  "name": "DietNutrition",
+                  "children": []
+                },
+                {
+                  "name": "Emergency",
+                  "children": []
+                },
+                {
+                  "name": "Physiotherapy",
+                  "children": []
+                },
+                {
+                  "name": "Dentist",
+                  "children": []
+                },
+                {
+                  "name": "Oncologic",
+                  "children": []
+                },
+                {
+                  "name": "Optician",
+                  "children": []
+                },
+                {
+                  "name": "Optometric",
+                  "children": []
+                },
+                {
+                  "name": "Pharmacy",
+                  "children": []
+                },
+                {
+                  "name": "PlasticSurgery",
+                  "children": []
+                },
+                {
+                  "name": "CommunityHealth",
+                  "children": []
+                },
+                {
+                  "name": "Nursing",
+                  "children": []
+                },
+                {
+                  "name": "PrimaryCare",
+                  "children": []
+                },
+                {
+                  "name": "PublicHealth",
+                  "children": []
+                },
+                {
+                  "name": "Pediatric",
+                  "children": []
+                },
+                {
+                  "name": "MedicalClinic",
+                  "children": [
+                    {
+                      "name": "CovidTestingFacility",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Gynecologic",
+                  "children": []
+                },
+                {
+                  "name": "Otolaryngologic",
+                  "children": []
+                },
+                {
+                  "name": "Podiatric",
+                  "children": []
+                },
+                {
+                  "name": "Midwifery",
+                  "children": []
+                },
+                {
+                  "name": "Psychiatric",
+                  "children": []
+                },
+                {
+                  "name": "Obstetric",
+                  "children": []
+                },
+                {
+                  "name": "Dermatology",
+                  "children": []
+                },
+                {
+                  "name": "Physician",
+                  "children": [
+                    {
+                      "name": "IndividualPhysician",
+                      "children": []
+                    },
+                    {
+                      "name": "PhysiciansOffice",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Geriatric",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Dentist",
+              "children": []
+            },
+            {
+              "name": "AutomotiveBusiness",
+              "children": [
+                {
+                  "name": "AutoDealer",
+                  "children": []
+                },
+                {
+                  "name": "AutoWash",
+                  "children": []
+                },
+                {
+                  "name": "AutoRepair",
+                  "children": []
+                },
+                {
+                  "name": "AutoRental",
+                  "children": []
+                },
+                {
+                  "name": "AutoBodyShop",
+                  "children": []
+                },
+                {
+                  "name": "GasStation",
+                  "children": []
+                },
+                {
+                  "name": "MotorcycleDealer",
+                  "children": []
+                },
+                {
+                  "name": "AutoPartsStore",
+                  "children": []
+                },
+                {
+                  "name": "MotorcycleRepair",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ChildCare",
+              "children": []
+            },
+            {
+              "name": "RealEstateAgent",
+              "children": []
+            },
+            {
+              "name": "TouristInformationCenter",
+              "children": []
+            },
+            {
+              "name": "LodgingBusiness",
+              "children": [
+                {
+                  "name": "Campground",
+                  "children": []
+                },
+                {
+                  "name": "Resort",
+                  "children": [
+                    {
+                      "name": "SkiResort",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Hostel",
+                  "children": []
+                },
+                {
+                  "name": "BedAndBreakfast",
+                  "children": []
+                },
+                {
+                  "name": "VacationRental",
+                  "children": []
+                },
+                {
+                  "name": "Motel",
+                  "children": []
+                },
+                {
+                  "name": "Hotel",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Store",
+              "children": [
+                {
+                  "name": "Florist",
+                  "children": []
+                },
+                {
+                  "name": "AutoPartsStore",
+                  "children": []
+                },
+                {
+                  "name": "MovieRentalStore",
+                  "children": []
+                },
+                {
+                  "name": "ShoeStore",
+                  "children": []
+                },
+                {
+                  "name": "OutletStore",
+                  "children": []
+                },
+                {
+                  "name": "GroceryStore",
+                  "children": []
+                },
+                {
+                  "name": "HomeGoodsStore",
+                  "children": []
+                },
+                {
+                  "name": "LiquorStore",
+                  "children": []
+                },
+                {
+                  "name": "JewelryStore",
+                  "children": []
+                },
+                {
+                  "name": "BikeStore",
+                  "children": []
+                },
+                {
+                  "name": "PetStore",
+                  "children": []
+                },
+                {
+                  "name": "OfficeEquipmentStore",
+                  "children": []
+                },
+                {
+                  "name": "HardwareStore",
+                  "children": []
+                },
+                {
+                  "name": "TireShop",
+                  "children": []
+                },
+                {
+                  "name": "MusicStore",
+                  "children": []
+                },
+                {
+                  "name": "ConvenienceStore",
+                  "children": []
+                },
+                {
+                  "name": "WholesaleStore",
+                  "children": []
+                },
+                {
+                  "name": "HobbyShop",
+                  "children": []
+                },
+                {
+                  "name": "BookStore",
+                  "children": []
+                },
+                {
+                  "name": "SportingGoodsStore",
+                  "children": []
+                },
+                {
+                  "name": "DepartmentStore",
+                  "children": []
+                },
+                {
+                  "name": "PawnShop",
+                  "children": []
+                },
+                {
+                  "name": "ComputerStore",
+                  "children": []
+                },
+                {
+                  "name": "MensClothingStore",
+                  "children": []
+                },
+                {
+                  "name": "ClothingStore",
+                  "children": []
+                },
+                {
+                  "name": "FurnitureStore",
+                  "children": []
+                },
+                {
+                  "name": "MobilePhoneStore",
+                  "children": []
+                },
+                {
+                  "name": "ElectronicsStore",
+                  "children": []
+                },
+                {
+                  "name": "GardenStore",
+                  "children": []
+                },
+                {
+                  "name": "ToyStore",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "RecyclingCenter",
+              "children": []
+            },
+            {
+              "name": "HealthAndBeautyBusiness",
+              "children": [
+                {
+                  "name": "NailSalon",
+                  "children": []
+                },
+                {
+                  "name": "HealthClub",
+                  "children": []
+                },
+                {
+                  "name": "HairSalon",
+                  "children": []
+                },
+                {
+                  "name": "TattooParlor",
+                  "children": []
+                },
+                {
+                  "name": "DaySpa",
+                  "children": []
+                },
+                {
+                  "name": "BeautySalon",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "AnimalShelter",
+              "children": []
+            },
+            {
+              "name": "Library",
+              "children": []
+            },
+            {
+              "name": "HomeAndConstructionBusiness",
+              "children": [
+                {
+                  "name": "MovingCompany",
+                  "children": []
+                },
+                {
+                  "name": "Locksmith",
+                  "children": []
+                },
+                {
+                  "name": "GeneralContractor",
+                  "children": []
+                },
+                {
+                  "name": "HVACBusiness",
+                  "children": []
+                },
+                {
+                  "name": "Plumber",
+                  "children": []
+                },
+                {
+                  "name": "RoofingContractor",
+                  "children": []
+                },
+                {
+                  "name": "HousePainter",
+                  "children": []
+                },
+                {
+                  "name": "Electrician",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EntertainmentBusiness",
+              "children": [
+                {
+                  "name": "ArtGallery",
+                  "children": []
+                },
+                {
+                  "name": "MovieTheater",
+                  "children": []
+                },
+                {
+                  "name": "ComedyClub",
+                  "children": []
+                },
+                {
+                  "name": "NightClub",
+                  "children": []
+                },
+                {
+                  "name": "AdultEntertainment",
+                  "children": []
+                },
+                {
+                  "name": "Casino",
+                  "children": []
+                },
+                {
+                  "name": "AmusementPark",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "EmergencyService",
+              "children": [
+                {
+                  "name": "FireStation",
+                  "children": []
+                },
+                {
+                  "name": "PoliceStation",
+                  "children": []
+                },
+                {
+                  "name": "Hospital",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "LegalService",
+              "children": [
+                {
+                  "name": "Notary",
+                  "children": []
+                },
+                {
+                  "name": "Attorney",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ShoppingCenter",
+              "children": []
+            },
+            {
+              "name": "ArchiveOrganization",
+              "children": []
+            },
+            {
+              "name": "GovernmentOffice",
+              "children": [
+                {
+                  "name": "PostOffice",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "SelfStorage",
+              "children": []
+            },
+            {
+              "name": "InternetCafe",
+              "children": []
+            },
+            {
+              "name": "EmploymentAgency",
+              "children": []
+            },
+            {
+              "name": "FoodEstablishment",
+              "children": [
+                {
+                  "name": "CafeOrCoffeeShop",
+                  "children": []
+                },
+                {
+                  "name": "Restaurant",
+                  "children": []
+                },
+                {
+                  "name": "Brewery",
+                  "children": []
+                },
+                {
+                  "name": "Distillery",
+                  "children": []
+                },
+                {
+                  "name": "IceCreamShop",
+                  "children": []
+                },
+                {
+                  "name": "BarOrPub",
+                  "children": []
+                },
+                {
+                  "name": "Winery",
+                  "children": []
+                },
+                {
+                  "name": "FastFoodRestaurant",
+                  "children": []
+                },
+                {
+                  "name": "Bakery",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "FinancialService",
+              "children": [
+                {
+                  "name": "AccountingService",
+                  "children": []
+                },
+                {
+                  "name": "InsuranceAgency",
+                  "children": []
+                },
+                {
+                  "name": "AutomatedTeller",
+                  "children": []
+                },
+                {
+                  "name": "BankOrCreditUnion",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ProfessionalService",
+              "children": []
+            },
+            {
+              "name": "SportsActivityLocation",
+              "children": [
+                {
+                  "name": "BowlingAlley",
+                  "children": []
+                },
+                {
+                  "name": "PublicSwimmingPool",
+                  "children": []
+                },
+                {
+                  "name": "GolfCourse",
+                  "children": []
+                },
+                {
+                  "name": "SkiResort",
+                  "children": []
+                },
+                {
+                  "name": "StadiumOrArena",
+                  "children": []
+                },
+                {
+                  "name": "SportsClub",
+                  "children": []
+                },
+                {
+                  "name": "HealthClub",
+                  "children": []
+                },
+                {
+                  "name": "TennisComplex",
+                  "children": []
+                },
+                {
+                  "name": "ExerciseGym",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "RadioStation",
+              "children": []
+            },
+            {
+              "name": "DryCleaningOrLaundry",
+              "children": []
+            },
+            {
+              "name": "TelevisionStation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AdministrativeArea",
+          "children": [
+            {
+              "name": "SchoolDistrict",
+              "children": []
+            },
+            {
+              "name": "Country",
+              "children": []
+            },
+            {
+              "name": "State",
+              "children": []
+            },
+            {
+              "name": "City",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

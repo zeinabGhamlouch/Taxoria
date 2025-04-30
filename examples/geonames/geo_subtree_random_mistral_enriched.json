@@ -1,0 +1,85 @@
+{
+    "name": "local government office",
+    "source": "geonames",
+    "children": [
+        {
+            "name": "Mayor's Office",
+            "source": "mistral",
+            "children": []
+        },
+        {
+            "name": "Council Offices",
+            "source": "mistral",
+            "children": [
+                {
+                    "name": "Municipal Councils",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "City Council",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Mayor-Council System",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Town Council",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Town Meeting Form of government",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "County Councils",
+                    "source": "mistral",
+                    "children": []
+                },
+                {
+                    "name": "Regional Councils",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "Metropolitan Regional Councils",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "District Regional Councils",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "District Councils",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "Parish Councils",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Borough Councils",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "City Councils",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

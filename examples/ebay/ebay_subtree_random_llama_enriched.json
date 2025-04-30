@@ -1,0 +1,38 @@
+{
+    "name": "Baby Essentials",
+    "source": "ebay",
+    "children": [
+        {
+            "name": "Baby Clothing, Shoes & Accessories",
+            "source": "ebay",
+            "children": [
+                {
+                    "name": "Baby & Toddler Clothing",
+                    "source": "ebay",
+                    "children": []
+                },
+                {
+                    "name": "Baby Shoes",
+                    "source": "ebay",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Diapers",
+            "source": "llama3-2",
+            "children": [
+                {
+                    "name": "Overnight diapers",
+                    "source": "llama3-2",
+                    "children": []
+                },
+                {
+                    "name": "Cloth diapers",
+                    "source": "llama3-2",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

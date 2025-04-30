@@ -1,0 +1,2506 @@
+{
+    "name": "shopping-ebay",
+    "children": [
+        {
+            "name": "eBay Motors",
+            "children": [
+                {
+                    "name": "Auto Parts & Accessories",
+                    "children": [
+                        {
+                            "name": "Car & Truck Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Motorcycle & Scooter Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Performance & Racing Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "In-Car Technology, GPS & Security Devices",
+                            "children": []
+                        },
+                        {
+                            "name": "Boat Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "ATV, Side-by-Side & UTV Parts & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Other Vehicles & Trailers",
+                    "children": [
+                        {
+                            "name": "RVs & Campers",
+                            "children": []
+                        },
+                        {
+                            "name": "Commercial Trucks",
+                            "children": []
+                        },
+                        {
+                            "name": "Buses",
+                            "children": []
+                        },
+                        {
+                            "name": "Vehicle Trailers",
+                            "children": []
+                        },
+                        {
+                            "name": "Military Vehicles",
+                            "children": []
+                        },
+                        {
+                            "name": "Golf Carts",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Motorcycles",
+                    "children": [
+                        {
+                            "name": "Harley-Davidson Motorcycles",
+                            "children": []
+                        },
+                        {
+                            "name": "Honda Motorcycles",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Automotive Tools & Supplies",
+                    "children": [
+                        {
+                            "name": "Automotive Hand Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Automotive Shop Equipment & Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Automotive Diagnostic Service Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Automotive Tool Boxes & Storage",
+                            "children": []
+                        },
+                        {
+                            "name": "Automotive Air Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Automotive Paints & Supplies",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Powersport Vehicles",
+                    "children": [
+                        {
+                            "name": "ATVs",
+                            "children": []
+                        },
+                        {
+                            "name": "UTVs",
+                            "children": []
+                        },
+                        {
+                            "name": "Scooters & Mopeds",
+                            "children": []
+                        },
+                        {
+                            "name": "Snowmobiles",
+                            "children": []
+                        },
+                        {
+                            "name": "Personal Watercraft",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Boats",
+                    "children": [
+                        {
+                            "name": "Fishing Boats",
+                            "children": []
+                        },
+                        {
+                            "name": "Powerboats & Motorboats",
+                            "children": []
+                        },
+                        {
+                            "name": "Sailboats",
+                            "children": []
+                        },
+                        {
+                            "name": "Mercedes-Benz",
+                            "children": []
+                        },
+                        {
+                            "name": "Toyota",
+                            "children": []
+                        },
+                        {
+                            "name": "Ford",
+                            "children": []
+                        },
+                        {
+                            "name": "BMW",
+                            "children": []
+                        },
+                        {
+                            "name": "Honda",
+                            "children": []
+                        },
+                        {
+                            "name": "Cadillac",
+                            "children": []
+                        },
+                        {
+                            "name": "Jeep",
+                            "children": []
+                        },
+                        {
+                            "name": "Yamaha",
+                            "children": []
+                        },
+                        {
+                            "name": "GMC",
+                            "children": []
+                        },
+                        {
+                            "name": "Kawasaki",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Clothing, Shoes & Accessories",
+            "children": [
+                {
+                    "name": "Men's Clothing, Shoes & Accessories",
+                    "children": [
+                        {
+                            "name": "Men's Shoes",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Clothing",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Women's Clothing, Shoes & Accessories",
+                    "children": [
+                        {
+                            "name": "Women's Clothing",
+                            "children": []
+                        },
+                        {
+                            "name": "Women's Bags & Handbags",
+                            "children": []
+                        },
+                        {
+                            "name": "Women's Shoes",
+                            "children": []
+                        },
+                        {
+                            "name": "Women's Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Specialty Clothing, Shoes & Accessories",
+                    "children": [
+                        {
+                            "name": "Vintage Clothing, Shoes & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Costume, Reenactment & Theater Apparel",
+                            "children": []
+                        },
+                        {
+                            "name": "Wedding & Formal Wear",
+                            "children": []
+                        },
+                        {
+                            "name": "Uniforms & Work Clothing",
+                            "children": []
+                        },
+                        {
+                            "name": "World & Traditional Clothing",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Kids' Clothing, Shoes & Accessories",
+                    "children": [
+                        {
+                            "name": "Boy's Clothing, Shoes & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Girls' Clothing, Shoes & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Unisex Kids",
+                            "children": []
+                        },
+                        {
+                            "name": "Kids' Backpacks & Bags",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Travel Luggage",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Baby Essentials",
+            "children": [
+                {
+                    "name": "Baby Clothing, Shoes & Accessories",
+                    "children": [
+                        {
+                            "name": "Baby & Toddler Clothing",
+                            "children": []
+                        },
+                        {
+                            "name": "Baby Shoes",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Collectibles & Art",
+            "children": [
+                {
+                    "name": "Sports Memorabilia, Fan Shop & Sports Cards",
+                    "children": [
+                        {
+                            "name": "Sports Fan Apparel & Souvenirs",
+                            "children": []
+                        },
+                        {
+                            "name": "Sports Trading Cards & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Original Sport Autographed Items",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Sports Memorabilia",
+                            "children": []
+                        },
+                        {
+                            "name": "Game Used Sports Memorabilia",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Collectibles",
+                    "children": [
+                        {
+                            "name": "Collectible Knives, Swords, Blades, Armors & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Holiday & Seasonal Collectibles",
+                            "children": []
+                        },
+                        {
+                            "name": "Decorative Collectibles",
+                            "children": []
+                        },
+                        {
+                            "name": "Militaria",
+                            "children": []
+                        },
+                        {
+                            "name": "Tobacciana",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Coins & Paper Money",
+                    "children": [
+                        {
+                            "name": "US Coins",
+                            "children": []
+                        },
+                        {
+                            "name": "World Coins",
+                            "children": []
+                        },
+                        {
+                            "name": "US Paper Money",
+                            "children": []
+                        },
+                        {
+                            "name": "Bullion",
+                            "children": []
+                        },
+                        {
+                            "name": "World Paper Money",
+                            "children": []
+                        },
+                        {
+                            "name": "Ancient Coins",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Dolls & Teddy Bears",
+                    "children": [
+                        {
+                            "name": "Dolls, Clothing & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Dollhouses & Dollhouse Miniatures",
+                            "children": []
+                        },
+                        {
+                            "name": "Teddy Bears, Clothing & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Antiques",
+                    "children": [
+                        {
+                            "name": "Antique Furniture",
+                            "children": []
+                        },
+                        {
+                            "name": "Silver Antiques",
+                            "children": []
+                        },
+                        {
+                            "name": "Asian Antiques",
+                            "children": []
+                        },
+                        {
+                            "name": "Architectural & Garden Antiques",
+                            "children": []
+                        },
+                        {
+                            "name": "Antique Primitives",
+                            "children": []
+                        },
+                        {
+                            "name": "Maritime Antiques",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Art & Craft Supplies",
+                    "children": [
+                        {
+                            "name": "Sewing Tools & Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Yarn, Sewing & Needlecraft Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Fabric",
+                            "children": []
+                        },
+                        {
+                            "name": "Art Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Home Arts & Crafts",
+                            "children": []
+                        },
+                        {
+                            "name": "Scrapbooking & Paper Craft Supplies",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Art",
+                    "children": [
+                        {
+                            "name": "Art Prints",
+                            "children": []
+                        },
+                        {
+                            "name": "Art Paintings",
+                            "children": []
+                        },
+                        {
+                            "name": "Art Photographs",
+                            "children": []
+                        },
+                        {
+                            "name": "Art Posters",
+                            "children": []
+                        },
+                        {
+                            "name": "Art Sculptures",
+                            "children": []
+                        },
+                        {
+                            "name": "Art Drawings",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Pottery & Glass",
+                    "children": [
+                        {
+                            "name": "Decorative Cookware, Dinnerware & Serveware",
+                            "children": []
+                        },
+                        {
+                            "name": "Decorative Pottery & Glassware",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Entertainment Memorabilia",
+                    "children": [
+                        {
+                            "name": "Music Memorabilia",
+                            "children": []
+                        },
+                        {
+                            "name": "Original Autographed Entertainment Memorabilia",
+                            "children": []
+                        },
+                        {
+                            "name": "Movie Memorabilia",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Stamps",
+                    "children": [
+                        {
+                            "name": "United States Stamps",
+                            "children": []
+                        },
+                        {
+                            "name": "European Stamps",
+                            "children": []
+                        },
+                        {
+                            "name": "Asian Stamps",
+                            "children": []
+                        },
+                        {
+                            "name": "Middle Eastern Stamps",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sporting Goods",
+            "children": [
+                {
+                    "name": "Hunting Equipment",
+                    "children": [
+                        {
+                            "name": "Gun Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Hunting Scopes, Optics & Lasers",
+                            "children": []
+                        },
+                        {
+                            "name": "Hunting Holsters, Belts & Pouches",
+                            "children": []
+                        },
+                        {
+                            "name": "Reloading Press & Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Range & Shooting Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Hunting Clothing, Shoes & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Golf Equipment",
+                    "children": [
+                        {
+                            "name": "Golf Clubs & Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Golf Club Components",
+                            "children": []
+                        },
+                        {
+                            "name": "Golf Clothing, Shoes & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Golf Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Golf Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Golf Tech",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Cycling Equipment",
+                    "children": [
+                        {
+                            "name": "Bikes",
+                            "children": []
+                        },
+                        {
+                            "name": "Bike Components & Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Cycling Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Bicycle Tires, Tubes & Wheels",
+                            "children": []
+                        },
+                        {
+                            "name": "Bike Frames",
+                            "children": []
+                        },
+                        {
+                            "name": "Electric Bikes",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Outdoor Sports",
+                    "children": [
+                        {
+                            "name": "Archery Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Air Guns & Slingshots",
+                            "children": []
+                        },
+                        {
+                            "name": "Equestrian Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Skateboarding & Longboarding Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Scooters",
+                            "children": []
+                        },
+                        {
+                            "name": "Paintball Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Fishing Equipment & Supplies",
+                    "children": [
+                        {
+                            "name": "Fishing Reels",
+                            "children": []
+                        },
+                        {
+                            "name": "Fishing Baits, Lures & Flies",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Fishing Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Fishing Rods & Poles",
+                            "children": []
+                        },
+                        {
+                            "name": "Fishing Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Fishing Clothing, Shoes & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Team Sports",
+                    "children": [
+                        {
+                            "name": "Soccer Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Baseball & Softball Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Football Gear",
+                            "children": []
+                        },
+                        {
+                            "name": "Bowling Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Field, Ice & Roller Hockey Gear",
+                            "children": []
+                        },
+                        {
+                            "name": "Basketball Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Fitness, Running & Yoga Equipment",
+                    "children": [
+                        {
+                            "name": "Cardio Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Strength Training Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Fitness Technology",
+                            "children": []
+                        },
+                        {
+                            "name": "Fitness Equipment & Gear",
+                            "children": []
+                        },
+                        {
+                            "name": "Exercise Clothing & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Fitness & Running Shoes",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camping & Hiking Equipment",
+                    "children": [
+                        {
+                            "name": "Camping & Hiking Lighting",
+                            "children": []
+                        },
+                        {
+                            "name": "Camping Cooking Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Camping Tents & Canopies",
+                            "children": []
+                        },
+                        {
+                            "name": "Camping & Hiking Knives & Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Camping & Hiking Backpacks & Bags",
+                            "children": []
+                        },
+                        {
+                            "name": "Outdoor Sleeping Gear",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Winter Sports",
+                    "children": [
+                        {
+                            "name": "Skiing, Snowboarding & Snowshoeing",
+                            "children": []
+                        },
+                        {
+                            "name": "Winter Sports Clothing",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Water Sports",
+                    "children": [
+                        {
+                            "name": "Kayaking, Canoeing & Rafting Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Scuba & Snorkeling Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Indoor Games",
+                    "children": [
+                        {
+                            "name": "Billiards Equipment",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Toys & Hobbies",
+            "children": [
+                {
+                    "name": "Action Figures & Accessories",
+                    "children": [
+                        {
+                            "name": "Action Figures",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Collectible Card Games & Accessories",
+                    "children": [
+                        {
+                            "name": "Individual Collectible Card Game Cards",
+                            "children": []
+                        },
+                        {
+                            "name": "Sealed Collectible Card Game Packs",
+                            "children": []
+                        },
+                        {
+                            "name": "Sealed Collectible Card Game Boxes",
+                            "children": []
+                        },
+                        {
+                            "name": "Collectible Card Game Mixed Card Lots",
+                            "children": []
+                        },
+                        {
+                            "name": "Collectible Card Game Supplies & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Video Games",
+                    "children": []
+                },
+                {
+                    "name": "Diecast & Toy Vehicles",
+                    "children": [
+                        {
+                            "name": "Diecast Cars, Trucks & Vans",
+                            "children": []
+                        },
+                        {
+                            "name": "Diecast Racing Cars",
+                            "children": []
+                        },
+                        {
+                            "name": "Diecast Farm Vehicles",
+                            "children": []
+                        },
+                        {
+                            "name": "Diecast Aircraft & Spacecraft",
+                            "children": []
+                        },
+                        {
+                            "name": "Diecast & Toy Vehicle Accessories, Parts & Display",
+                            "children": []
+                        },
+                        {
+                            "name": "Diecast Construction Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Building Toys",
+                    "children": [
+                        {
+                            "name": "LEGO (R) Building Toys",
+                            "children": []
+                        },
+                        {
+                            "name": "Building Toys & Blocks",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Games",
+                    "children": [
+                        {
+                            "name": "Miniatures & War Games",
+                            "children": []
+                        },
+                        {
+                            "name": "Board & Traditional Games",
+                            "children": []
+                        },
+                        {
+                            "name": "Electronic Games",
+                            "children": []
+                        },
+                        {
+                            "name": "Chess",
+                            "children": []
+                        },
+                        {
+                            "name": "Game Pieces & Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Role Playing Games",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Model Trains",
+                    "children": [
+                        {
+                            "name": "Model Railroads & Trains",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "RC Model Vehicles, Toys & Control Line",
+                    "children": [
+                        {
+                            "name": "Hobby RC Model Vehicle Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Hobby RC Model Vehicles & Kits",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Toy Models & Kits",
+                    "children": [
+                        {
+                            "name": "Automotive Models & Kits",
+                            "children": []
+                        },
+                        {
+                            "name": "Aircraft Models & Kits",
+                            "children": []
+                        },
+                        {
+                            "name": "Figure Models & Kits",
+                            "children": []
+                        },
+                        {
+                            "name": "Boat & Ship Models & Kits",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Preschool Toys & Pretend Play",
+                    "children": [
+                        {
+                            "name": "Fisher-Price Preschool Toys",
+                            "children": []
+                        },
+                        {
+                            "name": "Littlest Pet Shop Toys",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Stuffed Animals",
+                    "children": [
+                        {
+                            "name": "Other Stuffed Animals",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Stuffed Animals",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Vintage & Antique Toys",
+                    "children": [
+                        {
+                            "name": "Other Vintage & Antique Toys",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage & Antique Cap Guns",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Slot Cars",
+                    "children": [
+                        {
+                            "name": "HO Scale Slot Cars",
+                            "children": []
+                        },
+                        {
+                            "name": "1/32 Scale Slot Cars",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Outdoor Toys & Structures",
+                    "children": [
+                        {
+                            "name": "Dart Guns & Soft Darts",
+                            "children": []
+                        },
+                        {
+                            "name": "Tricycles & Ride On Toys",
+                            "children": []
+                        },
+                        {
+                            "name": "Pedal Cars",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Electronic, Battery & Wind-Up Toys",
+                    "children": [
+                        {
+                            "name": "Electronic & Interactive Toys",
+                            "children": []
+                        },
+                        {
+                            "name": "Battery Operated Toys",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Beanbag Plushies",
+                    "children": [
+                        {
+                            "name": "Ty Beanbag Plushies",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Home & Garden",
+            "children": [
+                {
+                    "name": "Home D\u00c3\u00a9cor",
+                    "children": [
+                        {
+                            "name": "Antiques",
+                            "children": []
+                        },
+                        {
+                            "name": "Art",
+                            "children": []
+                        },
+                        {
+                            "name": "Pottery & Glass",
+                            "children": []
+                        },
+                        {
+                            "name": "Decorative Clocks",
+                            "children": []
+                        },
+                        {
+                            "name": "Decorative Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "D\u00c3\u00a9cor Decals, Stickers & Vinyl Art",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Yard, Garden & Outdoor Living Items",
+                    "children": [
+                        {
+                            "name": "Outdoor Power Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Lawn Mowers, Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Plants, Seeds & Bulbs",
+                            "children": []
+                        },
+                        {
+                            "name": "Pools & Spas",
+                            "children": []
+                        },
+                        {
+                            "name": "Outdoor Heating, Cooking & Eating",
+                            "children": []
+                        },
+                        {
+                            "name": "Patio & Garden Furniture",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Kitchen, Dining & Bar Supplies",
+                    "children": [
+                        {
+                            "name": "Small Kitchen Appliances",
+                            "children": []
+                        },
+                        {
+                            "name": "Kitchen, Dining & Bar Storage Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Dinnerware & Serveware",
+                            "children": []
+                        },
+                        {
+                            "name": "Flatware, Knives & Cutlery",
+                            "children": []
+                        },
+                        {
+                            "name": "Kitchen Tools & Gadgets",
+                            "children": []
+                        },
+                        {
+                            "name": "Cookware",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Tools & Workshop Equipment",
+                    "children": [
+                        {
+                            "name": "Power Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Hand Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Power Tool & Air Tool Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Tool Boxes & Storage",
+                            "children": []
+                        },
+                        {
+                            "name": "Air Tools & Air Compressors",
+                            "children": []
+                        },
+                        {
+                            "name": "Workshop Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Home Furniture",
+                    "children": [
+                        {
+                            "name": "Tables",
+                            "children": []
+                        },
+                        {
+                            "name": "Beds & Headboards",
+                            "children": []
+                        },
+                        {
+                            "name": "Chairs",
+                            "children": []
+                        },
+                        {
+                            "name": "Sofas, Armchairs & Couches",
+                            "children": []
+                        },
+                        {
+                            "name": "Dining Furniture Sets",
+                            "children": []
+                        },
+                        {
+                            "name": "Cabinets & Cupboards",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Home Improvement",
+                    "children": [
+                        {
+                            "name": "Home HVAC, Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Building & Hardware Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Electrical Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Home Plumbing & Fixtures",
+                            "children": []
+                        },
+                        {
+                            "name": "Home Security Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Household & Cleaning Supplies",
+                    "children": [
+                        {
+                            "name": "Vacuum Cleaners",
+                            "children": []
+                        },
+                        {
+                            "name": "Home Organization Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Vacuum Cleaner Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "General Household Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Household Laundry Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Household Cleaning Products",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Bedding",
+                    "children": [
+                        {
+                            "name": "Blankets & Throws",
+                            "children": []
+                        },
+                        {
+                            "name": "Bed Sheets",
+                            "children": []
+                        },
+                        {
+                            "name": "Quilts, Bedspreads & Coverlets",
+                            "children": []
+                        },
+                        {
+                            "name": "Comforters & Sets",
+                            "children": []
+                        },
+                        {
+                            "name": "Duvet Covers & Bedding Sets",
+                            "children": []
+                        },
+                        {
+                            "name": "Nursery Bedding",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Lamps, Lighting & Ceiling Fans",
+                    "children": [
+                        {
+                            "name": "Lamps",
+                            "children": []
+                        },
+                        {
+                            "name": "Chandeliers & Ceiling Fixtures",
+                            "children": []
+                        },
+                        {
+                            "name": "Light Bulbs",
+                            "children": []
+                        },
+                        {
+                            "name": "String & Fairy Lights",
+                            "children": []
+                        },
+                        {
+                            "name": "Lighting Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Ceiling Fans",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Food & Beverages",
+                    "children": [
+                        {
+                            "name": "Pantry",
+                            "children": []
+                        },
+                        {
+                            "name": "Coffee, Tea & Soft Drinks",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Bathroom Fixtures, Accessories & Supplies",
+                    "children": [
+                        {
+                            "name": "Bathroom Supplies & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Showers, Bathtubs & Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Bathroom Sinks & Vanities",
+                            "children": []
+                        },
+                        {
+                            "name": "Shower & Bathtub Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Toilets & Bidets",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Greeting Cards & Party Supplies",
+                    "children": [
+                        {
+                            "name": "Party Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Gift Wrapping Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Greeting Cards & Invitations",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Holiday & Seasonal D\u00c3\u00a9cor",
+                    "children": [
+                        {
+                            "name": "Seasonal Ornaments",
+                            "children": []
+                        },
+                        {
+                            "name": "Christmas Trees",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Candles & Home Fragrance",
+                    "children": [
+                        {
+                            "name": "Home Fragrance",
+                            "children": []
+                        },
+                        {
+                            "name": "Candles",
+                            "children": []
+                        },
+                        {
+                            "name": "Candle Holders & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Rugs & Carpets",
+                    "children": [
+                        {
+                            "name": "Area Rugs",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Electronics",
+            "children": [
+                {
+                    "name": "Major Appliances, Parts & Accessories",
+                    "children": [
+                        {
+                            "name": "Major Appliances Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Ranges & Cooking Appliances",
+                            "children": []
+                        },
+                        {
+                            "name": "Refrigerators, Freezers, Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Washers, Dryers, Parts & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Surveillance & Smart Home Electronics",
+                    "children": [
+                        {
+                            "name": "Home Surveillance Systems",
+                            "children": []
+                        },
+                        {
+                            "name": "Smart Speakers, Hubs & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Computers, Tablets & Network Hardware",
+                    "children": [
+                        {
+                            "name": "Computer Components & Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Laptops & Netbooks",
+                            "children": []
+                        },
+                        {
+                            "name": "Desktops & All-In-One Computers",
+                            "children": []
+                        },
+                        {
+                            "name": "Laptop & Desktop Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Computer Drives, Storage & Blank Media",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Cell Phones, Smart Watches & Accessories",
+                    "children": [
+                        {
+                            "name": "Cell Phones & Smartphones",
+                            "children": []
+                        },
+                        {
+                            "name": "Cell Phone Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Portable Audio & Headphones",
+                            "children": []
+                        },
+                        {
+                            "name": "Smart Watches",
+                            "children": []
+                        },
+                        {
+                            "name": "Cell Phone & Smartphone Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Cell Phone Cards & SIM Cards",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Video Games & Consoles",
+                    "children": [
+                        {
+                            "name": "Video Games",
+                            "children": []
+                        },
+                        {
+                            "name": "Video Game Consoles",
+                            "children": []
+                        },
+                        {
+                            "name": "Video Game Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Video Game Merchandise",
+                            "children": []
+                        },
+                        {
+                            "name": "Video Game Replacement Parts & Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Prepaid Gaming Cards",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Cameras & Photo",
+                    "children": [
+                        {
+                            "name": "Digital Cameras",
+                            "children": []
+                        },
+                        {
+                            "name": "Camera Lenses & Filters",
+                            "children": []
+                        },
+                        {
+                            "name": "Film Photography Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Camcorders",
+                            "children": []
+                        },
+                        {
+                            "name": "Camera, Drone & Photo Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Movie & Photography Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "TV, Video & Home Audio Electronics",
+                    "children": [
+                        {
+                            "name": "Home Audio Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "TV & Video Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "TV, Video & Audio Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "TV, Video & Audio Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Media Streamers",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Vehicle Electronics & GPS",
+                    "children": [
+                        {
+                            "name": "Car Audio in Consumer Electronics",
+                            "children": []
+                        },
+                        {
+                            "name": "Car Audio & Video Installation Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Car Video Monitors & Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Car Electronics Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Car GPS Units",
+                            "children": []
+                        },
+                        {
+                            "name": "Marine Audio in Consumer Electronics",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Portable Audio & Headphones",
+                    "children": [
+                        {
+                            "name": "Headphones",
+                            "children": []
+                        },
+                        {
+                            "name": "MP3 Players",
+                            "children": []
+                        },
+                        {
+                            "name": "Audio Player Docks & Mini Speakers",
+                            "children": []
+                        },
+                        {
+                            "name": "Portable Stereos & Boomboxes",
+                            "children": []
+                        },
+                        {
+                            "name": "Personal Cassette Players",
+                            "children": []
+                        },
+                        {
+                            "name": "Portable AM/FM Radios",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Home Surveillance Systems",
+                    "children": [
+                        {
+                            "name": "Home Security Cameras",
+                            "children": []
+                        },
+                        {
+                            "name": "IP & Smart Security Camera Systems",
+                            "children": []
+                        },
+                        {
+                            "name": "Home Surveillance Parts & Accessories",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Jewelry & Watches",
+            "children": [
+                {
+                    "name": "Watches, Parts & Accessories",
+                    "children": [
+                        {
+                            "name": "Watches",
+                            "children": []
+                        },
+                        {
+                            "name": "Watch Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Watch Parts, Tools & Guides",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Jewelry",
+                    "children": [
+                        {
+                            "name": "Rings",
+                            "children": []
+                        },
+                        {
+                            "name": "Bracelets",
+                            "children": []
+                        },
+                        {
+                            "name": "Necklaces",
+                            "children": []
+                        },
+                        {
+                            "name": "Pendants",
+                            "children": []
+                        },
+                        {
+                            "name": "Earrings",
+                            "children": []
+                        },
+                        {
+                            "name": "Charms",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Rings",
+                    "children": [
+                        {
+                            "name": "Engagement Rings",
+                            "children": []
+                        },
+                        {
+                            "name": "Wedding Rings",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Bracelets",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Bracelets",
+                            "children": []
+                        },
+                        {
+                            "name": "Fine Bracelets",
+                            "children": []
+                        },
+                        {
+                            "name": "Fine Necklaces",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Necklaces",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Necklaces",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Pendants",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Pendants",
+                            "children": []
+                        },
+                        {
+                            "name": "Fine Pendants",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Earrings",
+                    "children": [
+                        {
+                            "name": "Vintage Earrings",
+                            "children": []
+                        },
+                        {
+                            "name": "Fine Earrings",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Charms",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Charms",
+                            "children": []
+                        },
+                        {
+                            "name": "Fine Charms",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Pins",
+                    "children": [
+                        {
+                            "name": "Fine Pins",
+                            "children": []
+                        },
+                        {
+                            "name": "Men's Pins",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Pins",
+                            "children": []
+                        },
+                        {
+                            "name": "Vintage Brooches",
+                            "children": []
+                        },
+                        {
+                            "name": "Fine Brooches",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Men's Jewelry",
+                    "children": [
+                        {
+                            "name": "Cufflinks",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Health & Beauty",
+            "children": [
+                {
+                    "name": "Fragrances",
+                    "children": [
+                        {
+                            "name": "Fragrances for Women",
+                            "children": []
+                        },
+                        {
+                            "name": "Fragrances for Men",
+                            "children": []
+                        },
+                        {
+                            "name": "Unisex Fragrances",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Hair Care & Styling Products",
+                    "children": [
+                        {
+                            "name": "Shampoos & Conditioners",
+                            "children": []
+                        },
+                        {
+                            "name": "Hair Extensions & Wigs",
+                            "children": []
+                        },
+                        {
+                            "name": "Hair Styling Devices",
+                            "children": []
+                        },
+                        {
+                            "name": "Hair Loss Treatments",
+                            "children": []
+                        },
+                        {
+                            "name": "Hair Color Products",
+                            "children": []
+                        },
+                        {
+                            "name": "Hair Styling Products",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Vitamins & Lifestyle Supplements",
+                    "children": [
+                        {
+                            "name": "Vitamin & Mineral Health Supplements",
+                            "children": []
+                        },
+                        {
+                            "name": "Weight Management Supplements",
+                            "children": []
+                        },
+                        {
+                            "name": "Dietary Sports Supplements",
+                            "children": []
+                        },
+                        {
+                            "name": "Dietary Supplements",
+                            "children": []
+                        },
+                        {
+                            "name": "Endurance & Energy Bars, Drinks & Pills",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Skin Care Products",
+                    "children": [
+                        {
+                            "name": "Anti-Aging Products",
+                            "children": []
+                        },
+                        {
+                            "name": "Skin Care Moisturizers",
+                            "children": []
+                        },
+                        {
+                            "name": "Skin Brightening Creams",
+                            "children": []
+                        },
+                        {
+                            "name": "Acne & Blemish Treatments",
+                            "children": []
+                        },
+                        {
+                            "name": "Lip Balm & Treatments",
+                            "children": []
+                        },
+                        {
+                            "name": "Skin Cleansers & Toners",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Makeup Products",
+                    "children": [
+                        {
+                            "name": "Face Makeup Products",
+                            "children": []
+                        },
+                        {
+                            "name": "Lip Makeup",
+                            "children": []
+                        },
+                        {
+                            "name": "Eye Makeup",
+                            "children": []
+                        },
+                        {
+                            "name": "Makeup Bags & Cases",
+                            "children": []
+                        },
+                        {
+                            "name": "Makeup Tools & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Health Care Products",
+                    "children": [
+                        {
+                            "name": "Over-The-Counter Medications & Treatments",
+                            "children": []
+                        },
+                        {
+                            "name": "Diabetic Care",
+                            "children": []
+                        },
+                        {
+                            "name": "First Aid Products",
+                            "children": []
+                        },
+                        {
+                            "name": "Sleeping Aids",
+                            "children": []
+                        },
+                        {
+                            "name": "Medical Monitoring & Testing Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Foot Creams & Treatments",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Medical & Mobility",
+                    "children": [
+                        {
+                            "name": "Mobility/Walking Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Daily Living Aids",
+                            "children": []
+                        },
+                        {
+                            "name": "Orthopedic Products & Supports",
+                            "children": []
+                        },
+                        {
+                            "name": "Mobility Furniture & Fixtures",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Vision Care Products",
+                    "children": [
+                        {
+                            "name": "Eyeglass Frames",
+                            "children": []
+                        },
+                        {
+                            "name": "Reading Glasses",
+                            "children": []
+                        },
+                        {
+                            "name": "Eyeglass Cases & Storage",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Shaving & Hair Removal Products",
+                    "children": [
+                        {
+                            "name": "Electric Shaver Parts",
+                            "children": []
+                        },
+                        {
+                            "name": "Razors & Razor Blades",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Bath & Body Products",
+                    "children": [
+                        {
+                            "name": "Deodorants & Antiperspirants",
+                            "children": []
+                        },
+                        {
+                            "name": "Body Bar Soaps",
+                            "children": []
+                        },
+                        {
+                            "name": "Body Sprays & Mists",
+                            "children": []
+                        },
+                        {
+                            "name": "Body Washes & Shower Gels",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Natural & Alternative Remedies",
+                    "children": [
+                        {
+                            "name": "Herbal Remedies & Resins",
+                            "children": []
+                        },
+                        {
+                            "name": "Aromatherapy Supplies",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Manicure, Pedicure & Nail Care Products",
+                    "children": [
+                        {
+                            "name": "Nail Polish & Powders",
+                            "children": []
+                        },
+                        {
+                            "name": "Nail Care Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Nail Art Products",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Business & Industrial",
+            "children": [
+                {
+                    "name": "Heavy Equipment, Parts & Attachments",
+                    "children": [
+                        {
+                            "name": "Heavy Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Heavy Equipment Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Heavy Equipment Attachments",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Healthcare, Lab & Dental",
+                    "children": [
+                        {
+                            "name": "Medical & Lab Equipment, Devices",
+                            "children": []
+                        },
+                        {
+                            "name": "Handpieces & Instruments",
+                            "children": []
+                        },
+                        {
+                            "name": "Medical, Lab & Dental Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Medical, Lab & Caregiving Furniture",
+                            "children": []
+                        },
+                        {
+                            "name": "Medical/Lab Equipment Attachments & Accessories",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "CNC, Metalworking & Manufacturing",
+                    "children": [
+                        {
+                            "name": "Welding & Soldering Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Metalworking Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Metalworking Inspection & Measurement",
+                            "children": []
+                        },
+                        {
+                            "name": "Raw Materials",
+                            "children": []
+                        },
+                        {
+                            "name": "Workholding & Toolholding Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Woodworking Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Restaurant & Food Service",
+                    "children": [
+                        {
+                            "name": "Food Trucks, Trailers & Carts",
+                            "children": []
+                        },
+                        {
+                            "name": "Commercial Kitchen Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Vending Machines & Dispensers",
+                            "children": []
+                        },
+                        {
+                            "name": "Commercial Refrigeration Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Commercial Bar & Beverage Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Industrial Automation & Motion Controls",
+                    "children": [
+                        {
+                            "name": "Control Systems & PLCs",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Electric Motors",
+                            "children": []
+                        },
+                        {
+                            "name": "Drives & Starters",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Electrical Equipment & Supplies",
+                    "children": [
+                        {
+                            "name": "Electronic Components & Semiconductors",
+                            "children": []
+                        },
+                        {
+                            "name": "Circuit Breakers & Disconnectors",
+                            "children": []
+                        },
+                        {
+                            "name": "Wire, Cable & Conduit",
+                            "children": []
+                        },
+                        {
+                            "name": "Electrical Boxes, Panels & Boards",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Switches",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Transformers",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Office Equipment & Supplies",
+                    "children": [
+                        {
+                            "name": "Office Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Office Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Office Furniture",
+                            "children": []
+                        },
+                        {
+                            "name": "Projectors & Presentation Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Light Industrial Equipment & Tools",
+                    "children": [
+                        {
+                            "name": "Industrial Generators",
+                            "children": []
+                        },
+                        {
+                            "name": "Pipe Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Electrical Tools",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Stationary Engines, Parts & Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Drills & Hammers",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Hand Tools",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Test, Measurement & Inspection Equipment",
+                    "children": [
+                        {
+                            "name": "Test Meters & Detectors",
+                            "children": []
+                        },
+                        {
+                            "name": "Analyzers & Data Acquisition Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Levels & Surveying Equipment",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Hydraulics, Pneumatics, Pumps & Plumbing",
+                    "children": [
+                        {
+                            "name": "Pumps & Pump Accessories",
+                            "children": []
+                        },
+                        {
+                            "name": "Valves & Manifolds",
+                            "children": []
+                        },
+                        {
+                            "name": "Air Compressors & Blowers",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Material Handling",
+                    "children": [
+                        {
+                            "name": "Packing & Shipping",
+                            "children": []
+                        },
+                        {
+                            "name": "Warehouse Loading & Unloading",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Facility Maintenance & Safety",
+                    "children": [
+                        {
+                            "name": "Personal Protective Equipment (PPE)",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Fire Protection Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Industrial Surveillance & Alarm Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Access Control Equipment",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pet Supplies",
+            "children": [
+                {
+                    "name": "Dog Supplies",
+                    "children": [
+                        {
+                            "name": "Dog Clothing & Shoes",
+                            "children": []
+                        },
+                        {
+                            "name": "Dog Training & Obedience Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Dog Topical Flea & Tick Remedies & Collars",
+                            "children": []
+                        },
+                        {
+                            "name": "Dog Grooming Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Dog Health Care Supplies",
+                            "children": []
+                        },
+                        {
+                            "name": "Dog Collars",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Fish & Aquariums",
+                    "children": [
+                        {
+                            "name": "Live Aquarium Fish",
+                            "children": []
+                        },
+                        {
+                            "name": "Aquariums & Tanks",
+                            "children": []
+                        },
+                        {
+                            "name": "Live Aquarium Invertebrates",
+                            "children": []
+                        },
+                        {
+                            "name": "Live Aquarium Plants",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Books, Movies & Music",
+            "children": [
+                {
+                    "name": "Books & Magazines",
+                    "children": [
+                        {
+                            "name": "Tablets & eReaders",
+                            "children": []
+                        },
+                        {
+                            "name": "Comic Books, Manga & Memorabilia",
+                            "children": []
+                        },
+                        {
+                            "name": "Books",
+                            "children": []
+                        },
+                        {
+                            "name": "Antiquarian & Collectible Books",
+                            "children": []
+                        },
+                        {
+                            "name": "Magazines",
+                            "children": []
+                        },
+                        {
+                            "name": "Textbooks, Educational & Reference Books",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Musical Instruments & Gear",
+                    "children": [
+                        {
+                            "name": "Guitars & Basses",
+                            "children": []
+                        },
+                        {
+                            "name": "Pro Audio Equipment",
+                            "children": []
+                        },
+                        {
+                            "name": "Pianos, Keyboards & Organs",
+                            "children": []
+                        },
+                        {
+                            "name": "Percussion Instruments",
+                            "children": []
+                        },
+                        {
+                            "name": "Wind & Woodwind Instruments",
+                            "children": []
+                        },
+                        {
+                            "name": "Brass Instruments",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Movies & TV",
+                    "children": [
+                        {
+                            "name": "DVDs & Blu-ray Discs",
+                            "children": []
+                        },
+                        {
+                            "name": "VHS Tapes",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Music",
+                    "children": [
+                        {
+                            "name": "Vinyl Records",
+                            "children": []
+                        },
+                        {
+                            "name": "Music CDs",
+                            "children": []
+                        },
+                        {
+                            "name": "Music Cassettes",
+                            "children": []
+                        },
+                        {
+                            "name": "Other Music Formats",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

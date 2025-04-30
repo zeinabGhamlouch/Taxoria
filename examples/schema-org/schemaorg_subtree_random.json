@@ -1,0 +1,21 @@
+{
+  "name": "DigitalDocument",
+  "children": [
+    {
+      "name": "PresentationDigitalDocument",
+      "children": []
+    },
+    {
+      "name": "TextDigitalDocument",
+      "children": []
+    },
+    {
+      "name": "SpreadsheetDigitalDocument",
+      "children": []
+    },
+    {
+      "name": "NoteDigitalDocument",
+      "children": []
+    }
+  ]
+}

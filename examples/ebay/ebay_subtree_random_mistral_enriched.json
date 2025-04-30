@@ -1,0 +1,85 @@
+{
+    "name": "Baby Essentials",
+    "source": "ebay",
+    "children": [
+        {
+            "name": "Baby Clothing, Shoes & Accessories",
+            "source": "ebay",
+            "children": [
+                {
+                    "name": "Baby & Toddler Clothing",
+                    "source": "ebay",
+                    "children": [
+                        {
+                            "name": "Newborn Clothing",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Infant Clothing (0-6 months)",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Toddler Clothing (6 months - 3 years)",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Baby Shoes",
+                    "source": "ebay",
+                    "children": [
+                        {
+                            "name": "Newborn/Preemie Shoes",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Infant Shoes (0-6 months)",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Toddler Shoes (6 months - 3 years)",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Infant Clothing",
+                    "source": "mistral",
+                    "children": []
+                },
+                {
+                    "name": "Toddler Clothing",
+                    "source": "mistral",
+                    "children": []
+                },
+                {
+                    "name": "Baby Booties",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "Fleece-Lined Booties",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Knit Booties",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "Waterproof Booties",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

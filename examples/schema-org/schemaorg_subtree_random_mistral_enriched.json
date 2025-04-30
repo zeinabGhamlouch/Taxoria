@@ -1,0 +1,113 @@
+{
+    "name": "DigitalDocument",
+    "source": "schema-org",
+    "children": [
+        {
+            "name": "PresentationDigitalDocument",
+            "source": "schema-org",
+            "children": [
+                {
+                    "name": "DocumentPage",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "DocumentHeaderPage",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "DocumentBodyPage",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "DocumentFooterPage",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TextDigitalDocument",
+            "source": "schema-org",
+            "children": [
+                {
+                    "name": "PDFDocument",
+                    "source": "mistral",
+                    "children": []
+                },
+                {
+                    "name": "WordDocument",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "MainDocumentPart",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "PlainTextDocument",
+                    "source": "mistral",
+                    "children": [
+                        {
+                            "name": "MarkdownDocument",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "RichTextDocument",
+                            "source": "mistral",
+                            "children": []
+                        },
+                        {
+                            "name": "RawTextDocument",
+                            "source": "mistral",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SpreadsheetDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "NoteDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "Structured Digital Document (SDD)",
+            "source": "mistral",
+            "children": [
+                {
+                    "name": "Textual SDD",
+                    "source": "mistral",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Unstructured Digital Document (UDD)",
+            "source": "mistral",
+            "children": [
+                {
+                    "name": "Text-based UDD",
+                    "source": "mistral",
+                    "children": []
+                },
+                {
+                    "name": "Multimedia UDD",
+                    "source": "mistral",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

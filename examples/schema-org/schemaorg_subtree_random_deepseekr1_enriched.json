@@ -1,0 +1,36 @@
+{
+    "name": "DigitalDocument",
+    "source": "schema-org",
+    "children": [
+        {
+            "name": "PresentationDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "TextDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "SpreadsheetDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "NoteDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "HTML Document",
+            "source": "deepseekr1",
+            "children": []
+        },
+        {
+            "name": "PDF Document",
+            "source": "deepseekr1",
+            "children": []
+        }
+    ]
+}

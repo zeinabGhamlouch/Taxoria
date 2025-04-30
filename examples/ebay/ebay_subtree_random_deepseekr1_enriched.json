@@ -1,0 +1,66 @@
+{
+    "name": "Baby Essentials",
+    "source": "ebay",
+    "children": [
+        {
+            "name": "Baby Clothing, Shoes & Accessories",
+            "source": "ebay",
+            "children": [
+                {
+                    "name": "Baby & Toddler Clothing",
+                    "source": "ebay",
+                    "children": [
+                        {
+                            "name": "Baby Formula Clothing",
+                            "source": "deepseekr1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Baby Shoes",
+                    "source": "ebay",
+                    "children": [
+                        {
+                            "name": "Dress Shoes",
+                            "source": "deepseekr1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Clothing & Accessories",
+                    "source": "deepseekr1",
+                    "children": [
+                        {
+                            "name": "Footwear Accessories",
+                            "source": "deepseekr1",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Shoes & Boots",
+                    "source": "deepseekr1",
+                    "children": [
+                        {
+                            "name": "Sneakers",
+                            "source": "deepseekr1",
+                            "children": []
+                        },
+                        {
+                            "name": "Boots",
+                            "source": "deepseekr1",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Diaper Essentials",
+            "source": "deepseekr1",
+            "children": []
+        }
+    ]
+}

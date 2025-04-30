@@ -1,0 +1,44 @@
+{
+    "name": "DigitalDocument",
+    "source": "schema-org",
+    "children": [
+        {
+            "name": "PresentationDigitalDocument",
+            "source": "schema-org",
+            "children": [
+                {
+                    "name": "PDF",
+                    "source": "llama3-2",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "TextDigitalDocument",
+            "source": "schema-org",
+            "children": [
+                {
+                    "name": "Text file",
+                    "source": "llama3-2",
+                    "children": [
+                        {
+                            "name": "Plain Text File (.txt)",
+                            "source": "llama3-2",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SpreadsheetDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        },
+        {
+            "name": "NoteDigitalDocument",
+            "source": "schema-org",
+            "children": []
+        }
+    ]
+}
