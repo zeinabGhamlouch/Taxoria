@@ -1,18 +1,16 @@
 import llama_index
 import numpy as np
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-
-# Load Hugging Face embedding model
-embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en")
 from langchain_community.llms import Ollama
-llm = Ollama(model="llama3")
-
 import json
-import numpy as np
 import re
 from typing import Dict, List
 
-# All your functions: max_depth, deduplicate_list, ensure_source_recursive, etc.
+# Load Hugging Face embedding model
+embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en")
+
+# load llm
+llm = Ollama(model="llama3")
 
 def max_depth(node: Dict) -> int:
     """
@@ -53,7 +51,31 @@ def ensure_source_recursive(node: Dict, default_source: str = "original-taxonomy
 
     return ordered_node
 
-# Other functions like convert_names_to_children, extract, calculate_similarity, etc.
+def convert_names_to_children(name_list: List[str]) -> List[Dict]:
+    """
+    Converts a list of child names into a list of dictionaries with 'name' keys and an empty 'children' list.
+    Each new child gets source as 'llm-generated'.
+    """
+    return [{"name": name, "source": "llm-generated", "children": []} for name in name_list]
+
+def extract(text: str) -> List[str]:
+    """
+    Extract categories from the input text.
+    """
+    extracted_categories = []
+    text = text.strip()
+    lines = text.splitlines()
+
+    for line in lines:
+        line = line.strip()
+        categories = re.findall(r'\d+\.\s(.+)', line)
+        if not categories:
+            categories = re.findall(r'\*\s*(.+)', line)
+        if not categories:
+            categories = re.findall(r'-\s*(.+)', line)
+
+        categories = [item.lstrip('*').strip() for item in categories]
+        extracted_categories.extend(categories)
 
 def calculate_similarity(word1: str, word2: str) -> float:
     """Calculate cosine similarity using Hugging Face embeddings."""
@@ -63,7 +85,21 @@ def calculate_similarity(word1: str, word2: str) -> float:
     similarity = np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
     return similarity
 
-# Further functions: filter_children_by_score, add_children_to_node_with_score, etc.
+def filter_children_by_score(parent_name: str, children: List[Dict], threshold: float = 0.9) -> List[Dict]:
+    """
+    Filters out children that do not meet the similarity threshold, removing the similarity_score from the final result.
+    Also ensures that all new children have "source" set to "llm-generated".
+    """
+    filtered_children = []
+    for child in children:
+        score = calculate_similarity(parent_name, child["name"])
+        print(f"Similarity between '{parent_name}' and '{child['name']}': {score:.4f}")
+        if score is not None and score >= threshold:
+            child["similarity_score"] = score
+            # Ensure that the source is "llm-generated"
+            child["source"] = "llm-generated"
+            filtered_children.append({key: value for key, value in child.items() if key != "similarity_score"})
+    return filtered_children
 
 def add_children_to_node_with_score(tree: Dict, target_node: str, new_children: List[Dict], threshold: float = 0.9) -> Dict:
     """
