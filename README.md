@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Once everything is set up, you can run the demo to enrich the taxonomy. This will use the sample `example_taxonomy.json` file as input and generate an enriched version:
 
 ```bash
-python demo/run_demo.py
+python -m demo.run_demo
 ```
 
 After running this command, the enriched taxonomy will be saved to `demo_example/example_taxonomy_enriched.json`.
