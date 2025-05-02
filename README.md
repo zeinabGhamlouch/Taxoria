@@ -12,7 +12,7 @@ To get started, follow the instructions below.
 First, you'll need to clone this repository to your local machine so that you can run and modify the code.
 
 ```bash
-git clone https://github.com/zeinabGhamlouch/taxotron.git
+git clone https://github.com/zeinabGhamlouch/taxoria.git
 cd taxotron
 ```
 
