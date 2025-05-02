@@ -23,12 +23,12 @@ def max_depth(node: Dict) -> int:
 def deduplicate_list(items: List[Dict]) -> List[Dict]:
     """
     Deduplicates a list of dictionaries by ensuring unique 'name' keys.
-    If duplicates exist, the one with 'original' source is kept.
+    If duplicates exist, the one with 'original-taxonomy' source is kept.
     """
     seen = {}
     for item in items:
         name = item["name"]
-        if name not in seen or seen[name]["source"] != "original":
+        if name not in seen or seen[name]["source"] != "original-taxonomy":
             seen[name] = item
     return list(seen.values())
 
@@ -53,7 +53,7 @@ def ensure_source_recursive(node: Dict, default_source: str = "original-taxonomy
 
 def convert_names_to_children(name_list: List[str]) -> List[Dict]:
     """
-    Converts a list of child names into a list of dictionaries with 'name' keys and an empty 'children' list.
+    Converts a list of child names (strings) into a list of dictionaries with 'name' keys and an empty 'children' list.
     Each new child gets source as 'llm-generated'.
     """
     return [{"name": name, "source": "llm-generated", "children": []} for name in name_list]
@@ -76,6 +76,8 @@ def extract(text: str) -> List[str]:
 
         categories = [item.lstrip('*').strip() for item in categories]
         extracted_categories.extend(categories)
+
+    return extracted_categories
 
 def calculate_similarity(word1: str, word2: str) -> float:
     """Calculate cosine similarity using Hugging Face embeddings."""
@@ -160,5 +162,4 @@ def load_json_from_file(file_path: str) -> Dict:
     """
     with open(file_path, 'r') as file:
         return json.load(file)
-
 
