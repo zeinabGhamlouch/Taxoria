@@ -13,7 +13,7 @@ First, you'll need to clone this repository to your local machine so that you ca
 
 ```bash
 git clone https://github.com/zeinabGhamlouch/taxoria.git
-cd taxotron
+cd taxoria
 ```
 
 ### 2. **Install dependencies**
