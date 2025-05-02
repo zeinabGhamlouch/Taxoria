@@ -1,4 +1,4 @@
-# Taxotron
+# Taxoria
 A Taxonomy Enrichment Demo
 
 This repository demonstrates how to enrich a simple taxonomy using an LLM. The script takes an initial taxonomy (in JSON format) and enriches it by adding new categories and subcategories, leveraging LLM capabilities.
