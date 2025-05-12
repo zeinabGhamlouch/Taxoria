@@ -17,13 +17,16 @@ Taxoria is submitted as a demo paper at [ECAI 2025 demo papers](https://ecai2025
 
 ## Getting Started
 ### Main Prerequisite
-**Ollama:** Install Ollama from [https://ollama.com/](https://ollama.com/).
+**Ollama:** 
+Install Ollama from [https://ollama.com/](https://ollama.com/).
+
     - Pull the model you wanna use:
       ```bash
       ollama pull llama3.2
       ollama pull deepseek-r1:latest
       ollama pull mistral
       ```
+      
     - Ensure the Ollama service is running.
 
 ### Installation & Local Setup
