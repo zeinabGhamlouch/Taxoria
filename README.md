@@ -1,7 +1,7 @@
 <p>
   <img src="logo.png" alt="Taxoria Logo" width="120";" />
-  <strong style="font-size: 36px; vertical-align: middle; padding-left: 10px;">Taxoria</strong>
 </p>
+# Taxoria
 
 A Taxonomy Enrichment Demo
 
