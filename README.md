@@ -3,6 +3,8 @@ A Taxonomy Enrichment Demo
 
 This repository demonstrates how to enrich a taxonomy using an LLM. The script takes an initial taxonomy (in JSON format) and enriches it by adding new categories and subcategories, leveraging LLM capabilities.
 
+**Try the Live Demo:** [https://taxoria.r2.enst.fr](https://taxoria.r2.enst.fr)
+
 ## Getting Started
 
 To get started, follow the instructions below.
