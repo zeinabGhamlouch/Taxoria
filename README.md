@@ -1,8 +1,7 @@
 <h1 align="left">
-  <img src="logo.png" alt="Taxoria Logo" width="100" style="vertical-align: middle; padding-right: 10px;">
-  <span style="vertical-align: middle;">Taxoria</span>
+  <img src=logo.png" alt="T-REX Logo" style="height: 65px; vertical-align: bottom;">
+  Taxoria
 </h1>
-
 
 A Taxonomy Enrichment Demo
 
