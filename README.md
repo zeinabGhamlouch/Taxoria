@@ -1,5 +1,5 @@
 <h1 align="left">
-  <img src=logo.png" alt="T-REX Logo" style="height: 65px; vertical-align: bottom;">
+  <img src=logo.png" alt="Logo" style="height: 65px; vertical-align: bottom;">
   Taxoria
 </h1>
 
