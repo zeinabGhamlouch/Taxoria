@@ -1,7 +1,7 @@
 <p>
-  <img src="logo.png" alt="Taxoria Logo" width="80"/>
+  <img src="logo.png" alt="Taxoria Logo" width="40" style="vertical-align: middle;"/>
+  <span style="vertical-align: middle; font-size: 2em;">Taxoria</span>
 </p>
-# Taxoria
 A Taxonomy Enrichment Demo
 
 This repository demonstrates how to enrich a taxonomy using an LLM. The script takes an initial taxonomy (in JSON format) and enriches it by adding new categories and subcategories, leveraging LLM capabilities.
