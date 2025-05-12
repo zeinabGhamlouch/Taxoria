@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="logo.png" alt="Taxoria Logo" width="120"/>
+</p>
 # Taxoria
 A Taxonomy Enrichment Demo
 
