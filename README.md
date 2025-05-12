@@ -1,6 +1,6 @@
 <p>
-  <img src="logo.png" alt="Taxoria Logo" width="100" style="vertical-align:;"/>
-  <span style="font-size: 5em; font-weight: bold;">Taxoria</span>
+  <img src="logo.png" alt="Taxoria Logo" width="100" style="margin-right: 10px;"/>
+  <span style="font-size: 5em; font-weight: bold; vertical-align: top;">Taxoria</span>
 </p>
 
 A Taxonomy Enrichment Demo
