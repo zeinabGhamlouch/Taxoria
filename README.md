@@ -16,10 +16,19 @@ Taxoria is submitted as a demo paper at [ECAI 2025 demo papers](https://ecai2025
 ---- still pending till now
 
 ## Getting Started
+### Main Prerequisite
+**Ollama:** Install Ollama from [https://ollama.com/](https://ollama.com/).
+    - Pull the model you wanna use:
+      ```bash
+      ollama pull llama3.2
+      ollama pull deepseek-r1:latest
+      ollama pull mistral
+      ```
+    - Ensure the Ollama service is running.
 
-To get started, follow the instructions below.
+### Installation & Local Setup
 
-### 1. **Clone the repository**
+#### 1. **Clone the repository**
 
 First, you'll need to clone this repository to your local machine so that you can run and modify the code.
 
@@ -28,14 +37,14 @@ git clone https://github.com/zeinabGhamlouch/taxoria.git
 cd taxoria
 ```
 
-### 2. **Install dependencies**
+#### 2. **Install dependencies**
 Next, make sure you have all the necessary dependencies installed by running the following command. This will install everything listed in the `requirements.txt` file.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. **Run the demo**
+#### 3. **Run the demo**
 Once everything is set up, you can run the demo to enrich the taxonomy. This will use the sample `example_taxonomy.json` file as input and generate an enriched version:
 
 ```bash
