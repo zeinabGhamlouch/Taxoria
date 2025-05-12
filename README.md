@@ -20,7 +20,7 @@ Taxoria is submitted as a demo paper at [ECAI 2025 demo papers](https://ecai2025
 **Ollama:** 
 Install Ollama from [https://ollama.com/](https://ollama.com/).
 
-    - Pull the model you wanna use:
+    - Pull the model you want to use:
     
       ```bash
       ollama pull llama3.2
