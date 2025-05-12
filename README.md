@@ -1,5 +1,5 @@
 <h1 align="left">
-  <img src="logo.png" alt="Taxoria Logo" style="height: 65px; vertical-align: bottom;">
+  <img src="logo.png" alt="Taxoria Logo" style="height: 100px; ">
   Taxoria
 </h1>
 
