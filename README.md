@@ -9,6 +9,7 @@ This repository demonstrates how to enrich a taxonomy using an LLM. The script t
 
 ## Demo
 Taxoria is submitted as a demo paper at [ECAI 2025 demo papers](https://ecai2025.org/call-for-demo-papers/)
+
 **Try the Live Demo here:** [https://taxoria.r2.enst.fr](https://taxoria.r2.enst.fr)
 
 🎬 Watch the video demo:
