@@ -1,5 +1,5 @@
 <p>
-  <img src="logo.png" alt="Taxoria Logo" width="100" style="margin-right: 10px;"/>
+  <img src="logo.png" alt="Taxoria Logo" width="100" style="margin-right: 15px;"/>
   <span style="font-size: 5em; font-weight: bold; vertical-align: top;">Taxoria</span>
 </p>
 
