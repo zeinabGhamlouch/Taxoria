@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="logo.png" alt="Taxoria Logo" width="120"/>
+<p>
+  <img src="logo.png" alt="Taxoria Logo" width="80"/>
 </p>
 # Taxoria
 A Taxonomy Enrichment Demo
