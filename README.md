@@ -1,6 +1,6 @@
 <h1 align="left">
   <img src="logo.png" alt="Taxoria Logo" width="100" style="vertical-align: middle; padding-right: 10px;">
-  Taxoria
+  <span style="vertical-align: middle;">Taxoria</span>
 </h1>
 
 
