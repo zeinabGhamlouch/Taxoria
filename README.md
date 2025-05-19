@@ -13,7 +13,7 @@ Taxoria is submitted as a demo paper at [ECAI 2025 demo papers](https://ecai2025
 **Try the Live Demo here:** [https://taxoria.r2.enst.fr](https://taxoria.r2.enst.fr)
 
 🎬 Watch the video demo:
----- still pending till now
+https://youtu.be/7-9Hrg-awGo
 
 ## Getting Started
 ### Main Prerequisite
