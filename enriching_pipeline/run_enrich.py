@@ -6,8 +6,8 @@ from src.enrich_taxonomy import traverse_and_add_children, load_json_from_file, 
 import json
 
 # File paths
-input_path = "demo_example/example_taxonomy.json"
-output_path = "demo_example/example_taxonomy_enriched.json"
+input_path = "enriching_example/example_taxonomy.json"
+output_path = "enriching_example/example_taxonomy_enriched.json"
 
 # Load input taxonomy
 taxonomy = load_json_from_file(input_path)
