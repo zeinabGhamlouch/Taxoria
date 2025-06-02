@@ -1,1 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='logobrain.png') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxonomy Enrichment Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f1e7;
+            color: #155724;
+        }
+        nav {
+            background-color: #63ad74;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #f0fff0;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #218838;
+        }
+        .tab-content {
+            display: none;
+            padding: 40px 50px;
+            background: #ffffff;
+            margin: 20px auto;
+            max-width: 800px;
+            min-height: 600px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .tab-content:first-child {
+            display: block;
+        }
+        h2 {
+            color: #155724;
+        }
+        button {
+            background-color: #52ab67;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        pre {
+            background: #f0fff4;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        #taxonomy-tree {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e2f7e1;
+            border: 1px solid #a1d99b;
+            border-radius: 5px;
+        }
 
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #28a745;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .link {
+            fill: none;
+            stroke: #a1d99b;
+            stroke-width: 2px;
+        }
+
+        .node circle {
+            fill: #28a745;
+        }
+
+        .node text {
+            font: 12px sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 8px; background-color: #d4f3dc;">
+       <!-- New top-left logo -->
+       <img src="/public/ipp.png" alt="IP Paris Logo" style="height: 55px; margin-left: 9px">
+
+       <!-- Centered content -->
+       <div style="display: flex; align-items: center; justify-content: center; flex-grow: 1;">
+         <img src="{{ url_for('static', filename='logo.png') }}" alt="Taxoria Logo" style="height: 130px; margin-right: 5px;">
+         <div>
+           <h1 style="margin: 0 ; font-size: 2.7rem; color: #2e5937; font-weight: bold; font-family: 'Georgia', serif;">
+             Taxoria
+           </h1>
+           <p style="color: #2e5937; margin-top: 3px;">From roots to branches, enriching taxonomies using LLMs.</p>
+         </div>
+       </div>
+
+       <!-- Optional: empty div to balance spacing -->
+       <div style="width: 80px;"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#tab3" class="tab-link active" data-tab="tab3">Enrich Taxonomy</a></li>
+            <li><a href="#tab1" class="tab-link" data-tab="tab1">Taxonomy Merge</a></li>
+            <li><a href="#tab2" class="tab-link" data-tab="tab2">Analyze & Visualize</a></li>
+        </ul>
+    </nav>
+    
+    <div class="tab-content" id="tab1" style="display: none;  line-height: 0.7;">
+        <h2 style="margin-top: 5px; ">Taxonomy Merge</h2>
+        <p>Upload two taxonomies and we will provide a merged JSON file.</p>
+        <!-- First File Input -->
+        <div style="margin-bottom: 10px;">
+          <label style="font-size: 14px;">Taxonomy File 1:</label>
+          <div style="position: relative; display: inline-block;">
+            <button type="button" style="font-size: 12px; padding: 4px 10px; color: darkgreen; border: 1px solid darkgreen; background: rgb(235, 244, 239) ; cursor: pointer;">
+              Upload File
+            </button>
+            <input type="file" id="upload-taxonomy1" accept="application/json"
+                   style="position: absolute; left: 0; top: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer;"
+                   onchange="updateFileName(this, 'file-name-1')" />
+          </div>
+          <span id="file-name-1" style="margin-left: 3px; font-size: 12px; color: #333;">No file chosen</span>
+          <button type="button" onclick="loadSampleFile('upload-taxonomy1', '/public/sample3.json', 'file-name-1')"
+                  style="font-size: 12px; color: #006400; background:none; border:none; cursor:pointer; text-decoration:underline;">
+                  Use Sample File 1
+          </button>
+          <a href="/public/sample3.json" download
+   	     style="font-size: 12px; color: #006400; text-decoration: underline; cursor: pointer;">
+             Download Sample File 1
+	  </a>
+        </div>
+
+        <!-- Second File Input -->
+        <div style="margin-bottom: 10px;">
+          <label style="font-size: 14px;">Taxonomy File 2:</label>
+          <div style="position: relative; display: inline-block;">
+            <button type="button" style="font-size: 12px; padding: 4px 10px; color: darkgreen; border: 1px solid darkgreen; background: rgb(235, 244, 239); cursor: pointer;">
+              Upload File
+            </button>
+            <input type="file" id="upload-taxonomy2" accept="application/json"
+                   style="position: absolute; left: 0; top: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer;"
+                   onchange="updateFileName(this, 'file-name-2')" />
+          </div>
+          <span id="file-name-2" style="margin-left: 3px; font-size: 12px; color: #333;">No file chosen</span>
+          <button type="button" onclick="loadSampleFile('upload-taxonomy2', '/public/sample3-1.json', 'file-name-2')"
+                  style="font-size: 12px; color: #006400; background:none; border:none; cursor:pointer; text-decoration:underline;">
+                  Use Sample File 2
+          </button>
+          <a href="/public/sample3-1.json" download
+             style="font-size: 12px; color: #006400; text-decoration: underline; cursor: pointer;">
+             Download Sample File 2
+          </a>
+        </div>
+
+        <button onclick="mergeTaxonomies()">Merge</button>
+        <a id="download-link" style="display: none;" href="#" download="merged_taxonomy.json">
+            <button>Download Merged Taxonomy</button>
+        </a>
+        <div id="taxonomy-tree-container-merge" style="background-color: rgb(235, 244, 239); width: 100%; height: 600px; overflow: auto;  margin-top: 20px;">
+            <svg id="taxonomy-tree-merge" width="2000" height="1000"></svg>
+        </div>   
+
+        <button id="toggle-json-btn" style="margin-top: 8px;">Show JSON</button>
+
+        <pre id="merge-result" style="display: none; max-height: 400px; overflow: auto; margin-top: 10px; font-family: monospace; font-size: 12px; line-height: 1.4;"></pre>
+    </div>
+    
+    <div class="tab-content" id="tab2" style="display: none;">
+        <h2 style="margin-top: 5px ">Analyze & Visualize Taxonomy</h2>
+        <div style="margin-bottom: 10px;">
+           <label style="font-size: 14px;">Upload Taxonomy File:</label>
+           <div style="position: relative; display: inline-block;">
+              <button type="button" style="font-size: 12px; padding: 4px 10px; color: darkgreen; border: 1px solid darkgreen; background:  rgb(235, 244, 239); cursor: pointer;">
+                Upload File
+              </button>
+              <input type="file" id="upload-analysis" accept="application/json"
+                  style="position: absolute; left: 0; top: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer;"
+                  onchange="updateFileName(this, 'file-name-analysis')" />
+           </div>
+           <span id="file-name-analysis" style="margin-left: 3px; font-size: 12px; color: #333;">No file chosen</span>
+        </div>
+        <div>
+            <label>Or try a sample:</label>
+            <select onchange="loadSample('analyze', this.value)">
+                <option value="">-- Select Sample --</option>
+                <option value="public/sample1.json">sample1</option>
+                <option value="public/sample2.json">sample2</option>
+                <option value="public/sample3.json">sample3</option>
+                <option value="public/sample3-1.json">sample3-1</option>  
+                <option value="public/sample4.json">sample4</option>
+                <option value="public/sample5.json">sample5</option>
+                <option value="public/sample6.json">sample6</option>
+                <option value="public/schema_org.json">schema.org taxonomy</option>
+                <option value="public/ebay_taxonomy.json">eBay taxonomy</option>
+                <option value="public/geonames_taxonomy.json">GeoNames taxonomy</option>
+            </select>
+            <button id="download-analyze" onclick="downloadAnalyzeSample()" disabled style="font-size: 0.8em; padding: 4px 8px;">Download Selected Sample</button>
+        </div>
+        <button onclick="analyzeTaxonomy()" style="margin-top: 16px;">Analyze</button>
+        
+        <div style="margin-top: 10px;">
+    		<button onclick="toggleInfo()" style="background-color: white; color: darkgreen; border: 1px solid darkgreen; font-size: 0.9em; padding: 4px 8px; border-radius: 4px; cursor: pointer;">ℹ️ Info</button>
+    		<div id="info-section" style="display: none; margin-top: 10px; font-size: 0.9em; border-left: 3px solid #ccc; padding-left: 10px;">
+        		<p><strong>About the Visualization:</strong></p>
+        		<ul>
+            		    <li>Gray lines represent original taxonomy nodes.</li>
+            		    <li>Red lines represent LLM-generated nodes.</li>
+            		    <li>Blue dots are expandable nodes.</li>
+            		    <li>White dots are leaf nodes with no children.</li>
+        		</ul>
+        		<p>You can interact with the tree to explore how the taxonomy has been enriched. This allows you to compare the original structure with the LLM-generated additions.</p>
+    		</div>
+	</div>
+        
+        <pre id="analysis-result" style="margin-top: 10px; max-height: 400px; overflow: auto; display: none; background-color: rgb(235, 244, 239); color: black; padding: 10px; border-radius: 5px;"></pre>
+
+        <!-- Tree viewer comes next -->
+        <div id="taxonomy-tree-container" style="width: 100%; height: 700px; overflow: auto; margin-top: 20px;">
+            <svg id="taxonomy-tree" width="2000" height="1000"></svg>
+        </div>
+    </div>
+     
+    <script>
+    function toggleInfo() {
+        const info = document.getElementById('info-section');
+        info.style.display = info.style.display === 'none' ? 'block' : 'none';
+    }
+    </script>
+
+    <div class="tab-content" id="tab3" style="display: block; line-height: 1.1;">
+    <h2 style="margin-top: 5px ">Enrich Taxonomy</h2>
+
+    <div style="display: flex; align-items: center; gap: 40px; margin-bottom: 10px;">
+        <div style="display: flex; align-items: center;">
+         <div style="position: relative; display: inline-block;">
+          <button id="custom-upload-btn" style="font-size: 14px; padding: 5px 10px; cursor: pointer;background-color: rgb(235, 244, 239); border: 1px solid green; color: darkgreen; border-radius: 4px;">
+            Upload Taxonomy File
+          </button>
+          <input type="file" id="upload-enrich" accept="application/json" onchange="checkFileSize(this); updateFileName(this, 'selected-file-name');"
+                style="position: absolute; left: 0; top: 0; opacity: 0; width: 100%; height: 100%; cursor: pointer;" />
+         </div>
+         <span id="selected-file-name" style="margin-left: 3px; font-size: 12px; color: #333;">No file chosen</span>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 8px;">
+        <label style="font-size: 14px;">Or try a sample:</label>
+        <select onchange="loadSample('enrich', this.value)">
+            <option value="">-- Select Sample --</option>
+            <option value="public/sample1.json">sample1</option>
+            <option value="public/sample2.json">sample2</option>
+            <option value="public/sample3.json">sample3</option>
+            <option value="public/sample4.json">sample4</option>
+            <option value="public/sample5.json">sample5</option>
+            <option value="public/sample6.json">sample6</option>
+        </select>
+        <button id="download-enrich" onclick="downloadEnrichSample()"  style="font-size: 12px; padding: 4px 8px;" disabled>Download Selected Sample</button>
+        </div>
+    </div>
+        <div style="margin-bottom: 12px;">
+            <label for="model-select" style="font-size: 14px;">Choose Model:</label>
+            <select id="model-select">
+                <option value="llama3.2">Llama3.2:latest</option>
+                <option value="llama3">Llama3:latest</option>
+                <option value="mistral">Mistral:latest</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 20px;">
+             <button onclick="enrichTaxonomy()" style="margin-top: 10px;">Enrich</button>
+        </div>
+        <div id="enrichment-spinner" style="display: none; text-align: center; margin-top: 20px;">
+            <div class="spinner" style="margin: auto;"></div>
+            <p>Enriching taxonomy... Please wait.</p>
+        </div>
+
+        <div id="taxonomy-tree-container-enrich" style="background-color: rgb(235, 244, 239); width: 100%; height: 600px;overflow-x: auto; overflow-y: auto; margin-top: 20px;">
+            <svg id="taxonomy-tree-enrich" width="2000" height="1000"></svg>
+        </div>
+
+        <!-- Toggle button below the tree -->
+        <button id="toggle-enrich-json-btn" style="margin-top: 8px;">Show JSON</button>
+
+        <!-- JSON display below the toggle -->
+        <pre id="enrichment-result" style="display: none; max-height: 400px; overflow: auto; margin-top: 10px;"></pre>
+
+        <a id="download-enriched-link" style="display: none; margin-top: 10px;" download="enriched_taxonomy.json">
+            <button>Download Enriched Taxonomy</button>
+        </a>
+    </div>  
+    
+    <script>
+     async function loadSampleFile(inputId, sampleUrl, fileNameSpanId) {
+      try {
+        const response = await fetch(sampleUrl);
+        if (!response.ok) throw new Error('Failed to fetch sample file');
+        const data = await response.text();
+
+        // Create a new File object
+        const file = new File([data], sampleUrl.split('/').pop(), { type: 'application/json' });
+
+        // Create a DataTransfer to simulate file selection
+        const dataTransfer = new DataTransfer();
+        dataTransfer.items.add(file);
+
+        // Assign the file to the input element
+        const input = document.getElementById(inputId);
+        input.files = dataTransfer.files;
+
+        // Update the displayed file name
+        document.getElementById(fileNameSpanId).textContent = file.name;
+
+        // Optionally, trigger any onchange event handlers (if needed)
+        if (typeof input.onchange === 'function') {
+          input.onchange();
+        }
+      } catch (error) {
+        alert('Error loading sample file: ' + error.message);
+      }
+    }
+
+   </script>
+
+
+    <script>
+    function checkFileSize(input) {
+    	const maxSizeKB = 80;
+    	const file = input.files[0];
+    	if (file && file.size > maxSizeKB * 1024) {
+        	alert("File size exceeds the maximum size allowed. Please choose a smaller file.");
+        	input.value = "";  // Reset the input
+    	}
+   }
+   </script>
+
+   <script>
+   document.getElementById('upload-enrich').addEventListener('change', function() {
+    	const fileName = this.files[0]?.name || "No file selected";
+    	document.getElementById('selected-file-name').textContent = fileName;
+   });
+   </script>
+
+    <script>
+     function updateFileName(input, labelId) {
+        const label = document.getElementById(labelId);
+        if (input.files.length > 0) {
+           label.textContent = input.files[0].name;
+        } else {
+           label.textContent = "No file chosen";
+        }
+     }
+    </script>
+
+    <script>
+        // This handles switching between tabs and ensures the correct tab is highlighted
+        document.querySelectorAll('.tab-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+
+                // Remove active class from all tabs and add it to the clicked one
+                document.querySelectorAll('.tab-link').forEach(tab => tab.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Hide all tab contents
+                document.querySelectorAll('.tab-content').forEach(tab => tab.style.display = 'none');
+                
+                // Show the selected tab content
+                document.getElementById(this.dataset.tab).style.display = 'block';
+            });
+        });
+
+        let analyzeSampleUrl = '';
+        let enrichSampleUrl = '';
+
+        function loadSample(type, url) {
+            if (!url) {
+                if (type === 'analyze') {
+                    analyzeSampleUrl = '';
+                    document.getElementById('download-analyze').disabled = true;
+                } else if (type === 'enrich') {
+                    enrichSampleUrl = '';
+                    document.getElementById('download-enrich').disabled = true;
+                }
+                return;
+            }
+
+            fetch(url)
+                .then(res => res.blob())
+                .then(blob => {
+                    const file = new File([blob], "sample.json", { type: "application/json" });
+                    const dt = new DataTransfer();
+                    dt.items.add(file);
+
+                    if (type === 'analyze') {
+                        analyzeSampleUrl = url;
+                        document.getElementById('download-analyze').disabled = false;
+                        document.getElementById('upload-analysis').files = dt.files;
+                    } else if (type === 'enrich') {
+                        enrichSampleUrl = url;
+                        document.getElementById('download-enrich').disabled = false;
+                        document.getElementById('upload-enrich').files = dt.files;
+                    }
+
+                    showNotification("Sample loaded! Now click the button to proceed.");
+                })
+                .catch(err => {
+                    alert("Failed to load sample: " + err.message);
+                });
+        }
+
+        function showNotification(message) {
+    		const notification = document.createElement("div");
+    		notification.textContent = message;
+    		notification.style.position = "fixed";
+    		notification.style.bottom = "20px";
+    		notification.style.right = "20px";
+    		notification.style.padding = "10px 20px";
+    		notification.style.backgroundColor = "#4caf50";
+    		notification.style.color = "white";
+    		notification.style.borderRadius = "5px";
+    		notification.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+    		notification.style.zIndex = "1000";
+    		document.body.appendChild(notification);
+
+  	        setTimeout(() => {
+  		      notification.remove();
+    		}, 3000); // Auto-hide after 3 seconds
+         }
+
+
+        function downloadAnalyzeSample() {
+	            if (!analyzeSampleUrl) return;
+
+            const link = document.createElement('a');
+            link.href = analyzeSampleUrl;
+            link.download = analyzeSampleUrl.split('/').pop();
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function downloadEnrichSample() {
+            if (!enrichSampleUrl) return;
+
+            const link = document.createElement('a');
+            link.href = enrichSampleUrl;
+            link.download = enrichSampleUrl.split('/').pop();
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        
+
+        // Merge Taxonomies
+        function mergeTaxonomies() {
+            const fileInput1 = document.getElementById('upload-taxonomy1');
+            const fileInput2 = document.getElementById('upload-taxonomy2');
+            const file1 = fileInput1.files[0];
+            const file2 = fileInput2.files[0];
+            const output = document.getElementById('merge-result');
+            const downloadLink = document.getElementById('download-link');
+            const toggleBtn = document.getElementById('toggle-json-btn');
+
+            if (!file1 || !file2) {
+                alert('Please upload both JSON files.');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('taxonomy1', file1);
+            formData.append('taxonomy2', file2);
+
+            fetch('/merge_taxonomies', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                // Set JSON but hide it initially
+                output.textContent = JSON.stringify(data, null, 2);
+                output.style.display = 'none';
+
+                // Show toggle button and set text
+                toggleBtn.style.display = 'inline-block';
+                toggleBtn.textContent = 'Show JSON';
+
+                // Show download link
+                downloadLink.style.display = 'inline-block';
+
+                // Render tree (make sure renderTreeMerged is defined)
+                renderTreeMerged(data);
+
+                // Setup download link href
+                const jsonStr = JSON.stringify(data, null, 2);
+                const blob = new Blob([jsonStr], { type: "application/json" });
+                downloadLink.href = URL.createObjectURL(blob);
+                downloadLink.download = "merged_taxonomy.json";
+            })
+            .catch(error => {
+                output.textContent = 'Error: ' + error.message;
+                output.style.display = 'block'; // show errors immediately
+                downloadLink.style.display = 'none';
+                toggleBtn.style.display = 'none';
+                console.error('Merge error:', error);
+            });
+            }
+
+            // Setup toggle button behavior after DOM is ready
+            document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.getElementById('toggle-json-btn');
+            const output = document.getElementById('merge-result');
+
+            toggleBtn.addEventListener('click', () => {
+                if (output.style.display === 'none' || output.style.display === '') {
+                output.style.display = 'block';
+                toggleBtn.textContent = 'Hide JSON';
+                } else {
+                output.style.display = 'none';
+                toggleBtn.textContent = 'Show JSON';
+                }
+            });
+            });
+
+            document.getElementById('toggle-enrich-json-btn').addEventListener('click', function () {
+                const pre = document.getElementById('enrichment-result');
+                const btn = this;
+                if (pre.style.display === 'none') {
+                    pre.style.display = 'block';
+                    btn.textContent = 'Hide JSON';
+                } else {
+                    pre.style.display = 'none';
+                    btn.textContent = 'Show JSON';
+                }
+            });
+
+        // Analyze Taxonomy
+        function analyzeTaxonomy() {
+            const fileInput = document.getElementById('upload-analysis');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert('Please upload a JSON file.');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            fetch('/analyze_taxonomy', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultEl = document.getElementById('analysis-result');
+
+                if (data.error) {
+                    document.getElementById('analysis-result').textContent = 'Error: ' + data.error;
+                } else {
+                    // Show the analysis result in the pre tag
+                    resultEl.textContent = data.analysis;
+
+                    // make it visible
+                    resultEl.style.display = 'block';
+
+                    // Render the tree using jsTree
+                    renderTree(data.taxonomy);
+                }
+            })
+            .catch(error => {
+                document.getElementById('analysis-result').textContent = 'Error: ' + error.message;
+            });
+        }
+  
+        // Enrich Taxonomy
+        function enrichTaxonomy() {
+            const fileInput = document.getElementById('upload-enrich');
+            const modelSelect = document.getElementById('model-select');
+            const selectedModel = modelSelect.value; // Get selected model
+	    console.log(selectedModel);
+            const file = fileInput.files[0];
+            const spinner = document.getElementById('enrichment-spinner');
+            const output = document.getElementById('enrichment-result');
+            const downloadLink = document.getElementById('download-enriched-link');
+
+            if (!file) {
+                alert('Please upload a JSON file.');
+                return;
+            }
+
+            spinner.style.display = 'block';
+            output.textContent = '';
+            output.style.display = 'none';
+            downloadLink.style.display = 'none';
+
+            const formData = new FormData();
+            formData.append('file', file);
+	    formData.append('model', selectedModel);
+
+            fetch('/enrich_taxonomy', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => response.json())
+            .then(data => {
+                spinner.style.display = 'none';
+
+                if (data.error) {
+                    output.textContent = 'Error: ' + data.error;
+                    output.style.display = 'block';
+                } else {
+                    const sorted = sortKeys(data.enriched_taxonomy);
+                    const jsonStr = JSON.stringify(sorted, null, 2);
+                    
+                    output.textContent = jsonStr;
+                    output.style.display = 'none';
+
+                    const toggleBtn = document.getElementById('toggle-enrich-json-btn');
+                    toggleBtn.style.display = 'inline-block';
+                    toggleBtn.textContent = 'Show JSON';
+
+                    const blob = new Blob([jsonStr], { type: "application/json" });
+                    const url = URL.createObjectURL(blob);
+                    downloadLink.href = url;
+                    downloadLink.download = "enriched_taxonomy.json";
+                    downloadLink.style.display = 'inline-block';
+
+                    renderTreeEnriched(sorted);
+                }
+            })
+            .catch(error => {
+                spinner.style.display = 'none';
+                output.textContent = 'Error: ' + error.message;
+                output.style.display = 'block';
+                console.error('Enrich error:', error);
+            });
+        }
+
+
+        function sortKeys(obj) {
+            if (Array.isArray(obj)) {
+                return obj.map(sortKeys);
+            } else if (obj !== null && typeof obj === 'object') {
+                const ordered = {};
+                const keyOrder = ['name', 'source', 'children'];
+
+                // Add keys in the defined order if they exist
+                keyOrder.forEach(key => {
+                    if (key in obj) {
+                        ordered[key] = sortKeys(obj[key]);
+                    }
+                });
+
+                // Add remaining keys alphabetically
+                Object.keys(obj).sort().forEach(key => {
+                    if (!keyOrder.includes(key)) {
+                        ordered[key] = sortKeys(obj[key]);
+                    }
+                });
+
+                return ordered;
+            }
+            return obj;
+        }
+
+
+
+        // Convert to jsTree format
+        function convertToJsTreeFormat(node) {
+            return {
+                text: node.name,
+                children: node.children && node.children.length > 0
+                    ? node.children.map(child => convertToJsTreeFormat(child)) // Recursively convert children
+                    : [], // If no children, return empty array (makes the node non-expandable)
+                state: node.children && node.children.length > 0 ? {} : { "disabled": true } // Disable if no children
+            };
+        }
+
+        // Render the jsTree
+        function renderTree(data) {
+            const container = document.getElementById("taxonomy-tree");
+            container.innerHTML = ''; // Clear previous tree
+
+            const width = container.offsetWidth || 800;
+            const height = 600;
+
+            const margin = { top: 20, right: 90, bottom: 30, left: 90 };
+            const svg = d3.select("#taxonomy-tree")
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            const root = d3.hierarchy(data);
+            root.x0 = height / 2;
+            root.y0 = 0;
+
+            const treeLayout = d3.tree().size([height, width - 180]);
+
+            function update(source) {
+                const treeData = treeLayout(root);
+                const nodes = treeData.descendants();
+                const links = treeData.links();
+
+                nodes.forEach(d => d.y = d.depth * 180);
+
+                // Nodes
+                const node = svg.selectAll('g.node')
+                    .data(nodes, d => d.id || (d.id = ++i));
+
+                const nodeEnter = node.enter().append('g')
+                    .attr('class', 'node')
+                    .attr("transform", d => `translate(${source.y0},${source.x0})`)
+                    .on("click", (event, d) => {
+                        d.children = d.children ? null : d._children;
+                        update(d);
+                    });
+
+                nodeEnter.append('circle')
+                    .attr('class', 'node')
+                    .attr('r', 1e-6)
+                    .style("fill", d => d._children ? "#2980b9" : "#fff")
+                    .style("stroke", "#2980b9")
+                    .style("stroke-width", "2px");
+
+                nodeEnter.append('text')
+                    .attr("dy", ".35em")
+                    .attr("x", d => d.children || d._children ? -13 : 13)
+                    .attr("text-anchor", d => d.children || d._children ? "end" : "start")
+                    .text(d => d.data.name);
+
+                const nodeUpdate = nodeEnter.merge(node);
+
+                nodeUpdate.transition()
+                    .duration(200)
+                    .attr("transform", d => `translate(${d.y},${d.x})`);
+
+                nodeUpdate.select('circle')
+                    .attr('r', 6)
+                    .style("fill", d => d._children ? "#2980b9" : "#fff");
+
+                node.exit().transition()
+                    .duration(200)
+                    .attr("transform", d => `translate(${source.y},${source.x})`)
+                    .remove()
+                    .select('circle')
+                    .attr('r', 1e-6);
+
+                // Links
+                const link = svg.selectAll('path.link')
+                    .data(links, d => d.target.id);
+
+                const linkEnter = link.enter().insert('path', "g")
+                    .attr("class", "link")
+                    .style("stroke", d => d.target.data.source === "llm-generated" ? "red" : "#ccc")
+                    .attr('d', d => {
+                        const o = { x: source.x0, y: source.y0 };
+                        return diagonal(o, o);
+                    });
+
+                link.merge(linkEnter).transition()
+                    .duration(200)
+                    .style("stroke", d => d.target.data.source === "llm-generated" ? "red" : "#ccc")
+                    .attr('d', d => diagonal(d.source, d.target));
+
+                link.exit().transition()
+                    .duration(200)
+                    .attr('d', d => {
+                        const o = { x: source.x, y: source.y };
+                        return diagonal(o, o);
+                    })
+                    .remove();
+
+                nodes.forEach(d => {
+                    d.x0 = d.x;
+                    d.y0 = d.y;
+                });
+            }
+
+            function diagonal(s, d) {
+                return `M ${s.y} ${s.x}
+                        C ${(s.y + d.y) / 2} ${s.x},
+                        ${(s.y + d.y) / 2} ${d.x},
+                        ${d.y} ${d.x}`;
+            }
+
+            let i = 0;
+            root.children.forEach(collapse); // Start collapsed
+            update(root);
+        }
+
+        function collapse(d) {
+            if (d.children) {
+                d._children = d.children;
+                d._children.forEach(collapse);
+                d.children = null;
+            }
+        }
+
+        function renderTreeMerged(data) {
+            const container = document.getElementById("taxonomy-tree-merge");
+            container.innerHTML = ''; // Clear previous tree
+
+            const width = container.clientWidth || 800;
+            const height = 600;
+
+            const margin = { top: 20, right: 90, bottom: 30, left: 90 };
+            const svg = d3.select("#taxonomy-tree-merge")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            const root = d3.hierarchy(data);
+            root.x0 = height / 2;
+            root.y0 = 0;
+
+            const treeLayout = d3.tree().size([height, width - 180]);
+
+            function update(source) {
+                const treeData = treeLayout(root);
+                const nodes = treeData.descendants();
+                const links = treeData.links();
+
+                nodes.forEach(d => d.y = d.depth * 180);
+
+                // Nodes
+                const node = svg.selectAll('g.node')
+                    .data(nodes, d => d.id || (d.id = ++i));
+
+                const nodeEnter = node.enter().append('g')
+                    .attr('class', 'node')
+                    .attr("transform", d => `translate(${source.y0},${source.x0})`)
+                    .on("click", (event, d) => {
+                        d.children = d.children ? null : d._children;
+                        update(d);
+                    });
+
+                nodeEnter.append('circle')
+                    .attr('class', 'node')
+                    .attr('r', 1e-6)
+                    .style("fill", d => d._children ? "#2980b9" : "#fff")
+                    .style("stroke", "#2980b9")
+                    .style("stroke-width", "2px");
+
+                nodeEnter.append('text')
+                    .attr("dy", ".35em")
+                    .attr("x", d => d.children || d._children ? -13 : 13)
+                    .attr("text-anchor", d => d.children || d._children ? "end" : "start")
+                    .text(d => d.data.name);
+
+                const nodeUpdate = nodeEnter.merge(node);
+
+                nodeUpdate.transition()
+                    .duration(200)
+                    .attr("transform", d => `translate(${d.y},${d.x})`);
+
+                nodeUpdate.select('circle')
+                    .attr('r', 6)
+                    .style("fill", d => d._children ? "#2980b9" : "#fff");
+
+                node.exit().transition()
+                    .duration(200)
+                    .attr("transform", d => `translate(${source.y},${source.x})`)
+                    .remove()
+                    .select('circle')
+                    .attr('r', 1e-6);
+
+                // Links
+                const link = svg.selectAll('path.link')
+                    .data(links, d => d.target.id);
+
+                const linkEnter = link.enter().insert('path', "g")
+                    .attr("class", "link")
+                    .style("stroke", d => d.target.data.source === "llm-generated" ? "red" : "#ccc")
+                    .attr('d', d => {
+                        const o = { x: source.x0, y: source.y0 };
+                        return diagonal(o, o);
+                    });
+
+                link.merge(linkEnter).transition()
+                    .duration(200)
+                    .style("stroke", d => d.target.data.source === "llm-generated" ? "red" : "#ccc")
+                    .attr('d', d => diagonal(d.source, d.target));
+
+                link.exit().transition()
+                    .duration(200)
+                    .attr('d', d => {
+                        const o = { x: source.x, y: source.y };
+                        return diagonal(o, o);
+                    })
+                    .remove();
+
+                nodes.forEach(d => {
+                    d.x0 = d.x;
+                    d.y0 = d.y;
+                });
+            }
+
+            function diagonal(s, d) {
+                return `M ${s.y} ${s.x}
+                        C ${(s.y + d.y) / 2} ${s.x},
+                        ${(s.y + d.y) / 2} ${d.x},
+                        ${d.y} ${d.x}`;
+            }
+
+            function collapse(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d._children.forEach(collapse);
+                    d.children = null;
+                }
+            }
+
+            let i = 0;
+            root.children.forEach(collapse); // Start collapsed
+            update(root);
+        }
+
+        function renderTreeEnriched(data) {
+            const container = document.getElementById("taxonomy-tree-enrich");
+            container.innerHTML = ''; // Clear previous tree
+
+            const width = container.clientWidth || 800;
+            const height = 600;
+
+            const margin = { top: 20, right: 90, bottom: 30, left: 90 };
+            const svg = d3.select("#taxonomy-tree-enrich")
+                .attr("width", width)
+                .attr("height", height)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+
+            const root = d3.hierarchy(data);
+            root.x0 = height / 2;
+            root.y0 = 0;
+
+            const treeLayout = d3.tree().size([height, width - 180]);
+
+            function update(source) {
+                const treeData = treeLayout(root);
+                const nodes = treeData.descendants();
+                const links = treeData.links();
+
+                nodes.forEach(d => d.y = d.depth * 180);
+
+                // Nodes
+                const node = svg.selectAll('g.node')
+                    .data(nodes, d => d.id || (d.id = ++i));
+
+                const nodeEnter = node.enter().append('g')
+                    .attr('class', 'node')
+                    .attr("transform", d => `translate(${source.y0},${source.x0})`)
+                    .on("click", (event, d) => {
+                        d.children = d.children ? null : d._children;
+                        update(d);
+                    });
+
+                nodeEnter.append('circle')
+                    .attr('class', 'node')
+                    .attr('r', 1e-6)
+                    .style("fill", d => d._children ? "#2980b9" : "#fff")
+                    .style("stroke", "#2980b9")
+                    .style("stroke-width", "2px");
+
+                nodeEnter.append('text')
+                    .attr("dy", ".35em")
+                    .attr("x", d => d.children || d._children ? -13 : 13)
+                    .attr("text-anchor", d => d.children || d._children ? "end" : "start")
+                    .text(d => d.data.name);
+
+                const nodeUpdate = nodeEnter.merge(node);
+
+                nodeUpdate.transition()
+                    .duration(200)
+                    .attr("transform", d => `translate(${d.y},${d.x})`);
+
+                nodeUpdate.select('circle')
+                    .attr('r', 6)
+                    .style("fill", d => d._children ? "#2980b9" : "#fff");
+
+                node.exit().transition()
+                    .duration(200)
+                    .attr("transform", d => `translate(${source.y},${source.x})`)
+                    .remove()
+                    .select('circle')
+                    .attr('r', 1e-6);
+
+                // Links
+                const link = svg.selectAll('path.link')
+                    .data(links, d => d.target.id);
+
+                const linkEnter = link.enter().insert('path', "g")
+                    .attr("class", "link")
+                    .style("stroke", d => d.target.data.source === "llm-generated" ? "red" : "#ccc")
+                    .attr('d', d => {
+                        const o = { x: source.x0, y: source.y0 };
+                        return diagonal(o, o);
+                    });
+
+                link.merge(linkEnter).transition()
+                    .duration(200)
+                    .style("stroke", d => d.target.data.source === "llm-generated" ? "red" : "#ccc")
+                    .attr('d', d => diagonal(d.source, d.target));
+
+                link.exit().transition()
+                    .duration(200)
+                    .attr('d', d => {
+                        const o = { x: source.x, y: source.y };
+                        return diagonal(o, o);
+                    })
+                    .remove();
+
+                nodes.forEach(d => {
+                    d.x0 = d.x;
+                    d.y0 = d.y;
+                });
+            }
+
+            function diagonal(s, d) {
+                return `M ${s.y} ${s.x}
+                        C ${(s.y + d.y) / 2} ${s.x},
+                        ${(s.y + d.y) / 2} ${d.x},
+                        ${d.y} ${d.x}`;
+            }
+
+            function collapse(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d._children.forEach(collapse);
+                    d.children = null;
+                }
+            }
+
+            let i = 0;
+            root.children.forEach(collapse); // Start collapsed
+            update(root);
+        }
+
+
+    </script>
+    <footer style="text-align: center; padding: 8px 10px; background-color: #c3e6cb; margin-top: 40px;">
+        <p style="margin: 0; font-size: 0.9rem; color: #155724;">
+            &copy; 2025 Taxoria — Developed by<br>
+            <strong style="color: #0b2e13;">Zeinab Ghamlouch</strong>,
+            <strong> <a href="https://sites.google.com/view/mehwish-alam/home" target="_blank" style="color: #0b2e13; text-decoration: underline;">
+                Mehwish Alam
+            </a> </strong>
+        </p>
+        <p style="margin-top: 10px; font-size: 0.85rem; color: #155724;">
+        <a href="https://github.com/zeinabGhamlouch/Taxoria" target="_blank"> 
+           <img src="/public/githublogo.png" alt="GitHub" style="height: 25px; vertical-align: middle;">
+        </a>
+        </p>
+    </footer>
+</body>
+</html>
