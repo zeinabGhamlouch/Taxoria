@@ -1,0 +1,14 @@
+flask
+requests
+gunicorn
+llama-index
+llama_index.embeddings.huggingface
+langchain
+langchain_community.llms
+huggingface-hub
+numpy
+sys
+os
+json
+re
+typing
