@@ -51,10 +51,17 @@ pip install -r requirements.txt
 ```
 
 #### 3. **Run the demo**
-Once everything is set up, you can run the demo to enrich the taxonomy. This will use the sample `example_taxonomy.json` file as input and generate an enriched version:
+Once everything is set up, you can run the demo locally to enrich your own taxxxonomy or one of the samples provided there:
 
 ```bash
-python -m demo.run_demo
+python -m demo.app
+```
+After running this command, you'll be able to interact with our tool Taxoria to enrich, merge, analyze and visualize.
+
+Or you can just try the enriching pipeline which will use the sample `example_taxonomy.json` file as input and generate an enriched version:
+
+```bash
+python -m demo.app
 ```
 
 After running this command, the enriched taxonomy will be saved to `enriching_example/example_taxonomy_enriched.json`.
