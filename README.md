@@ -29,6 +29,8 @@ Install Ollama from [https://ollama.com/](https://ollama.com/).
       ```
       
     2. Ensure the Ollama service is running.
+    
+Make sure your system is connected to a **GPU** if you plan to run the demo locally for optimal performance. 
 
 ### Installation & Local Setup
 
@@ -55,7 +57,7 @@ Once everything is set up, you can run the demo to enrich the taxonomy. This wil
 python -m demo.run_demo
 ```
 
-After running this command, the enriched taxonomy will be saved to `demo_example/example_taxonomy_enriched.json`.
+After running this command, the enriched taxonomy will be saved to `enriching_example/example_taxonomy_enriched.json`.
 
 ## 4. Examples
 In the `examples` folder, you can find various taxonomies we worked with and enriched using LLMs. Additionally, we've provided interactive **collapsible tree** visualizations of these taxonomies, which you can explore directly by clicking the links below.
