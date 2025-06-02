@@ -1,0 +1,13 @@
+{
+    "name": "Winter Sports",
+    "children": [
+        {
+            "name": "Skiing, Snowboarding & Snowshoeing",
+            "children": []
+        },
+        {
+            "name": "Winter Sports Clothing",
+            "children": []
+        }
+    ]
+}

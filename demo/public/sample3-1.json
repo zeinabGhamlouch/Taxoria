@@ -1,0 +1,18 @@
+{
+    "name": "Organization",
+    "children": [
+        {
+            "name": "OnlineBusiness",
+            "children": [
+                {
+                    "name": "e-commerce",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "NGO",
+            "children": []
+        }
+    ]
+}

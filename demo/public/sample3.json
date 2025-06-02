@@ -1,0 +1,14 @@
+{
+    "name": "Organization",
+    "children": [
+        {
+            "name": "OnlineBusiness",
+            "children": [
+                {
+                    "name": "OnlineStore",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

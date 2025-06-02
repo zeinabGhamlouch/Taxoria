@@ -1,0 +1,17 @@
+{
+    "name": "Men's Clothing, Shoes & Accessories",
+    "children": [
+        {
+            "name": "Men's Shoes",
+            "children": []
+        },
+        {
+            "name": "Men's Clothing",
+            "children": []
+        },
+        {
+            "name": "Men's Accessories",
+            "children": []
+        }
+    ]
+}

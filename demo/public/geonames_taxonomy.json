@@ -1,0 +1,2770 @@
+{
+    "name": "geo-geonames",
+    "children": [
+        {
+            "name": "country, state, region,...",
+            "children": [
+                {
+                    "name": "first-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "historical first-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "second-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "historical second-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "third-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "historical third-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "fourth-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "historical fourth-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "fifth-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "historical fifth-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "administrative division",
+                    "children": []
+                },
+                {
+                    "name": "historical administrative division ",
+                    "children": []
+                },
+                {
+                    "name": "leased area",
+                    "children": []
+                },
+                {
+                    "name": "political entity",
+                    "children": []
+                },
+                {
+                    "name": "dependent political entity",
+                    "children": []
+                },
+                {
+                    "name": "freely associated state",
+                    "children": []
+                },
+                {
+                    "name": "historical political entity",
+                    "children": []
+                },
+                {
+                    "name": "independent political entity",
+                    "children": []
+                },
+                {
+                    "name": "section of independent political entity",
+                    "children": []
+                },
+                {
+                    "name": "semi-independent political entity",
+                    "children": []
+                },
+                {
+                    "name": "parish",
+                    "children": []
+                },
+                {
+                    "name": "territory",
+                    "children": []
+                },
+                {
+                    "name": "zone",
+                    "children": []
+                },
+                {
+                    "name": "buffer zone",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "stream, lake, ...",
+            "children": [
+                {
+                    "name": "seaplane landing area",
+                    "children": []
+                },
+                {
+                    "name": "anchorage",
+                    "children": []
+                },
+                {
+                    "name": "bay",
+                    "children": []
+                },
+                {
+                    "name": "bays",
+                    "children": []
+                },
+                {
+                    "name": "bight(s)",
+                    "children": []
+                },
+                {
+                    "name": "bank(s)",
+                    "children": []
+                },
+                {
+                    "name": "stream bank",
+                    "children": []
+                },
+                {
+                    "name": "section of bank",
+                    "children": []
+                },
+                {
+                    "name": "bog(s)",
+                    "children": []
+                },
+                {
+                    "name": "icecap",
+                    "children": []
+                },
+                {
+                    "name": "channel",
+                    "children": []
+                },
+                {
+                    "name": "lake channel(s)",
+                    "children": []
+                },
+                {
+                    "name": "marine channel",
+                    "children": []
+                },
+                {
+                    "name": "navigation channel",
+                    "children": []
+                },
+                {
+                    "name": "confluence",
+                    "children": []
+                },
+                {
+                    "name": "canal",
+                    "children": []
+                },
+                {
+                    "name": "aqueduct",
+                    "children": []
+                },
+                {
+                    "name": "canal bend",
+                    "children": []
+                },
+                {
+                    "name": "drainage canal",
+                    "children": []
+                },
+                {
+                    "name": "irrigation canal",
+                    "children": []
+                },
+                {
+                    "name": "navigation canal(s)",
+                    "children": []
+                },
+                {
+                    "name": "abandoned canal",
+                    "children": []
+                },
+                {
+                    "name": "underground irrigation canal(s)",
+                    "children": []
+                },
+                {
+                    "name": "section of canal",
+                    "children": []
+                },
+                {
+                    "name": "cove(s)",
+                    "children": []
+                },
+                {
+                    "name": "tidal creek(s)",
+                    "children": []
+                },
+                {
+                    "name": "current",
+                    "children": []
+                },
+                {
+                    "name": "cutoff",
+                    "children": []
+                },
+                {
+                    "name": "dock(s)",
+                    "children": []
+                },
+                {
+                    "name": "docking basin",
+                    "children": []
+                },
+                {
+                    "name": "icecap dome",
+                    "children": []
+                },
+                {
+                    "name": "icecap depression",
+                    "children": []
+                },
+                {
+                    "name": "ditch",
+                    "children": []
+                },
+                {
+                    "name": "drainage ditch",
+                    "children": []
+                },
+                {
+                    "name": "irrigation ditch",
+                    "children": []
+                },
+                {
+                    "name": "ditch mouth(s)",
+                    "children": []
+                },
+                {
+                    "name": "estuary",
+                    "children": []
+                },
+                {
+                    "name": "fishing area",
+                    "children": []
+                },
+                {
+                    "name": "fjord",
+                    "children": []
+                },
+                {
+                    "name": "fjords",
+                    "children": []
+                },
+                {
+                    "name": "waterfall(s)",
+                    "children": []
+                },
+                {
+                    "name": "section of waterfall(s)",
+                    "children": []
+                },
+                {
+                    "name": "mud flat(s)",
+                    "children": []
+                },
+                {
+                    "name": "tidal flat(s)",
+                    "children": []
+                },
+                {
+                    "name": "glacier(s)",
+                    "children": []
+                },
+                {
+                    "name": "gulf",
+                    "children": []
+                },
+                {
+                    "name": "geyser",
+                    "children": []
+                },
+                {
+                    "name": "harbor(s)",
+                    "children": []
+                },
+                {
+                    "name": "section of harbor",
+                    "children": []
+                },
+                {
+                    "name": "inlet",
+                    "children": []
+                },
+                {
+                    "name": "former inlet",
+                    "children": []
+                },
+                {
+                    "name": "lake bed(s)",
+                    "children": []
+                },
+                {
+                    "name": "lagoon",
+                    "children": []
+                },
+                {
+                    "name": "lagoons",
+                    "children": []
+                },
+                {
+                    "name": "section of lagoon",
+                    "children": []
+                },
+                {
+                    "name": "lake",
+                    "children": []
+                },
+                {
+                    "name": "crater lake",
+                    "children": []
+                },
+                {
+                    "name": "intermittent lake",
+                    "children": []
+                },
+                {
+                    "name": "salt lake",
+                    "children": []
+                },
+                {
+                    "name": "intermittent salt lake",
+                    "children": []
+                },
+                {
+                    "name": "oxbow lake",
+                    "children": []
+                },
+                {
+                    "name": "intermittent oxbow lake",
+                    "children": []
+                },
+                {
+                    "name": "lakes",
+                    "children": []
+                },
+                {
+                    "name": "underground lake",
+                    "children": []
+                },
+                {
+                    "name": "crater lakes",
+                    "children": []
+                },
+                {
+                    "name": "intermittent lakes",
+                    "children": []
+                },
+                {
+                    "name": "salt lakes",
+                    "children": []
+                },
+                {
+                    "name": "intermittent salt lakes",
+                    "children": []
+                },
+                {
+                    "name": "section of lake",
+                    "children": []
+                },
+                {
+                    "name": "salt evaporation ponds",
+                    "children": []
+                },
+                {
+                    "name": "mangrove swamp",
+                    "children": []
+                },
+                {
+                    "name": "moor(s)",
+                    "children": []
+                },
+                {
+                    "name": "marsh(es)",
+                    "children": []
+                },
+                {
+                    "name": "salt marsh",
+                    "children": []
+                },
+                {
+                    "name": "narrows",
+                    "children": []
+                },
+                {
+                    "name": "ocean",
+                    "children": []
+                },
+                {
+                    "name": "overfalls",
+                    "children": []
+                },
+                {
+                    "name": "pond",
+                    "children": []
+                },
+                {
+                    "name": "intermittent pond",
+                    "children": []
+                },
+                {
+                    "name": "salt pond",
+                    "children": []
+                },
+                {
+                    "name": "intermittent salt pond(s)",
+                    "children": []
+                },
+                {
+                    "name": "ponds",
+                    "children": []
+                },
+                {
+                    "name": "fishponds",
+                    "children": []
+                },
+                {
+                    "name": "intermittent ponds",
+                    "children": []
+                },
+                {
+                    "name": "salt ponds",
+                    "children": []
+                },
+                {
+                    "name": "pool(s)",
+                    "children": []
+                },
+                {
+                    "name": "intermittent pool",
+                    "children": []
+                },
+                {
+                    "name": "reach",
+                    "children": []
+                },
+                {
+                    "name": "icecap ridge",
+                    "children": []
+                },
+                {
+                    "name": "roadstead",
+                    "children": []
+                },
+                {
+                    "name": "reef(s)",
+                    "children": []
+                },
+                {
+                    "name": "coral reef(s)",
+                    "children": []
+                },
+                {
+                    "name": "section of reef",
+                    "children": []
+                },
+                {
+                    "name": "rapids",
+                    "children": []
+                },
+                {
+                    "name": "reservoir(s)",
+                    "children": []
+                },
+                {
+                    "name": "intermittent reservoir",
+                    "children": []
+                },
+                {
+                    "name": "water tank",
+                    "children": []
+                },
+                {
+                    "name": "ravine(s)",
+                    "children": []
+                },
+                {
+                    "name": "sabkha(s)",
+                    "children": []
+                },
+                {
+                    "name": "sound",
+                    "children": []
+                },
+                {
+                    "name": "sea",
+                    "children": []
+                },
+                {
+                    "name": "shoal(s)",
+                    "children": []
+                },
+                {
+                    "name": "sill",
+                    "children": []
+                },
+                {
+                    "name": "spring(s)",
+                    "children": []
+                },
+                {
+                    "name": "sulphur spring(s)",
+                    "children": []
+                },
+                {
+                    "name": "hot spring(s)",
+                    "children": []
+                },
+                {
+                    "name": "stream",
+                    "children": []
+                },
+                {
+                    "name": "anabranch",
+                    "children": []
+                },
+                {
+                    "name": "stream bend",
+                    "children": []
+                },
+                {
+                    "name": "canalized stream",
+                    "children": []
+                },
+                {
+                    "name": "distributary(-ies)",
+                    "children": []
+                },
+                {
+                    "name": "headwaters",
+                    "children": []
+                },
+                {
+                    "name": "intermittent stream",
+                    "children": []
+                },
+                {
+                    "name": "section of intermittent stream",
+                    "children": []
+                },
+                {
+                    "name": "stream mouth(s)",
+                    "children": []
+                },
+                {
+                    "name": "abandoned watercourse",
+                    "children": []
+                },
+                {
+                    "name": "streams",
+                    "children": []
+                },
+                {
+                    "name": "lost river",
+                    "children": []
+                },
+                {
+                    "name": "section of stream",
+                    "children": []
+                },
+                {
+                    "name": "strait",
+                    "children": []
+                },
+                {
+                    "name": "swamp",
+                    "children": []
+                },
+                {
+                    "name": "irrigation system",
+                    "children": []
+                },
+                {
+                    "name": "canal tunnel",
+                    "children": []
+                },
+                {
+                    "name": "wadi",
+                    "children": []
+                },
+                {
+                    "name": "wadi bend",
+                    "children": []
+                },
+                {
+                    "name": "wadi junction",
+                    "children": []
+                },
+                {
+                    "name": "wadi mouth",
+                    "children": []
+                },
+                {
+                    "name": "wadies",
+                    "children": []
+                },
+                {
+                    "name": "section of wadi",
+                    "children": []
+                },
+                {
+                    "name": "whirlpool",
+                    "children": []
+                },
+                {
+                    "name": "well",
+                    "children": []
+                },
+                {
+                    "name": "abandoned well",
+                    "children": []
+                },
+                {
+                    "name": "wells",
+                    "children": []
+                },
+                {
+                    "name": "wetland",
+                    "children": []
+                },
+                {
+                    "name": "intermittent wetland",
+                    "children": []
+                },
+                {
+                    "name": "watercourse",
+                    "children": []
+                },
+                {
+                    "name": "waterhole(s)",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "parks,area, ...",
+            "children": [
+                {
+                    "name": "agricultural colony",
+                    "children": []
+                },
+                {
+                    "name": "amusement park",
+                    "children": []
+                },
+                {
+                    "name": "area",
+                    "children": []
+                },
+                {
+                    "name": "drainage basin",
+                    "children": []
+                },
+                {
+                    "name": "petroleum basin",
+                    "children": []
+                },
+                {
+                    "name": "battlefield",
+                    "children": []
+                },
+                {
+                    "name": "clearing",
+                    "children": []
+                },
+                {
+                    "name": "common",
+                    "children": []
+                },
+                {
+                    "name": "concession area",
+                    "children": []
+                },
+                {
+                    "name": "coalfield",
+                    "children": []
+                },
+                {
+                    "name": "continent",
+                    "children": []
+                },
+                {
+                    "name": "coast",
+                    "children": []
+                },
+                {
+                    "name": "business center",
+                    "children": []
+                },
+                {
+                    "name": "housing development",
+                    "children": []
+                },
+                {
+                    "name": "field(s)",
+                    "children": []
+                },
+                {
+                    "name": "irrigated field(s)",
+                    "children": []
+                },
+                {
+                    "name": "gasfield",
+                    "children": []
+                },
+                {
+                    "name": "grazing area",
+                    "children": []
+                },
+                {
+                    "name": "gravel area",
+                    "children": []
+                },
+                {
+                    "name": "industrial area",
+                    "children": []
+                },
+                {
+                    "name": "arctic land",
+                    "children": []
+                },
+                {
+                    "name": "locality",
+                    "children": []
+                },
+                {
+                    "name": "military base",
+                    "children": []
+                },
+                {
+                    "name": "mining area",
+                    "children": []
+                },
+                {
+                    "name": "maneuver area",
+                    "children": []
+                },
+                {
+                    "name": "naval base",
+                    "children": []
+                },
+                {
+                    "name": "oasis(-es)",
+                    "children": []
+                },
+                {
+                    "name": "oilfield",
+                    "children": []
+                },
+                {
+                    "name": "peat cutting area",
+                    "children": []
+                },
+                {
+                    "name": "park",
+                    "children": []
+                },
+                {
+                    "name": "port",
+                    "children": []
+                },
+                {
+                    "name": "quicksand",
+                    "children": []
+                },
+                {
+                    "name": "reserve",
+                    "children": []
+                },
+                {
+                    "name": "agricultural reserve",
+                    "children": []
+                },
+                {
+                    "name": "forest reserve",
+                    "children": []
+                },
+                {
+                    "name": "hunting reserve",
+                    "children": []
+                },
+                {
+                    "name": "nature reserve",
+                    "children": []
+                },
+                {
+                    "name": "palm tree reserve",
+                    "children": []
+                },
+                {
+                    "name": "reservation",
+                    "children": []
+                },
+                {
+                    "name": "wildlife reserve",
+                    "children": []
+                },
+                {
+                    "name": "region",
+                    "children": []
+                },
+                {
+                    "name": "economic region",
+                    "children": []
+                },
+                {
+                    "name": "historical region",
+                    "children": []
+                },
+                {
+                    "name": "lake region",
+                    "children": []
+                },
+                {
+                    "name": "artillery range",
+                    "children": []
+                },
+                {
+                    "name": "salt area",
+                    "children": []
+                },
+                {
+                    "name": "snowfield",
+                    "children": []
+                },
+                {
+                    "name": "tribal area",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "city, village,...",
+            "children": [
+                {
+                    "name": "populated place",
+                    "children": []
+                },
+                {
+                    "name": "seat of a first-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "seat of a second-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "seat of a third-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "seat of a fourth-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "seat of a fifth-order administrative division",
+                    "children": []
+                },
+                {
+                    "name": "capital of a political entity",
+                    "children": []
+                },
+                {
+                    "name": "historical capital of a political entity",
+                    "children": []
+                },
+                {
+                    "name": "farm village",
+                    "children": []
+                },
+                {
+                    "name": "seat of government of a political entity",
+                    "children": []
+                },
+                {
+                    "name": "historical populated place",
+                    "children": []
+                },
+                {
+                    "name": "populated locality",
+                    "children": []
+                },
+                {
+                    "name": "abandoned populated place",
+                    "children": []
+                },
+                {
+                    "name": "religious populated place",
+                    "children": []
+                },
+                {
+                    "name": "populated places",
+                    "children": []
+                },
+                {
+                    "name": "destroyed populated place",
+                    "children": []
+                },
+                {
+                    "name": "section of populated place",
+                    "children": []
+                },
+                {
+                    "name": "israeli settlement",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "road, railroad",
+            "children": [
+                {
+                    "name": "causeway",
+                    "children": []
+                },
+                {
+                    "name": "oil pipeline",
+                    "children": []
+                },
+                {
+                    "name": "promenade",
+                    "children": []
+                },
+                {
+                    "name": "portage",
+                    "children": []
+                },
+                {
+                    "name": "road",
+                    "children": []
+                },
+                {
+                    "name": "ancient road",
+                    "children": []
+                },
+                {
+                    "name": "road bend",
+                    "children": []
+                },
+                {
+                    "name": "road cut",
+                    "children": []
+                },
+                {
+                    "name": "road junction",
+                    "children": []
+                },
+                {
+                    "name": "railroad junction",
+                    "children": []
+                },
+                {
+                    "name": "railroad",
+                    "children": []
+                },
+                {
+                    "name": "abandoned railroad",
+                    "children": []
+                },
+                {
+                    "name": "caravan route",
+                    "children": []
+                },
+                {
+                    "name": "railroad yard",
+                    "children": []
+                },
+                {
+                    "name": "street",
+                    "children": []
+                },
+                {
+                    "name": "stock route",
+                    "children": []
+                },
+                {
+                    "name": "tunnel",
+                    "children": []
+                },
+                {
+                    "name": "natural tunnel",
+                    "children": []
+                },
+                {
+                    "name": "road tunnel",
+                    "children": []
+                },
+                {
+                    "name": "railroad tunnel",
+                    "children": []
+                },
+                {
+                    "name": "tunnels",
+                    "children": []
+                },
+                {
+                    "name": "trail",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "spot, building, farm",
+            "children": [
+                {
+                    "name": "administrative facility",
+                    "children": []
+                },
+                {
+                    "name": "agricultural facility",
+                    "children": []
+                },
+                {
+                    "name": "airbase",
+                    "children": []
+                },
+                {
+                    "name": "airfield",
+                    "children": []
+                },
+                {
+                    "name": "heliport",
+                    "children": []
+                },
+                {
+                    "name": "airport",
+                    "children": []
+                },
+                {
+                    "name": "abandoned airfield",
+                    "children": []
+                },
+                {
+                    "name": "terminal",
+                    "children": []
+                },
+                {
+                    "name": "amphitheater",
+                    "children": []
+                },
+                {
+                    "name": "archaeological/prehistoric site",
+                    "children": []
+                },
+                {
+                    "name": "aquaculture facility",
+                    "children": []
+                },
+                {
+                    "name": "arch",
+                    "children": []
+                },
+                {
+                    "name": "archive",
+                    "children": []
+                },
+                {
+                    "name": "piece of art",
+                    "children": []
+                },
+                {
+                    "name": "astronomical station",
+                    "children": []
+                },
+                {
+                    "name": "asylum",
+                    "children": []
+                },
+                {
+                    "name": "athletic field",
+                    "children": []
+                },
+                {
+                    "name": "automatic teller machine",
+                    "children": []
+                },
+                {
+                    "name": "bank",
+                    "children": []
+                },
+                {
+                    "name": "beacon",
+                    "children": []
+                },
+                {
+                    "name": "bridge",
+                    "children": []
+                },
+                {
+                    "name": "ruined bridge",
+                    "children": []
+                },
+                {
+                    "name": "apartment building",
+                    "children": []
+                },
+                {
+                    "name": "building(s)",
+                    "children": []
+                },
+                {
+                    "name": "office building",
+                    "children": []
+                },
+                {
+                    "name": "boundary marker",
+                    "children": []
+                },
+                {
+                    "name": "barracks",
+                    "children": []
+                },
+                {
+                    "name": "breakwater",
+                    "children": []
+                },
+                {
+                    "name": "baling station",
+                    "children": []
+                },
+                {
+                    "name": "boatyard",
+                    "children": []
+                },
+                {
+                    "name": "burial cave(s)",
+                    "children": []
+                },
+                {
+                    "name": "bus station",
+                    "children": []
+                },
+                {
+                    "name": "bus stop",
+                    "children": []
+                },
+                {
+                    "name": "cairn",
+                    "children": []
+                },
+                {
+                    "name": "cave(s)",
+                    "children": []
+                },
+                {
+                    "name": "church",
+                    "children": []
+                },
+                {
+                    "name": "camp(s)",
+                    "children": []
+                },
+                {
+                    "name": "logging camp",
+                    "children": []
+                },
+                {
+                    "name": "labor camp",
+                    "children": []
+                },
+                {
+                    "name": "mining camp",
+                    "children": []
+                },
+                {
+                    "name": "oil camp",
+                    "children": []
+                },
+                {
+                    "name": "abandoned camp",
+                    "children": []
+                },
+                {
+                    "name": "refugee camp",
+                    "children": []
+                },
+                {
+                    "name": "cemetery",
+                    "children": []
+                },
+                {
+                    "name": "communication center",
+                    "children": []
+                },
+                {
+                    "name": "corral(s)",
+                    "children": []
+                },
+                {
+                    "name": "casino",
+                    "children": []
+                },
+                {
+                    "name": "castle",
+                    "children": []
+                },
+                {
+                    "name": "customs house",
+                    "children": []
+                },
+                {
+                    "name": "courthouse",
+                    "children": []
+                },
+                {
+                    "name": "atomic center",
+                    "children": []
+                },
+                {
+                    "name": "community center",
+                    "children": []
+                },
+                {
+                    "name": "facility center",
+                    "children": []
+                },
+                {
+                    "name": "medical center",
+                    "children": []
+                },
+                {
+                    "name": "religious center",
+                    "children": []
+                },
+                {
+                    "name": "space center",
+                    "children": []
+                },
+                {
+                    "name": "convent",
+                    "children": []
+                },
+                {
+                    "name": "dam",
+                    "children": []
+                },
+                {
+                    "name": "ruined dam",
+                    "children": []
+                },
+                {
+                    "name": "sub-surface dam",
+                    "children": []
+                },
+                {
+                    "name": "dairy",
+                    "children": []
+                },
+                {
+                    "name": "dry dock",
+                    "children": []
+                },
+                {
+                    "name": "dockyard",
+                    "children": []
+                },
+                {
+                    "name": "dike",
+                    "children": []
+                },
+                {
+                    "name": "diplomatic facility",
+                    "children": []
+                },
+                {
+                    "name": "fuel depot",
+                    "children": []
+                },
+                {
+                    "name": "estate(s)",
+                    "children": []
+                },
+                {
+                    "name": "oil palm plantation",
+                    "children": []
+                },
+                {
+                    "name": "rubber plantation",
+                    "children": []
+                },
+                {
+                    "name": "sugar plantation",
+                    "children": []
+                },
+                {
+                    "name": "tea plantation",
+                    "children": []
+                },
+                {
+                    "name": "section of estate",
+                    "children": []
+                },
+                {
+                    "name": "facility",
+                    "children": []
+                },
+                {
+                    "name": "foundry",
+                    "children": []
+                },
+                {
+                    "name": "farm",
+                    "children": []
+                },
+                {
+                    "name": "abandoned farm",
+                    "children": []
+                },
+                {
+                    "name": "farms",
+                    "children": []
+                },
+                {
+                    "name": "farmstead",
+                    "children": []
+                },
+                {
+                    "name": "fort",
+                    "children": []
+                },
+                {
+                    "name": "ferry",
+                    "children": []
+                },
+                {
+                    "name": "ferry terminal",
+                    "children": []
+                },
+                {
+                    "name": "gate",
+                    "children": []
+                },
+                {
+                    "name": "garden(s)",
+                    "children": []
+                },
+                {
+                    "name": "ghat",
+                    "children": []
+                },
+                {
+                    "name": "guest house",
+                    "children": []
+                },
+                {
+                    "name": "gas-oil separator plant",
+                    "children": []
+                },
+                {
+                    "name": "local government office",
+                    "children": []
+                },
+                {
+                    "name": "grave",
+                    "children": []
+                },
+                {
+                    "name": "hermitage",
+                    "children": []
+                },
+                {
+                    "name": "halting place",
+                    "children": []
+                },
+                {
+                    "name": "homestead",
+                    "children": []
+                },
+                {
+                    "name": "house(s)",
+                    "children": []
+                },
+                {
+                    "name": "country house",
+                    "children": []
+                },
+                {
+                    "name": "hospital",
+                    "children": []
+                },
+                {
+                    "name": "clinic",
+                    "children": []
+                },
+                {
+                    "name": "dispensary",
+                    "children": []
+                },
+                {
+                    "name": "leprosarium",
+                    "children": []
+                },
+                {
+                    "name": "historical site",
+                    "children": []
+                },
+                {
+                    "name": "hotel",
+                    "children": []
+                },
+                {
+                    "name": "hut",
+                    "children": []
+                },
+                {
+                    "name": "huts",
+                    "children": []
+                },
+                {
+                    "name": "military installation",
+                    "children": []
+                },
+                {
+                    "name": "research institute",
+                    "children": []
+                },
+                {
+                    "name": "jetty",
+                    "children": []
+                },
+                {
+                    "name": "landing",
+                    "children": []
+                },
+                {
+                    "name": "leper colony",
+                    "children": []
+                },
+                {
+                    "name": "library",
+                    "children": []
+                },
+                {
+                    "name": "landfill",
+                    "children": []
+                },
+                {
+                    "name": "lock(s)",
+                    "children": []
+                },
+                {
+                    "name": "lighthouse",
+                    "children": []
+                },
+                {
+                    "name": "mall",
+                    "children": []
+                },
+                {
+                    "name": "marina",
+                    "children": []
+                },
+                {
+                    "name": "factory",
+                    "children": []
+                },
+                {
+                    "name": "brewery",
+                    "children": []
+                },
+                {
+                    "name": "cannery",
+                    "children": []
+                },
+                {
+                    "name": "copper works",
+                    "children": []
+                },
+                {
+                    "name": "limekiln",
+                    "children": []
+                },
+                {
+                    "name": "munitions plant",
+                    "children": []
+                },
+                {
+                    "name": "phosphate works",
+                    "children": []
+                },
+                {
+                    "name": "abandoned factory",
+                    "children": []
+                },
+                {
+                    "name": "sugar refinery",
+                    "children": []
+                },
+                {
+                    "name": "market",
+                    "children": []
+                },
+                {
+                    "name": "mill(s)",
+                    "children": []
+                },
+                {
+                    "name": "ore treatment plant",
+                    "children": []
+                },
+                {
+                    "name": "olive oil mill",
+                    "children": []
+                },
+                {
+                    "name": "sugar mill",
+                    "children": []
+                },
+                {
+                    "name": "former sugar mill",
+                    "children": []
+                },
+                {
+                    "name": "sawmill",
+                    "children": []
+                },
+                {
+                    "name": "windmill",
+                    "children": []
+                },
+                {
+                    "name": "water mill",
+                    "children": []
+                },
+                {
+                    "name": "mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "gold mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "coal mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "chrome mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "copper mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "iron mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "monument",
+                    "children": []
+                },
+                {
+                    "name": "salt mine(s)",
+                    "children": []
+                },
+                {
+                    "name": "abandoned mine",
+                    "children": []
+                },
+                {
+                    "name": "quarry(-ies)",
+                    "children": []
+                },
+                {
+                    "name": "mole",
+                    "children": []
+                },
+                {
+                    "name": "mosque",
+                    "children": []
+                },
+                {
+                    "name": "mission",
+                    "children": []
+                },
+                {
+                    "name": "abandoned mission",
+                    "children": []
+                },
+                {
+                    "name": "monastery",
+                    "children": []
+                },
+                {
+                    "name": "metro station",
+                    "children": []
+                },
+                {
+                    "name": "museum",
+                    "children": []
+                },
+                {
+                    "name": "novitiate",
+                    "children": []
+                },
+                {
+                    "name": "nursery(-ies)",
+                    "children": []
+                },
+                {
+                    "name": "observation point",
+                    "children": []
+                },
+                {
+                    "name": "observatory",
+                    "children": []
+                },
+                {
+                    "name": "radio observatory",
+                    "children": []
+                },
+                {
+                    "name": "oil pipeline junction",
+                    "children": []
+                },
+                {
+                    "name": "abandoned oil well",
+                    "children": []
+                },
+                {
+                    "name": "oil refinery",
+                    "children": []
+                },
+                {
+                    "name": "tank farm",
+                    "children": []
+                },
+                {
+                    "name": "oil well",
+                    "children": []
+                },
+                {
+                    "name": "opera house",
+                    "children": []
+                },
+                {
+                    "name": "palace",
+                    "children": []
+                },
+                {
+                    "name": "pagoda",
+                    "children": []
+                },
+                {
+                    "name": "pier",
+                    "children": []
+                },
+                {
+                    "name": "parking lot",
+                    "children": []
+                },
+                {
+                    "name": "oil pumping station",
+                    "children": []
+                },
+                {
+                    "name": "water pumping station",
+                    "children": []
+                },
+                {
+                    "name": "post office",
+                    "children": []
+                },
+                {
+                    "name": "police post",
+                    "children": []
+                },
+                {
+                    "name": "abandoned police post",
+                    "children": []
+                },
+                {
+                    "name": "park gate",
+                    "children": []
+                },
+                {
+                    "name": "park headquarters",
+                    "children": []
+                },
+                {
+                    "name": "prison",
+                    "children": []
+                },
+                {
+                    "name": "reformatory",
+                    "children": []
+                },
+                {
+                    "name": "abandoned prison",
+                    "children": []
+                },
+                {
+                    "name": "power station",
+                    "children": []
+                },
+                {
+                    "name": "hydroelectric power station",
+                    "children": []
+                },
+                {
+                    "name": "nuclear power station",
+                    "children": []
+                },
+                {
+                    "name": "border post",
+                    "children": []
+                },
+                {
+                    "name": "customs post",
+                    "children": []
+                },
+                {
+                    "name": "patrol post",
+                    "children": []
+                },
+                {
+                    "name": "pyramid",
+                    "children": []
+                },
+                {
+                    "name": "pyramids",
+                    "children": []
+                },
+                {
+                    "name": "quay",
+                    "children": []
+                },
+                {
+                    "name": "traffic circle",
+                    "children": []
+                },
+                {
+                    "name": "intersection",
+                    "children": []
+                },
+                {
+                    "name": "golf course",
+                    "children": []
+                },
+                {
+                    "name": "racetrack",
+                    "children": []
+                },
+                {
+                    "name": "restaurant",
+                    "children": []
+                },
+                {
+                    "name": "store",
+                    "children": []
+                },
+                {
+                    "name": "resthouse",
+                    "children": []
+                },
+                {
+                    "name": "rookery",
+                    "children": []
+                },
+                {
+                    "name": "religious site",
+                    "children": []
+                },
+                {
+                    "name": "retreat",
+                    "children": []
+                },
+                {
+                    "name": "ranch(es)",
+                    "children": []
+                },
+                {
+                    "name": "railroad siding",
+                    "children": []
+                },
+                {
+                    "name": "railroad signal",
+                    "children": []
+                },
+                {
+                    "name": "resort",
+                    "children": []
+                },
+                {
+                    "name": "railroad station",
+                    "children": []
+                },
+                {
+                    "name": "abandoned railroad station",
+                    "children": []
+                },
+                {
+                    "name": "railroad stop",
+                    "children": []
+                },
+                {
+                    "name": "abandoned railroad stop",
+                    "children": []
+                },
+                {
+                    "name": "ruin(s)",
+                    "children": []
+                },
+                {
+                    "name": "school",
+                    "children": []
+                },
+                {
+                    "name": "agricultural school",
+                    "children": []
+                },
+                {
+                    "name": "college",
+                    "children": []
+                },
+                {
+                    "name": "language school",
+                    "children": []
+                },
+                {
+                    "name": "military school",
+                    "children": []
+                },
+                {
+                    "name": "maritime school",
+                    "children": []
+                },
+                {
+                    "name": "technical school",
+                    "children": []
+                },
+                {
+                    "name": "State Exam Prep Centre",
+                    "children": []
+                },
+                {
+                    "name": "sheepfold",
+                    "children": []
+                },
+                {
+                    "name": "shrine",
+                    "children": []
+                },
+                {
+                    "name": "storehouse",
+                    "children": []
+                },
+                {
+                    "name": "sluice",
+                    "children": []
+                },
+                {
+                    "name": "sanatorium",
+                    "children": []
+                },
+                {
+                    "name": "spa",
+                    "children": []
+                },
+                {
+                    "name": "spillway",
+                    "children": []
+                },
+                {
+                    "name": "square",
+                    "children": []
+                },
+                {
+                    "name": "stable",
+                    "children": []
+                },
+                {
+                    "name": "stadium",
+                    "children": []
+                },
+                {
+                    "name": "scientific research base",
+                    "children": []
+                },
+                {
+                    "name": "coast guard station",
+                    "children": []
+                },
+                {
+                    "name": "experiment station",
+                    "children": []
+                },
+                {
+                    "name": "forest station",
+                    "children": []
+                },
+                {
+                    "name": "inspection station",
+                    "children": []
+                },
+                {
+                    "name": "meteorological station",
+                    "children": []
+                },
+                {
+                    "name": "radio station",
+                    "children": []
+                },
+                {
+                    "name": "satellite station",
+                    "children": []
+                },
+                {
+                    "name": "whaling station",
+                    "children": []
+                },
+                {
+                    "name": "steps",
+                    "children": []
+                },
+                {
+                    "name": "sewage treatment plant",
+                    "children": []
+                },
+                {
+                    "name": "synagogue",
+                    "children": []
+                },
+                {
+                    "name": "theater",
+                    "children": []
+                },
+                {
+                    "name": "tomb(s)",
+                    "children": []
+                },
+                {
+                    "name": "temple(s)",
+                    "children": []
+                },
+                {
+                    "name": "cattle dipping tank",
+                    "children": []
+                },
+                {
+                    "name": "toll gate/barrier",
+                    "children": []
+                },
+                {
+                    "name": "tower",
+                    "children": []
+                },
+                {
+                    "name": "tram",
+                    "children": []
+                },
+                {
+                    "name": "transit terminal",
+                    "children": []
+                },
+                {
+                    "name": "triangulation station",
+                    "children": []
+                },
+                {
+                    "name": "oil pipeline terminal",
+                    "children": []
+                },
+                {
+                    "name": "temp work office",
+                    "children": []
+                },
+                {
+                    "name": "university prep school",
+                    "children": []
+                },
+                {
+                    "name": "university",
+                    "children": []
+                },
+                {
+                    "name": "united states government establishment",
+                    "children": []
+                },
+                {
+                    "name": "veterinary facility",
+                    "children": []
+                },
+                {
+                    "name": "wall",
+                    "children": []
+                },
+                {
+                    "name": "ancient wall",
+                    "children": []
+                },
+                {
+                    "name": "weir(s)",
+                    "children": []
+                },
+                {
+                    "name": "wharf(-ves)",
+                    "children": []
+                },
+                {
+                    "name": "wreck",
+                    "children": []
+                },
+                {
+                    "name": "waterworks",
+                    "children": []
+                },
+                {
+                    "name": "free trade zone",
+                    "children": []
+                },
+                {
+                    "name": "zoo",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "mountain,hill,rock,...",
+            "children": [
+                {
+                    "name": "asphalt lake",
+                    "children": []
+                },
+                {
+                    "name": "atoll(s)",
+                    "children": []
+                },
+                {
+                    "name": "bar",
+                    "children": []
+                },
+                {
+                    "name": "beach",
+                    "children": []
+                },
+                {
+                    "name": "beaches",
+                    "children": []
+                },
+                {
+                    "name": "badlands",
+                    "children": []
+                },
+                {
+                    "name": "boulder field",
+                    "children": []
+                },
+                {
+                    "name": "blowhole(s)",
+                    "children": []
+                },
+                {
+                    "name": "blowout(s)",
+                    "children": []
+                },
+                {
+                    "name": "bench",
+                    "children": []
+                },
+                {
+                    "name": "butte(s)",
+                    "children": []
+                },
+                {
+                    "name": "cape",
+                    "children": []
+                },
+                {
+                    "name": "cleft(s)",
+                    "children": []
+                },
+                {
+                    "name": "caldera",
+                    "children": []
+                },
+                {
+                    "name": "cliff(s)",
+                    "children": []
+                },
+                {
+                    "name": "canyon",
+                    "children": []
+                },
+                {
+                    "name": "cone(s)",
+                    "children": []
+                },
+                {
+                    "name": "corridor",
+                    "children": []
+                },
+                {
+                    "name": "cirque",
+                    "children": []
+                },
+                {
+                    "name": "cirques",
+                    "children": []
+                },
+                {
+                    "name": "crater(s)",
+                    "children": []
+                },
+                {
+                    "name": "cuesta(s)",
+                    "children": []
+                },
+                {
+                    "name": "delta",
+                    "children": []
+                },
+                {
+                    "name": "depression(s)",
+                    "children": []
+                },
+                {
+                    "name": "desert",
+                    "children": []
+                },
+                {
+                    "name": "dune(s)",
+                    "children": []
+                },
+                {
+                    "name": "divide",
+                    "children": []
+                },
+                {
+                    "name": "sandy desert",
+                    "children": []
+                },
+                {
+                    "name": "fan(s)",
+                    "children": []
+                },
+                {
+                    "name": "ford",
+                    "children": []
+                },
+                {
+                    "name": "fissure",
+                    "children": []
+                },
+                {
+                    "name": "gap",
+                    "children": []
+                },
+                {
+                    "name": "gorge(s)",
+                    "children": []
+                },
+                {
+                    "name": "headland",
+                    "children": []
+                },
+                {
+                    "name": "hill",
+                    "children": []
+                },
+                {
+                    "name": "hills",
+                    "children": []
+                },
+                {
+                    "name": "hammock(s)",
+                    "children": []
+                },
+                {
+                    "name": "rock desert",
+                    "children": []
+                },
+                {
+                    "name": "interfluve",
+                    "children": []
+                },
+                {
+                    "name": "island",
+                    "children": []
+                },
+                {
+                    "name": "islet",
+                    "children": []
+                },
+                {
+                    "name": "artificial island",
+                    "children": []
+                },
+                {
+                    "name": "mangrove island",
+                    "children": []
+                },
+                {
+                    "name": "islands",
+                    "children": []
+                },
+                {
+                    "name": "land-tied island",
+                    "children": []
+                },
+                {
+                    "name": "section of island",
+                    "children": []
+                },
+                {
+                    "name": "isthmus",
+                    "children": []
+                },
+                {
+                    "name": "karst area",
+                    "children": []
+                },
+                {
+                    "name": "lava area",
+                    "children": []
+                },
+                {
+                    "name": "levee",
+                    "children": []
+                },
+                {
+                    "name": "mesa(s)",
+                    "children": []
+                },
+                {
+                    "name": "mound(s)",
+                    "children": []
+                },
+                {
+                    "name": "moraine",
+                    "children": []
+                },
+                {
+                    "name": "mountain",
+                    "children": []
+                },
+                {
+                    "name": "mountains",
+                    "children": []
+                },
+                {
+                    "name": "meander neck",
+                    "children": []
+                },
+                {
+                    "name": "nunatak",
+                    "children": []
+                },
+                {
+                    "name": "nunataks",
+                    "children": []
+                },
+                {
+                    "name": "pan",
+                    "children": []
+                },
+                {
+                    "name": "pans",
+                    "children": []
+                },
+                {
+                    "name": "pass",
+                    "children": []
+                },
+                {
+                    "name": "peninsula",
+                    "children": []
+                },
+                {
+                    "name": "section of peninsula",
+                    "children": []
+                },
+                {
+                    "name": "peak",
+                    "children": []
+                },
+                {
+                    "name": "peaks",
+                    "children": []
+                },
+                {
+                    "name": "plateau",
+                    "children": []
+                },
+                {
+                    "name": "section of plateau",
+                    "children": []
+                },
+                {
+                    "name": "polder",
+                    "children": []
+                },
+                {
+                    "name": "plain(s)",
+                    "children": []
+                },
+                {
+                    "name": "section of plain",
+                    "children": []
+                },
+                {
+                    "name": "promontory(-ies)",
+                    "children": []
+                },
+                {
+                    "name": "point",
+                    "children": []
+                },
+                {
+                    "name": "points",
+                    "children": []
+                },
+                {
+                    "name": "beach ridge",
+                    "children": []
+                },
+                {
+                    "name": "ridge(s)",
+                    "children": []
+                },
+                {
+                    "name": "stony desert",
+                    "children": []
+                },
+                {
+                    "name": "rock",
+                    "children": []
+                },
+                {
+                    "name": "rockfall",
+                    "children": []
+                },
+                {
+                    "name": "rocks",
+                    "children": []
+                },
+                {
+                    "name": "sand area",
+                    "children": []
+                },
+                {
+                    "name": "dry stream bed",
+                    "children": []
+                },
+                {
+                    "name": "escarpment",
+                    "children": []
+                },
+                {
+                    "name": "saddle",
+                    "children": []
+                },
+                {
+                    "name": "shore",
+                    "children": []
+                },
+                {
+                    "name": "sinkhole",
+                    "children": []
+                },
+                {
+                    "name": "slide",
+                    "children": []
+                },
+                {
+                    "name": "slope(s)",
+                    "children": []
+                },
+                {
+                    "name": "spit",
+                    "children": []
+                },
+                {
+                    "name": "spur(s)",
+                    "children": []
+                },
+                {
+                    "name": "talus slope",
+                    "children": []
+                },
+                {
+                    "name": "interdune trough(s)",
+                    "children": []
+                },
+                {
+                    "name": "terrace",
+                    "children": []
+                },
+                {
+                    "name": "upland",
+                    "children": []
+                },
+                {
+                    "name": "valley",
+                    "children": []
+                },
+                {
+                    "name": "hanging valley",
+                    "children": []
+                },
+                {
+                    "name": "valleys",
+                    "children": []
+                },
+                {
+                    "name": "section of valley",
+                    "children": []
+                },
+                {
+                    "name": "volcano",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "undersea",
+            "children": [
+                {
+                    "name": "apron",
+                    "children": []
+                },
+                {
+                    "name": "arch",
+                    "children": []
+                },
+                {
+                    "name": "arrugado",
+                    "children": []
+                },
+                {
+                    "name": "borderland",
+                    "children": []
+                },
+                {
+                    "name": "banks",
+                    "children": []
+                },
+                {
+                    "name": "bank",
+                    "children": []
+                },
+                {
+                    "name": "basin",
+                    "children": []
+                },
+                {
+                    "name": "cordillera",
+                    "children": []
+                },
+                {
+                    "name": "canyons",
+                    "children": []
+                },
+                {
+                    "name": "canyon",
+                    "children": []
+                },
+                {
+                    "name": "continental rise",
+                    "children": []
+                },
+                {
+                    "name": "deep",
+                    "children": []
+                },
+                {
+                    "name": "shelf edge",
+                    "children": []
+                },
+                {
+                    "name": "escarpment (or scarp)",
+                    "children": []
+                },
+                {
+                    "name": "fan",
+                    "children": []
+                },
+                {
+                    "name": "flat",
+                    "children": []
+                },
+                {
+                    "name": "fracture zone",
+                    "children": []
+                },
+                {
+                    "name": "furrow",
+                    "children": []
+                },
+                {
+                    "name": "gap",
+                    "children": []
+                },
+                {
+                    "name": "gully",
+                    "children": []
+                },
+                {
+                    "name": "hill",
+                    "children": []
+                },
+                {
+                    "name": "hills",
+                    "children": []
+                },
+                {
+                    "name": "hole",
+                    "children": []
+                },
+                {
+                    "name": "knoll",
+                    "children": []
+                },
+                {
+                    "name": "knolls",
+                    "children": []
+                },
+                {
+                    "name": "ledge",
+                    "children": []
+                },
+                {
+                    "name": "levee",
+                    "children": []
+                },
+                {
+                    "name": "mesa",
+                    "children": []
+                },
+                {
+                    "name": "mound",
+                    "children": []
+                },
+                {
+                    "name": "moat",
+                    "children": []
+                },
+                {
+                    "name": "mountain",
+                    "children": []
+                },
+                {
+                    "name": "peaks",
+                    "children": []
+                },
+                {
+                    "name": "peak",
+                    "children": []
+                },
+                {
+                    "name": "plain",
+                    "children": []
+                },
+                {
+                    "name": "plateau",
+                    "children": []
+                },
+                {
+                    "name": "pinnacle",
+                    "children": []
+                },
+                {
+                    "name": "province",
+                    "children": []
+                },
+                {
+                    "name": "ridge",
+                    "children": []
+                },
+                {
+                    "name": "ridges",
+                    "children": []
+                },
+                {
+                    "name": "reefs",
+                    "children": []
+                },
+                {
+                    "name": "reef",
+                    "children": []
+                },
+                {
+                    "name": "rise",
+                    "children": []
+                },
+                {
+                    "name": "seachannel",
+                    "children": []
+                },
+                {
+                    "name": "seachannels",
+                    "children": []
+                },
+                {
+                    "name": "saddle",
+                    "children": []
+                },
+                {
+                    "name": "shelf",
+                    "children": []
+                },
+                {
+                    "name": "shoal",
+                    "children": []
+                },
+                {
+                    "name": "shoals",
+                    "children": []
+                },
+                {
+                    "name": "shelf valley",
+                    "children": []
+                },
+                {
+                    "name": "sill",
+                    "children": []
+                },
+                {
+                    "name": "slope",
+                    "children": []
+                },
+                {
+                    "name": "seamounts",
+                    "children": []
+                },
+                {
+                    "name": "seamount",
+                    "children": []
+                },
+                {
+                    "name": "spur",
+                    "children": []
+                },
+                {
+                    "name": "terrace",
+                    "children": []
+                },
+                {
+                    "name": "tablemounts (or guyots)",
+                    "children": []
+                },
+                {
+                    "name": "tablemount (or guyot)",
+                    "children": []
+                },
+                {
+                    "name": "tongue",
+                    "children": []
+                },
+                {
+                    "name": "trough",
+                    "children": []
+                },
+                {
+                    "name": "trench",
+                    "children": []
+                },
+                {
+                    "name": "valley",
+                    "children": []
+                },
+                {
+                    "name": "valleys",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "forest,heath,...",
+            "children": [
+                {
+                    "name": "bush(es)",
+                    "children": []
+                },
+                {
+                    "name": "cultivated area",
+                    "children": []
+                },
+                {
+                    "name": "forest(s)",
+                    "children": []
+                },
+                {
+                    "name": "fossilized forest",
+                    "children": []
+                },
+                {
+                    "name": "grove",
+                    "children": []
+                },
+                {
+                    "name": "grassland",
+                    "children": []
+                },
+                {
+                    "name": "coconut grove",
+                    "children": []
+                },
+                {
+                    "name": "olive grove",
+                    "children": []
+                },
+                {
+                    "name": "palm grove",
+                    "children": []
+                },
+                {
+                    "name": "pine grove",
+                    "children": []
+                },
+                {
+                    "name": "heath",
+                    "children": []
+                },
+                {
+                    "name": "meadow",
+                    "children": []
+                },
+                {
+                    "name": "orchard(s)",
+                    "children": []
+                },
+                {
+                    "name": "scrubland",
+                    "children": []
+                },
+                {
+                    "name": "tree(s)",
+                    "children": []
+                },
+                {
+                    "name": "tundra",
+                    "children": []
+                },
+                {
+                    "name": "vineyard",
+                    "children": []
+                },
+                {
+                    "name": "vineyards",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

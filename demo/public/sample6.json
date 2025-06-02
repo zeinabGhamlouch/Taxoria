@@ -1,0 +1,14 @@
+{
+    "name": "Toys & Hobbies",
+    "children": [
+        {
+            "name": "Action Figures & Accessories",
+            "children": [
+                {
+                    "name": "Action Figures",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
