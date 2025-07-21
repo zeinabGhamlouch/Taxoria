@@ -8,7 +8,7 @@ A Taxonomy Enrichment Demo
 This repository demonstrates how to enrich a taxonomy using an LLM. The script takes an initial taxonomy (in JSON format) and enriches it by adding new categories and subcategories, leveraging LLM capabilities.
 
 ## Demo
-Taxoria is submitted as a demo paper at [ECAI 2025 demo papers](https://ecai2025.org/call-for-demo-papers/)
+Taxoria has been accepted as a demo paper at [ECAI 2025 Demo Track ](https://ecai2025.org/call-for-demo-papers/)
 
 **Try the Live Demo here:** [https://taxoria.r2.enst.fr](https://taxoria.r2.enst.fr)
 
